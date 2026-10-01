@@ -28,3 +28,4 @@
 - Added `fishsortpuzzle.app` and `www.fishsortpuzzle.app` to the Vercel project. Cloudflare DNS uses DNS-only A records for both hosts, pointing to Vercel's requested address `76.76.21.21`.
 - Verified the production root, `/levels/`, `/level/170/`, and `/sitemap.xml` over HTTPS with HTTP 200 responses. The root canonical is `https://fishsortpuzzle.app/`; both root and `www` resolve to Vercel.
 - Added the aquarium artwork to the homepage as a 270px full-width game intro band rather than another tall hero. This keeps the title readable over the dark water while the game frame still begins in the first viewport.
+- User submitted `fishsortpuzzle.app` to Google Search Console after launch. Next SEO actions are representative URL inspection/indexing requests, Bing Webmaster Tools import, a `www` to apex redirect, and 7/14/28-day indexing and impression checks.
