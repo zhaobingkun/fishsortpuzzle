@@ -23,3 +23,8 @@
 
 - User selected `fishsortpuzzle.app` as the production domain. Updated the canonical base, Open Graph URLs, structured data, sitemap, robots file, README, and preview metadata while retaining **Fish Sort Wiki** as the visible unofficial-guide brand.
 - Reused the aquarium artwork from the original homepage as the full-width header image on every non-home page. Keep white copy over a uniform deep-water overlay so the fish remain visible without hurting readability.
+- Created the public GitHub repository `https://github.com/zhaobingkun/fishsortpuzzle` and connected its `main` branch to the Vercel project `fishsortpuzzle` for automatic deployments.
+- First production deployment: `https://fishsortpuzzle.vercel.app`. Vercel build settings are `npm run build` with `public` as the output directory.
+- Added `fishsortpuzzle.app` and `www.fishsortpuzzle.app` to the Vercel project. Cloudflare DNS uses DNS-only A records for both hosts, pointing to Vercel's requested address `76.76.21.21`.
+- Verified the production root, `/levels/`, `/level/170/`, and `/sitemap.xml` over HTTPS with HTTP 200 responses. The root canonical is `https://fishsortpuzzle.app/`; both root and `www` resolve to Vercel.
+- Added the aquarium artwork to the homepage as a 270px full-width game intro band rather than another tall hero. This keeps the title readable over the dark water while the game frame still begins in the first viewport.
