@@ -61,6 +61,8 @@ for (const file of await walk(rootPath)) {
   if (!/<meta name="description" content="[^"]+">/.test(html)) errors.push(`${rel}: missing description`);
   if (!html.includes(`<link rel="canonical" href="${site.domain}/`)) errors.push(`${rel}: missing canonical`);
   if (html.includes(`${site.domain}http`)) errors.push(`${rel}: malformed absolute social image URL`);
+  const analyticsMatches = html.match(new RegExp(site.googleAnalyticsId, 'g')) || [];
+  if (analyticsMatches.length !== 2) errors.push(`${rel}: expected one Google tag loader and one config, found ${analyticsMatches.length} measurement ID references`);
   const title = html.match(/<title>([^<]+)<\/title>/)?.[1];
   if (!title) errors.push(`${rel}: missing title`);
   else if (titles.has(title)) errors.push(`${rel}: duplicate title with ${titles.get(title)}`);

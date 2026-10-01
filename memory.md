@@ -29,3 +29,4 @@
 - Verified the production root, `/levels/`, `/level/170/`, and `/sitemap.xml` over HTTPS with HTTP 200 responses. The root canonical is `https://fishsortpuzzle.app/`; both root and `www` resolve to Vercel.
 - Added the aquarium artwork to the homepage as a 270px full-width game intro band rather than another tall hero. This keeps the title readable over the dark water while the game frame still begins in the first viewport.
 - User submitted `fishsortpuzzle.app` to Google Search Console after launch. Next SEO actions are representative URL inspection/indexing requests, Bing Webmaster Tools import, a `www` to apex redirect, and 7/14/28-day indexing and impression checks.
+- Added Google Analytics 4 measurement ID `G-P0R43X0ZMS` through the shared static-page head template. The build checker requires exactly one loader and one config reference on every generated HTML page.

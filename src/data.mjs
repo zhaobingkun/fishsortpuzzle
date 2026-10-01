@@ -3,6 +3,7 @@ import { levelVideos } from './level-videos.mjs';
 export const site = {
   name: 'Fish Sort Wiki',
   domain: 'https://fishsortpuzzle.app',
+  googleAnalyticsId: 'G-P0R43X0ZMS',
   description: 'Play Fish Sort Puzzle online for free, then browse level walkthroughs, Wiki guides, booster help, events, and safe official download links.',
   gameName: 'Fish Sort Puzzle',
   developer: 'Shycheese',
