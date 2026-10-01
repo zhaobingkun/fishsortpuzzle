@@ -21,6 +21,7 @@
 
 ## 2026-10-01
 
+- The canonical local working copy moved to `/Users/zhaobingkun/dev/fishsortpuzzle.app`. Future development, Git operations, builds, and releases should run from this directory; the earlier `Documents/Codex/.../outputs/fishsortwiki.com` copy is only a retained session snapshot.
 - User selected `fishsortpuzzle.app` as the production domain. Updated the canonical base, Open Graph URLs, structured data, sitemap, robots file, README, and preview metadata while retaining **Fish Sort Wiki** as the visible unofficial-guide brand.
 - Reused the aquarium artwork from the original homepage as the full-width header image on every non-home page. Keep white copy over a uniform deep-water overlay so the fish remain visible without hurting readability.
 - Created the public GitHub repository `https://github.com/zhaobingkun/fishsortpuzzle` and connected its `main` branch to the Vercel project `fishsortpuzzle` for automatic deployments.
