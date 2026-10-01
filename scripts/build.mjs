@@ -139,7 +139,7 @@ function breadcrumbs(items) {
 }
 
 function pageHero(eyebrow, title, intro) {
-  return `<section class="page-hero"><div class="container page-hero-grid"><div><span class="article-eyebrow">${escapeHtml(eyebrow)}</span><h1>${escapeHtml(title)}</h1><p>${escapeHtml(intro)}</p></div><img src="/assets/images/finn-mascot.png" width="170" height="170" alt=""></div></section>`;
+  return `<section class="page-hero"><div class="container page-hero-grid"><div><span class="article-eyebrow">${escapeHtml(eyebrow)}</span><h1>${escapeHtml(title)}</h1><p>${escapeHtml(intro)}</p></div></div></section>`;
 }
 
 function levelCard(entry) {

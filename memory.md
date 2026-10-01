@@ -22,3 +22,4 @@
 ## 2026-10-01
 
 - User selected `fishsortpuzzle.app` as the production domain. Updated the canonical base, Open Graph URLs, structured data, sitemap, robots file, README, and preview metadata while retaining **Fish Sort Wiki** as the visible unofficial-guide brand.
+- Reused the aquarium artwork from the original homepage as the full-width header image on every non-home page. Keep white copy over a uniform deep-water overlay so the fish remain visible without hurting readability.
