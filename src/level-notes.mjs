@@ -2,6 +2,636 @@
 // These are early-board checkpoints, not a frame-by-frame transcript or tested tap sequence.
 // Color/shape labels describe the visible artwork; they are not official species names.
 export const levelNotes = {
+  "98": {
+    "videoId": "kOs5ZiY1PtU",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 98 guide: compare central crabs and pink-white targets, the spotted octopus pair, right frosted group, and lower question mark.",
+    "sections": [
+      [
+        "Compare the central crabs with the first order",
+        "At 0:10, the left order shows a crab at 0/3 and the right order shows a pink-and-white tall-finned fish at 0/3. The middle jar is clearing. Two crabs share the central group with pink-and-white, orange-faced blue-finned, and yellow-and-black artwork. Inspect those crab candidates against the first portrait."
+      ],
+      [
+        "A crab is not a spotted octopus",
+        "Two red, spotted octopus-like pieces sit together near the upper center. Their spotted heads and hanging arms differ from the crabs' claws and sideways bodies. Do not count them toward the crab order. A third crab is visible left of the central group, providing another position to compare for accessibility before opening an unrelated pair."
+      ],
+      [
+        "Check the right frosted group and lower question mark",
+        "A frosted bubble marked 2 sits on the right below mid-height, while a rainbow question mark appears at the bottom left. The question mark's identity is not visible here. Also distinguish the plain pink fish with a tall body from the white-faced pink target. Wait for the middle jar's replacement before deciding whether either nearby pair suits the new order."
+      ]
+    ]
+  },
+  "99": {
+    "videoId": "8jM6Iqh4iqA",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 99 notes: inspect the crab order at 2/3, bottom submarine pair, occupied blue holding slots, and frosted lower-center group.",
+    "sections": [
+      [
+        "The crab order is one piece short",
+        "The 0:10 frame shows a yellow submarine-shaped order at 0/3 and a crab order at 2/3. Crabs remain around the center, lower right, and bottom right. Compare an exposed crab with the second portrait before starting another design. Two smooth, puffy blue pieces already occupy the holding bar, so check that your bar matches too."
+      ],
+      [
+        "Use the bottom-left submarine pair as a reference",
+        "Two yellow submarine-shaped pieces sit together at the bottom left beside a yellow-and-black fish. The submarine has a blue window and a small top structure; the yellow-and-black fish has ordinary fish artwork. Count the submarine pair separately and locate an accessible third before treating that mixed group as the first order's next match."
+      ],
+      [
+        "Separate the frosted blue group from other green designs",
+        "A frosted group marked 1 near the lower center contains smooth blue pieces and yellow-and-black artwork. A rainbow question mark is higher on the left. Elsewhere, spotted green fish with whisker-like lines differ from the dark olive cream-bellied pieces. The smooth blue fish in the bar also differ from the spiky round-blue design visible on the board."
+      ]
+    ]
+  },
+  "100": {
+    "videoId": "-ok7CdFvZtw",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 100 video guide: compare spiky-blue candidates, the completed crab jar, yellow-black cluster, and bottom frosted group.",
+    "sections": [
+      [
+        "Wait for the filled crab jar to change",
+        "At 0:10, the crab order shows 3/3 and the adjacent order shows a spiky round-blue fish at 0/3. A large cluster of three yellow-and-black fish sits left of center. That yellow cluster is a useful landmark, but it matches neither the spiky-blue order nor a still-needed crab at this checkpoint."
+      ],
+      [
+        "Compare spiky blue candidates across the lower groups",
+        "Spiky round-blue pieces are visible toward the upper left, lower center, lower left, and lower-right middle. Compare their textured outlines with the second portrait before counting a triple. Smooth puffy-blue fish and slender blue whale-shaped pieces use different artwork; collecting those does not replace a missing spiky-blue candidate."
+      ],
+      [
+        "Do not assume the bottom frosted contents are selectable",
+        "A frosted group marked 2 sits at the bottom center around spotted-green and white-and-black artwork. A rainbow question mark appears on the left below mid-height. Its fish identity is unknown in this frame. Inspect exposed spiky-blue candidates first, then check the crab jar's replacement and the frosted group's state before switching to another design."
+      ]
+    ]
+  },
+  "102": {
+    "videoId": "bW8sNiDiz3M",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 102 guide: check the purple completion tick, pink-white fish, bottom-left chain, lower-center key, and distinct purple designs.",
+    "sections": [
+      [
+        "Read the pink-and-white target beside the purple tick",
+        "The purple clustered-shape order displays a completion tick at 0:10, beside a pink-and-white tall-finned target. A chain marked 1 covers the bottom-left group. The gold key is nearer the lower center over pink-and-white artwork. Compare these landmarks with your board before following later selections around the lock."
+      ],
+      [
+        "Pink-and-white is different from solid pink",
+        "Pink-and-white candidates appear near the center and bottom center. Their pale faces and long fins differ from the solid pink, taller-bodied fish nearby. Inspect the exact white-faced portrait against the active order. The key identifies where to look in the video, but this frame alone does not establish which tap releases the chained group."
+      ],
+      [
+        "The purple clusters remain after their order completes",
+        "Purple clustered pieces are still visible toward the lower left, center, and upper right. They differ from single oval purple fish with small spikes. Since the cluster order has filled, wait for its replacement before collecting more clusters. White-and-black fish on both lower sides provide additional layout checks without being substitutes for the pink-and-white target."
+      ]
+    ]
+  },
+  "103": {
+    "videoId": "YIRl-E22eAU",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 103 notes: compare pink candidates for the 2/3 order, olive fish, bottom-left frost, and purple clusters versus striped fish.",
+    "sections": [
+      [
+        "Inspect the rounded pink order at 2/3",
+        "At 0:10, the left portrait is dark olive with a cream belly at 0/3 and the second is a rounded pink fish with yellow-orange fins at 2/3. Pairs of the rounded pink design sit toward both upper sides. Compare an accessible candidate with the nearly filled second order before taking a separate pair lower down."
+      ],
+      [
+        "The frosted bottom-left group changes which pieces are available",
+        "A frosted bubble marked 1 encloses a mixed group at the bottom left. Check its state in the recording before depending on the pink artwork inside it. The exposed white-and-black pair farther up the left side and the red-and-white pair below center belong to different designs and do not finish the shown pink order."
+      ],
+      [
+        "Keep purple clusters and golden stripes separate",
+        "Two purple clustered pieces share a group left of center; a pair of pale golden striped fish is near the bottom center. Those golden stripes differ from the darker brown-striped fish elsewhere. The rounded yellow-finned pink target also differs from a white-faced, tall-finned pink fish. Compare whole portraits rather than treating nearby pink or striped pieces as interchangeable."
+      ]
+    ]
+  },
+  "104": {
+    "videoId": "Gqf6RK_R4tc",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 104 video guide: inspect the golden-striped order at 2/3, submarine candidates, lower crab pair, and right frosted group.",
+    "sections": [
+      [
+        "A golden-striped order is already at 2/3",
+        "The early frame shows a yellow submarine-shaped target at 0/3 and a pale golden fish with vertical stripes at 2/3. Golden-striped candidates remain toward the bottom left and bottom center. Compare their pale faces and vertical markings with the second portrait before using a darker brown-striped candidate from the right side."
+      ],
+      [
+        "Locate submarines above and below the crab pair",
+        "Submarine-shaped pieces appear near the upper-left center, lower center, bottom left, and bottom center. Two crabs are grouped in the lower-center area. The crabs help orient that submarine route, but they do not match either current target. Check an accessible golden-striped third first if your second jar also reads 2/3."
+      ],
+      [
+        "The right frosted bubble contains unrelated olive pieces",
+        "A frosted group marked 2 sits on the right below mid-height around two olive cream-bellied pieces and a purple cluster. A pair of spotted green, whiskered fish is at the bottom right. Keep those spotted green fish separate from the olive design. Inspect the frosted state before counting its contents as available for a later order."
+      ]
+    ]
+  },
+  "105": {
+    "videoId": "9aOiO_puXzc",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 105 guide: compare the purple order at 2/3, left spiky-purple group, two central question marks, and occupied submarine slot.",
+    "sections": [
+      [
+        "Compare three orders with the occupied bar",
+        "At 0:10, the targets are olive cream-bellied at 0/3, an oval purple fish with small spikes at 2/3, and a slender blue whale-shaped fish at 0/3. A yellow submarine-shaped piece occupies the bar. Compare that occupant and the purple jar count with your run before opening another unfinished group."
+      ],
+      [
+        "Inspect the purple cluster on the left",
+        "Three individual spiky oval-purple fish appear in the left-middle group alongside two green-striped fish. Compare an accessible purple with the second portrait rather than collecting the green pair first. The green-striped artwork differs from the spotted, whiskered green fish on the right, so those two green designs also need separate counts."
+      ],
+      [
+        "The central question marks reveal no fish identity",
+        "Two rainbow question-mark pieces occupy the central group with a blue whale-shaped fish, rounded yellow-finned pink artwork, and a slender horizontally striped blue fish. The slender striped-blue fish is a separate portrait from the smiling whale-shaped target. Exposed whale candidates near the bottom left and bottom center offer clearer places to compare than guessing what either question mark hides."
+      ]
+    ]
+  },
+  "106": {
+    "videoId": "gvYaT1HKKAE",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 106 notes: compare purple clusters, submarine and pink targets, the green bar occupant, and upper-left question-mark piece.",
+    "sections": [
+      [
+        "Check the submarine target during the adjacent clear",
+        "At the 0:10 checkpoint, visible targets include a purple clustered shape at 0/3, a submarine-shaped piece at 1/3, and rounded yellow-finned pink at 0/3. Another jar is clearing. A spotted green piece remains in the bar. Compare these orders and the bar before continuing; the clear animation does not mean all unmatched pieces have disappeared."
+      ],
+      [
+        "Find purple clusters without counting single spiky fish",
+        "Two purple clusters sit on the right below mid-height with submarine, white-and-black, and pink-and-white artwork. Individual oval purple fish with spikes appear nearer the center and use a different silhouette. Inspect the clustered shape against its target before counting a third. The two white-and-black pieces at the bottom right are a separate pair."
+      ],
+      [
+        "The upper-left question mark is only a landmark",
+        "A rainbow question mark sits toward the upper left beside pink-and-white artwork and a submarine. Submarine candidates are also visible around the left middle, center, and bottom right. Their windows and top structures distinguish them from ordinary yellow fish. Locate accessible matches for the 1/3 submarine order without assigning a guessed identity to the question-mark piece."
+      ]
+    ]
+  },
+  "107": {
+    "videoId": "tH3DKGYeNc4",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 107 guide: inspect the bottom purple clusters, submarine pairs, changing brown-striped jar, and separate purple and green fish.",
+    "sections": [
+      [
+        "Compare the changing jars before choosing a lower pair",
+        "At 0:10, the brown vertical-striped order is filling while the purple clustered-shape order shows 0/3. Three purple clusters appear near the bottom left. Compare those distinct clusters with the second portrait and inspect accessibility. The pale golden-striped fish isolated near the center uses different artwork from the darker brown-striped order."
+      ],
+      [
+        "Submarine pairs belong to another design",
+        "Two submarines are together near the upper right, and another pair sits farther down the right side. They are useful landmarks for aligning your board, but they do not match the brown-striped or purple-clustered portraits shown here. Read any replacement order after the filling animation before taking a submarine pair simply because it is easy to spot."
+      ],
+      [
+        "Separate purple spikes and green stripes from the clusters",
+        "A pair of single spiky oval-purple fish sits around the left middle, while green-striped fish pair up on the right below center. Neither pair substitutes for the purple clustered shape. Two slender horizontally striped blue fish near the bottom center provide another reference point. Count each silhouette separately when comparing the next visible triple."
+      ]
+    ]
+  },
+  "108": {
+    "videoId": "HNj4Hf4FIEk",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 108 notes: compare olive and green fish, mixed left purple group, central submarines, bottom frost, and two blue designs.",
+    "sections": [
+      [
+        "The olive order has begun while the second jar clears",
+        "The 0:10 frame shows an olive cream-bellied order at 1/3 and a second jar in a clear animation. Olive candidates are visible lower on the left and right. Compare their dark upper bodies and pale bellies with the first portrait. The green round fish with red tails elsewhere are a separate design."
+      ],
+      [
+        "Three spiky-purple fish share the left-middle group",
+        "Three oval purple fish with small spikes sit on the left around mid-height together with two purple clusters. Those five purple pieces represent two designs. A submarine pair is near the center. Before opening either purple group or that submarine pair, check the olive order and wait for the second jar's replacement portrait."
+      ],
+      [
+        "Keep the blue designs distinct near the frosted bottom",
+        "A frosted group marked 2 sits at the bottom left. Dark-blue fish with pale purple fins appear higher on the right and nearer the bottom center, while a round royal-blue fish with dark stripes is at the bottom right. Their fin colors and markings differ. Check the frosted group's availability before depending on one of its mixed pieces."
+      ]
+    ]
+  },
+  "109": {
+    "videoId": "TMaHsDqcuBM",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 109 guide: check purple-finned blue and angular red targets, central frost, bottom chain, left key, and striped-blue fish.",
+    "sections": [
+      [
+        "Compare purple-finned blue with the red angular order",
+        "At 0:10, the first target is a dark-blue fish with pale purple fins at 1/3, beside an angular red fish with white patches at 0/3. A frosted bubble marked 2 sits near the center. Two round royal-blue fish with dark stripes share a group on the middle right, but they do not match the purple-finned target."
+      ],
+      [
+        "The lock and key are on different bottom groups",
+        "A chain marked 1 surrounds the bottom-center group, while a gold key appears at the bottom left beside a striped royal-blue fish. Check the recording through the key interaction before relying on the chained contents. An exposed purple-finned candidate near that lower-left area is a position to compare against the first order."
+      ],
+      [
+        "Angular red is not the oval striped-red design",
+        "Two oval red fish with white vertical stripes are grouped below the center. Their bodies and markings differ from the angular red-and-white target. Green-striped fish near the upper left offer another layout check. Keep the red designs separate and inspect the central frosted state before assuming a partly hidden candidate completes the next match."
+      ]
+    ]
+  },
+  "110": {
+    "videoId": "E0idKnLsEmk",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 110 notes: compare three targets, brown-striped candidates, the striped-red bar piece, bottom chain, and right-side key.",
+    "sections": [
+      [
+        "Read the three orders and the striped-red bar occupant",
+        "The early portraits show dark blue with purple fins, brown vertical stripes, and a slender blue fish with horizontal markings. A red-and-white striped fish occupies the holding bar at 0:10. Compare that occupant with your own run before following later selections; it is not one of the three designs shown under the jars."
+      ],
+      [
+        "Brown-striped candidates extend down both sides",
+        "Brown-striped fish appear near the upper center, middle right, bottom left, and bottom right. Inspect their vertical markings against the middle order. A key is visible on the right below mid-height beside brown-striped and submarine artwork. The bottom-center chain marked 1 restricts a different group, so do not treat its contents as freely selectable."
+      ],
+      [
+        "The slender blue portrait differs from round striped blue",
+        "A round royal-blue fish with dark stripes is around the middle right. It differs from the slender horizontally marked blue target. Two purple clusters below center and a pink-and-white pair at the bottom right are additional landmarks. Compare exposed slender-blue candidates and the changing jar counts before opening either unrelated pair."
+      ]
+    ]
+  },
+  "111": {
+    "videoId": "i-eInw7b9bs",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 111 guide: inspect the burgundy order at 2/3, yellow-finned pink pair, bottom-left frost, and three distinct pink designs.",
+    "sections": [
+      [
+        "The dark burgundy order is at 2/3",
+        "At 0:10, the dark burgundy round order shows 2/3 beside a rounded pink fish with yellow-orange fins at 0/3. A burgundy piece is in a selection animation near the center. Use the displayed count to align your checkpoint, then let that animation finish before deciding whether the first target still needs another fish."
+      ],
+      [
+        "Compare the yellow-finned pink pair on the left",
+        "Two rounded yellow-finned pink fish sit on the left below mid-height, with more of that design near the upper center. They differ from the plain pale-pink round pair at the bottom center and the brighter magenta-red pair on the middle right. Compare the fin color and face with the second target rather than combining these pink designs."
+      ],
+      [
+        "The bottom-left frosted group needs a separate check",
+        "A frosted bubble marked 3 occupies the bottom left. Its mixed artwork should not be assumed selectable from this checkpoint alone. Two dark-blue purple-finned fish on the left and a pair of tiny elongated red pieces near the center right are useful landmarks. Check the new first order after the burgundy clear before branching into those groups."
+      ]
+    ]
+  },
+  "112": {
+    "videoId": "Z1E94D1AXwg",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 112 notes: compare the long pink order at 2/3, exposed candidates, bottom-right green-striped pair, and different red designs.",
+    "sections": [
+      [
+        "Compare the orange-finned pink order already at 2/3",
+        "The first target at 0:10 is an elongated pink fish with a raised orange fin at 2/3. The second is green with dark stripes and yellow fins at 0/3. An exposed elongated-pink candidate appears near the center left. Compare its long body and raised fin with the nearly filled first jar before opening a different pink design."
+      ],
+      [
+        "The bottom-right green pair has striped bodies",
+        "Two green-striped fish share the bottom-right group with a rounder green fish that has a red tail. Those are different portraits: only the striped yellow-finned design matches the second order. Count the striped pair separately and inspect an accessible third. Similar green colors do not make the red-tailed piece part of that match."
+      ],
+      [
+        "Keep small red pieces and rounded pink fish separate",
+        "A round magenta-red pair is on the middle right, while striped royal-blue fish form a pair at the lower left. Tiny elongated red pieces elsewhere differ from the oval red fish with white stripes. Use these landmarks to align the board, but recheck the active portraits before taking an unrelated pair simply because it is grouped together."
+      ]
+    ]
+  },
+  "113": {
+    "videoId": "WkEiz0wjKRc",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 113 guide: inspect striped-blue candidates, the completed magenta jar, frosted right group, and separate pale-pink fish.",
+    "sections": [
+      [
+        "The magenta-red jar is complete at this checkpoint",
+        "At 0:10, the round magenta-red order displays a completion tick, and the second order shows round royal blue with dark stripes at 0/3. Striped-blue candidates appear around the middle right and bottom center. Compare those markings with the second portrait while waiting for the first jar's replacement."
+      ],
+      [
+        "The frosted right group contains another blue design",
+        "A frosted group marked 4 sits on the right below mid-height around two purple-finned dark-blue fish, a red-striped piece, and burgundy artwork. The purple-finned blue design is different from the striped royal-blue target. Do not count the enclosed blue pair as matching that order, and check accessibility before relying on any frosted contents."
+      ],
+      [
+        "Plain pale pink differs from the completed magenta target",
+        "Two plain pale-pink round fish sit toward the upper left. They differ from the brighter round magenta-red order and the pink fish with yellow-orange fins farther down. A green-striped pair below center is another separate design. Confirm the replacement first portrait before opening the pink pair or switching away from the exposed striped-blue candidates."
+      ]
+    ]
+  },
+  "114": {
+    "videoId": "hOkL84A5qJI",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 114 video notes: compare four targets, scattered burgundy fish, the pink jar clear, two question marks, and striped-blue pair.",
+    "sections": [
+      [
+        "Compare all four early target portraits",
+        "The 0:10 frame shows four targets: dark burgundy round, rounded pink with yellow-orange fins during completion, a tiny elongated red design, and plain pale-pink round. Two rainbow question marks appear near the upper center and bottom right. Keep the four portraits separate instead of treating every pink or red piece as suitable for any jar."
+      ],
+      [
+        "Dark burgundy candidates are spread across the lower board",
+        "Burgundy pieces are visible at the bottom left, bottom right, and middle right. Their dark bodies differ from the brighter magenta-red pair on the left near mid-height. Compare an exposed burgundy candidate with the first target, and inspect the tiny red pieces near the bottom right against their own elongated portrait rather than a round red design."
+      ],
+      [
+        "Wait for the yellow-finned pink jar's replacement",
+        "Plain pale-pink round fish appear along the middle right, lower right, and bottom left, while yellow-finned pink pieces remain nearby. The second jar is completing, so recheck its new portrait before selecting more of that design. The upper-right striped royal-blue pair is another possible group to inspect later; neither question mark reveals a confirmed fish identity here."
+      ]
+    ]
+  },
+  "115": {
+    "videoId": "G-ywtnYIh6A",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 115 guide: compare small-yellow and green targets, larger orange-blue pairs, the lower iridescent orb, and separate pink groups.",
+    "sections": [
+      [
+        "Small yellow and green red-tailed fish are the orders",
+        "At 0:10, the first target is a green round fish with a red tail, and the second is a small yellow fish with blue fins. A large iridescent orb sits at the lower left. Small yellow candidates form groups around the center and right below mid-height. Compare their size and blue top fins with the second portrait."
+      ],
+      [
+        "Do not substitute the larger orange-and-blue fish",
+        "Larger orange-yellow fish with blue fins form a pair on the left near mid-height and another pair on the right. Their bodies and markings differ from the small yellow target. Count those larger pieces separately. Likewise, the brighter green fish with white fins near the right side is not the green red-tailed portrait under the first jar."
+      ],
+      [
+        "Use the lower pink groups to align the orb",
+        "A round magenta-red pair is at the bottom left, and plain pale-pink fish pair up at the bottom right. Burgundy pieces are grouped higher near the left-center area. These landmarks help compare your board with the orb's position. Inspect the active green or small-yellow candidates before starting either lower pink pair, which belongs to another design."
+      ]
+    ]
+  },
+  "116": {
+    "videoId": "sQnqozU8WXk",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 116 notes: inspect the striped-blue order at 2/3, tiny red candidates, pale-pink bar occupant, and bottom-left frosted group.",
+    "sections": [
+      [
+        "One striped-blue fish can complete the second order",
+        "The 0:10 orders are a tiny elongated red design at 1/3 and round royal blue with dark stripes at 2/3. Striped-blue candidates are visible near the center, middle left, and bottom center. Compare an exposed one with the second portrait before counting the blue pieces of a different design near the upper left."
+      ],
+      [
+        "Check the pale-pink piece already in the bar",
+        "A plain pale-pink round fish occupies the holding bar. It does not match either current order, so include that occupant when comparing your available space with the recording. Two tiny elongated red pieces sit near the upper right, with more below on that side. Their narrow bodies differ from oval red fish with white stripes."
+      ],
+      [
+        "The frosted bottom-left group is a separate restriction",
+        "A frosted bubble marked 2 encloses a mixed bottom-left group. Inspect its state before depending on a fish inside. Two blue fish with curled pale fins at the upper left differ from the dark-striped royal-blue target. Compare exposed striped-blue candidates first and locate the exact red design before switching from the nearly completed second order."
+      ]
+    ]
+  },
+  "117": {
+    "videoId": "8kFwivVEJ0o",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 117 guide: compare exposed striped-red fish, bottom-center chain, right key, green designs, and the mixed orange-blue cluster.",
+    "sections": [
+      [
+        "Inspect exposed striped red around the chained group",
+        "The early orders show green round with a red tail during filling and oval red with white stripes at 0/3. A chain marked 1 covers the bottom-center group, including green and red-striped artwork. Red-striped candidates also appear freely toward the upper left and middle right. Compare those exposed portraits before relying on the chained red piece."
+      ],
+      [
+        "The key is beside a different blue design",
+        "A gold key appears at the bottom right beside striped royal-blue and narrow purple-striped artwork. Follow the recording through the key interaction before assuming the chain is open. The brighter green fish with white fins elsewhere differs from the green red-tailed target, even though both have round green bodies."
+      ],
+      [
+        "Three orange-and-blue pieces share the center",
+        "The central cluster contains three orange-yellow fish with blue fins alongside two striped royal-blue fish. Those are two designs, neither of which matches the shown red-striped order. A magenta-red pair higher near the center is separate again. Check whether the first jar has changed after filling before opening that prominent orange group or the nearby blue pair."
+      ]
+    ]
+  },
+  "118": {
+    "videoId": "qDbtZGaOGtA",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 118 notes: inspect two bottom frosted groups, long-pink and purple-finned blue targets, and separate tall-fin and striped fish.",
+    "sections": [
+      [
+        "Two frosted groups bracket the bottom row",
+        "At 0:10, the orders show elongated pink with an orange fin at 1/3 and dark blue with purple fins at 0/3. The bottom-left frosted group is marked 1, while the bottom-right group is marked 4. Compare both outlines and counts with your run before following any later selections near the bottom."
+      ],
+      [
+        "Compare exposed purple-finned blue candidates",
+        "Dark-blue purple-finned pieces appear toward the upper left, lower left, bottom center, and middle right. Their pale purple fins differ from the curled white fins of another blue design and the dark stripes on royal-blue round fish. Use the exact second portrait to inspect a possible triple rather than counting all blue pieces together."
+      ],
+      [
+        "The left tall-fin pair is unrelated to either order",
+        "Two dark teal fish with tall fins sit on the left near mid-height. Burgundy fish pair up near the upper center, and narrow purple-striped pieces form other groups around the center and right. These are useful layout references. Inspect exposed elongated-pink candidates and the purple-finned order before depending on a pink piece inside the frosted bottom-left group."
+      ]
+    ]
+  },
+  "119": {
+    "videoId": "WNvtPZCLSA8",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 119 guide: check the filled cream-faced blue jar, orange bar occupant, scattered burgundy pairs, and three green designs.",
+    "sections": [
+      [
+        "The cream-faced blue order has just filled",
+        "At the 0:10 checkpoint, the cream-faced fish with blue fins shows 3/3, while the second jar is clearing. More cream-faced blue pieces remain as a pair at the lower left and one at the bottom center. Wait for the replacement portrait before collecting those leftovers as though the filled order still needs them."
+      ],
+      [
+        "Notice the round-orange piece in the holding bar",
+        "A round-orange piece already occupies the bar. Compare it with your own state before following the next clear. Burgundy pairs are visible near the upper center, middle left, and bottom left. Those darker round fish differ from the orange bar occupant; starting a burgundy pair creates a separate group rather than finishing the existing orange one."
+      ],
+      [
+        "Separate the green designs near the right side",
+        "Two pale-green striped fish sit around the middle right, while deeper bright-green round pieces appear lower in the center and right. Green fish with white fins are another design. Compare the exact replacement target after the jar animation before taking a green pair. A shared color and nearby location do not make these green portraits interchangeable."
+      ]
+    ]
+  },
+  "120": {
+    "videoId": "-lOneKOs7Lo",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 120 notes: compare four orders, bottom pink triple, orange-blue pair, distinct green fish, the left orb, and lower question mark.",
+    "sections": [
+      [
+        "Four targets include a completed round-orange jar",
+        "At 0:10, the orders show orange-yellow with blue fins at 1/3, plain pale-pink round at 0/3, round orange at 3/3, and deeper bright-green round at 0/3. A large iridescent orb sits at the lower left, and a rainbow question mark is near the lower center. Recheck the third jar after its completion animation."
+      ],
+      [
+        "Compare the bottom-left pink triple with its own order",
+        "Three plain pale-pink fish are grouped at the bottom left. Compare their round bodies with the second portrait and check accessibility. The orange-yellow blue-finned pair around the middle left is another design. Its striped orange bodies differ from the plain round-orange portrait that has just completed, so count those orange designs separately too."
+      ],
+      [
+        "Two green designs share the right-middle group",
+        "Deeper bright-green round fish form a pair on the middle right near a lighter green fish with white fins. Only the deeper green design matches the fourth target shown here. Two blue fish with curled white fins near the center provide another landmark. Leave the lower question mark's identity undecided when counting any proposed triple."
+      ]
+    ]
+  },
+  "121": {
+    "videoId": "LHW6HFwx2qw",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 121 guide: inspect the tall-fin order, bottom-left chain, lower key, mixed green and blue pairs, and changing second jar.",
+    "sections": [
+      [
+        "Read the tall-fin order during the jar transition",
+        "At 0:10, a dark teal fish with a tall fin is filling the first order, and the second jar is clearing with orange artwork still visible. A chain marked 1 covers the bottom-left group. The gold key is near the bottom center beside round orange, burgundy, and flatter pink pieces. Compare the current portraits after both animations settle."
+      ],
+      [
+        "The central green and blue pairs are separate designs",
+        "Two deeper bright-green round fish share the central area, while cream-faced fish with blue fins pair up lower in the center. Neither design is the dark tall-finned portrait under the first jar. Inspect exposed tall-fin candidates against that order before collecting the green pair or the pale-faced blue pair just because they are adjacent."
+      ],
+      [
+        "Do not count the locked pink artwork as unrestricted",
+        "The bottom-left chain crosses a mixed group containing pink, blue, and burgundy artwork. Check the key interaction before depending on its contents. The flatter pink pieces near the bottom key differ from plain pale-pink round fish. Pale-green striped pieces on the middle right are a separate green design, useful for matching your layout to the recording."
+      ]
+    ]
+  },
+  "122": {
+    "videoId": "K7_fli-HV60",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 122 notes: compare the blue order at 2/3, purple-striped candidates, two left question marks, and separate cream-faced fish.",
+    "sections": [
+      [
+        "The blue order is already at 2/3",
+        "At 0:10, the first target is a narrow purple fish with white stripes at 0/3, and the second is royal blue with curled white fins at 2/3. Exposed blue candidates appear toward the upper left, middle left, bottom left, and bottom center. Compare their faces and pale fin curls with the nearly completed second portrait."
+      ],
+      [
+        "The two left question marks cannot supply a known third",
+        "Two rainbow question-mark pieces sit on the middle left beside orange-yellow blue-finned, royal-blue, and deeper green artwork. Their hidden identities are unknown at this checkpoint. Inspect a visible blue candidate for the 2/3 order instead. A cream-faced blue-finned fish elsewhere uses a different portrait and does not substitute for royal blue with curled fins."
+      ],
+      [
+        "Inspect the narrow purple stripes before opening another pair",
+        "Purple-and-white striped pieces appear in lower groups as well as nearer the upper left. They differ from plain round-purple artwork. A small yellow blue-finned pair near the upper right and a magenta-red pair below center are separate designs. Check the current bar and exact purple portrait before branching into either of those paired groups."
+      ]
+    ]
+  },
+  "123": {
+    "videoId": "Jqvro7q1YCI",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 123 guide: compare two green orders, exposed white-finned candidates, lower striped-green pair, purple pairs, and bottom frost.",
+    "sections": [
+      [
+        "Two green orders use distinct portraits",
+        "At 0:10, the first target is pale green with vertical stripes at 0/3, and the second is brighter round green with white fins at 2/3. A frosted group marked 1 sits at the bottom left. An exposed white-finned bright-green candidate around the middle right is worth comparing with the nearly filled second order."
+      ],
+      [
+        "The deeper green and flat white-bellied fish do not substitute",
+        "Deeper green fish with segmented-looking bodies appear lower on the board, while flatter green fish with white bellies form a pair on the middle right. Both differ from the round white-finned target. Pale-green striped candidates pair up toward the lower-center right; compare them with the first portrait and count that design separately from the other greens."
+      ],
+      [
+        "Use the purple and whale pairs to orient the lower board",
+        "Purple-and-white striped pairs appear around the middle right, center, and bottom right. Pale-blue whale pairs sit near the upper center and lower center. These groups help align your board with the recording, but they match neither current green order. Check the bottom-left frosted state before relying on an enclosed green piece for the remaining white-finned match."
+      ]
+    ]
+  },
+  "124": {
+    "videoId": "zqKo9Z4CUac",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 124 notes: inspect two orders at 2/3, mixed left blue group, right green cluster, bottom-left frost, and separate pink artwork.",
+    "sections": [
+      [
+        "Both current orders show 2/3",
+        "The 0:10 checkpoint shows royal blue with curled white fins and deeper green with a segmented-looking body, each at 2/3. Three royal-blue candidates are grouped on the left near mid-height alongside two cream-faced blue-finned fish. Compare an exposed royal-blue portrait with the first order before assuming every blue piece in that bubble belongs to it."
+      ],
+      [
+        "The right green cluster is another place to compare",
+        "Three deeper green pieces share the right-middle group. Inspect them against the second portrait and check which is selectable in your run. Flatter green fish with white bellies pair up on the left below mid-height, and pale-green vertically striped pieces appear elsewhere. Those other green designs do not replace a missing deeper-green third."
+      ],
+      [
+        "Check the frosted bottom-left group before switching designs",
+        "A frosted bubble marked 1 surrounds mixed artwork at the bottom left, including dark tall-finned fish. A flatter pink pair is near the bottom center. Neither group directly matches the shown royal-blue or deeper-green orders. Compare the two 2/3 counts and accessible candidates first, then inspect the frosted contents before opening another design."
+      ]
+    ]
+  },
+  "125": {
+    "videoId": "08RXFCHibug",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 125 guide: compare plain-purple candidates for the 2/3 order, orange-blue fish, bottom chain and key, and obscured right group.",
+    "sections": [
+      [
+        "A plain-purple order is nearly complete",
+        "At 0:10, the first target is orange-yellow with blue fins at 0/3, and the second is plain purple at 2/3. Several plain-purple pieces form a group on the left near mid-height below dark olive-and-yellow artwork. Compare an exposed purple with the second portrait before opening an orange pair farther down."
+      ],
+      [
+        "Locate the key and chain across the lower groups",
+        "A chain marked 1 encloses the bottom-center group, while the gold key is at the bottom left beside blue and orange-yellow artwork. Orange-yellow blue-finned candidates also appear near the upper right, lower left, below center, and bottom right. Check the lock interaction before relying on any chained piece as a third for a later order."
+      ],
+      [
+        "The bright right-side effect obscures its contents",
+        "A large bright bubble or effect occupies the right side below mid-height at this checkpoint, making its contents difficult to identify. Do not count an obscured fish toward a match. A bright-green white-finned pair higher on the right and pale-blue whale artwork elsewhere provide clearer landmarks. The pale whale and cream-faced blue-finned design use different portraits."
+      ]
+    ]
+  },
+  "126": {
+    "videoId": "XeqP8JHaNSo",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 126 notes: inspect exposed dark tall-fin fish, completed striped-green jar, pale-blue whales, and separate green and blue designs.",
+    "sections": [
+      [
+        "Wait for the striped-green order's replacement",
+        "At 0:10, the dark teal tall-finned order is at 0/3, while the pale-green vertical-striped order shows 3/3. Dark tall-finned candidates remain near the center, middle right, bottom left, and bottom right. Compare those dark silhouettes with the first portrait while waiting for the filled green jar to reveal its next target."
+      ],
+      [
+        "Pale striped green differs from flat white-bellied green",
+        "Flatter green fish with white bellies appear in lower groups, but they do not match the pale-green vertically striped portrait under the completed jar. The green designs need separate counts. A small yellow blue-finned pair at the upper right and a purple-and-white striped pair toward the upper left provide additional layout landmarks."
+      ],
+      [
+        "Do not mix the pale-blue whale with cream-faced blue",
+        "A pale-blue whale is visible near the upper center and another at the bottom right. Cream-faced blue-finned fish and royal-blue curled-fin pieces elsewhere have different faces and body shapes. Inspect the exposed tall-fin candidates first, then compare the new second order before taking one of those blue groups. A visible pair is only useful for its own exact design."
+      ]
+    ]
+  },
+  "127": {
+    "videoId": "xmOFWlW-Yys",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 127 guide: compare deeper-green pairs, the filling olive jar, two left question marks, bottom frost, and distinct blue pairs.",
+    "sections": [
+      [
+        "Compare the deeper-green order with the left pairs",
+        "The 0:10 targets show deeper green with a segmented-looking body at 0/3 and olive with yellow markings in a filling jar. Deeper-green pairs appear toward the upper left, left below mid-height, and right below mid-height. An olive-and-yellow pair also sits on the lower-left side. Keep those green and olive portraits separate when checking the orders."
+      ],
+      [
+        "Two question marks and a frosted group mark the lower route",
+        "Rainbow question marks appear around the left middle and bottom left. A frosted group marked 1 sits nearer the bottom center. Neither question mark shows its fish identity, and the frosted contents need an accessibility check. Do not assign either unknown piece to the adjacent plain-purple or deeper-green groups merely because it sits beside them."
+      ],
+      [
+        "Blue ovals and cream-faced teal form different pairs",
+        "A blue oval pair is visible on the middle right, while two cream-faced teal fish sit higher on that side. Yellow seahorses appear nearer the center and right. Purple-and-white striped pieces in lower groups differ from the plain-purple pair on the middle left. Use these landmarks to align the board, then recheck the filling olive jar before opening an unrelated pair."
+      ]
+    ]
+  },
+  "128": {
+    "videoId": "7CKotyu6ys4",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 128 notes: compare three targets, exposed striped-purple fish, separate green designs, the lower question mark, and frosted zero.",
+    "sections": [
+      [
+        "Three orders separate green and purple designs",
+        "The early portraits show flat green with a white belly, purple with white stripes at 0/3, and pale-green vertical stripes. The two green jars are filling at 0:10. Two flat white-bellied green candidates share a group toward the upper-middle left. Compare their lower white band with the first portrait rather than counting the deeper-green pair on the upper right."
+      ],
+      [
+        "Inspect the exposed striped-purple candidates",
+        "Purple-and-white striped fish appear near the upper left, center, and bottom right. Plain-purple fish elsewhere lack those stripes and use a different face. A flatter pink pair sits on the left near mid-height. Before taking that pink pair, compare the current purple order and locate an accessible third of the exact striped design."
+      ],
+      [
+        "Treat the frosted zero as an observed state",
+        "A frosted group marked 0 sits near the bottom center, and a rainbow question mark is above it near cream-faced teal artwork. The zero is visible, but this checkpoint does not establish an unlocking rule or prove every enclosed piece is selectable. Leave the question mark's identity unknown and compare the two filling green jars again after their animations settle."
+      ]
+    ]
+  },
   "129": {
     "checkedOn": "2026-10-02",
     "seconds": 10,

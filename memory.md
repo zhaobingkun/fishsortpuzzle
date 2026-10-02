@@ -1,5 +1,12 @@
 # Fish Sort Wiki Memory
 
+## 2026-10-02 — 第三批 30 个现有关卡详情
+
+- 用户要求再做 30 个关卡，沿用此前发布授权；选择现有 98–128，跳过缺失的 101。完成后累计 70 个现有关卡有独有详情，未新增占位页。
+- 逐一读取 Daisy Gaming 视频标题、播放实际内容并核对 0:10 盘面；使用同一 DOM 标签完成播放、定位和截图，避免原生 UI 与 DOM 标签指向不同页面。每关 3 个独有段落（152–172 英文单词），附独有摘要、视频 ID、核对日期和时间点。
+- 记录具体目标、完成动画、鱼群位置、相似外观区别、暂存栏及锁链/钥匙/问号/霜状轮廓。第 125 关右侧强光遮挡内容，只描述无法辨认；第 128 关霜状组显示 0，不推断解锁规则。说明仍是早期视频检查点观察，未标为完整操作解法或实机测试。
+- Levels hub 的已核对目录自动扩为 70 页，保留版本和相邻页内链；sitemap 更新本批实际修改关卡的日期。
+
 ## 2026-10-02 — 第二批 30 个现有关卡详情
 
 - 用户要求先给现有 30 个关卡页补详情，并沿用此前完成后发布的授权。选定 129–160 中已有的 30 页，跳过不存在的 137 / 151；不新建空号页。加上首批 161–170，共 40 页有独有文字。
@@ -70,3 +77,5 @@
 - Added the aquarium artwork to the homepage as a 270px full-width game intro band rather than another tall hero. This keeps the title readable over the dark water while the game frame still begins in the first viewport.
 - User submitted `fishsortpuzzle.app` to Google Search Console after launch. Next SEO actions are representative URL inspection/indexing requests, Bing Webmaster Tools import, a `www` to apex redirect, and 7/14/28-day indexing and impression checks.
 - Added Google Analytics 4 measurement ID `G-P0R43X0ZMS` through the shared static-page head template. The build checker requires exactly one loader and one config reference on every generated HTML page.
+
+- 第三批发布前验证：build/check 通过，169 个可索引 URL、173 个 HTML 和 147 个视频映射检查通过；390px 手机视口无横向溢出，目录已列出 70 个带正文关卡。
