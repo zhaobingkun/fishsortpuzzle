@@ -79,3 +79,4 @@
 - Added Google Analytics 4 measurement ID `G-P0R43X0ZMS` through the shared static-page head template. The build checker requires exactly one loader and one config reference on every generated HTML page.
 
 - 第三批发布前验证：build/check 通过，169 个可索引 URL、173 个 HTML 和 147 个视频映射检查通过；390px 手机视口无横向溢出，目录已列出 70 个带正文关卡。
+- 第三批发布完成：内容提交 `d286af1` 已推送 main 并触发 Vercel；30 个关卡页 + `/levels/` + `/sitemap.xml` 共 32 个线上地址全部 HTTP 200，且响应与本地构建逐字一致。线上 117 关正文已浏览确认，截图 `screenshots/level-117-details-live.png`。另检查本批 90 个说明小节互不重复。GSC 未在本批操作，发布成功不代表已索引。
