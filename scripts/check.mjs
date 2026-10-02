@@ -29,8 +29,12 @@ if (!homepage.includes('html5.gamemonetize.games/diiob6luzs7e36nbbt1iz74wlvf4vo2
 if (!/<iframe[^>]+title="Play Fish Sort Puzzle online"/.test(homepage)) {
   errors.push('homepage: game iframe needs an accessible title');
 }
-if (!homepage.includes('Web version by YIGOT') || !homepage.includes('separate Shycheese mobile app')) {
+if (!homepage.includes('Web version by YIGOT') || !homepage.includes('Shycheese mobile game')) {
   errors.push('homepage: web and mobile game versions are not clearly distinguished');
+}
+
+if (homepage.indexOf('Two different games:') < 0 || homepage.indexOf('Two different games:') > homepage.indexOf('<iframe')) {
+  errors.push('homepage: version note must appear before the playable iframe');
 }
 
 async function walk(dir) {

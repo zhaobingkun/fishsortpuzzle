@@ -1,4 +1,5 @@
 import { levelVideos } from './level-videos.mjs';
+import { levelNotes } from './level-notes.mjs';
 
 export const site = {
   name: 'Fish Sort Wiki',
@@ -24,7 +25,7 @@ export const levels = levelVideos.map(([level, videoId]) => ({
   level,
   videoId,
   title: `Fish Sort Puzzle Level ${level} Walkthrough`,
-  summary: `Watch the verified Fish Sort Puzzle Level ${level} video solution, compare the opening fish, and protect your holding slots before following the finish.`,
+  summary: levelNotes[level]?.description ?? `Watch the verified Fish Sort Puzzle Level ${level} video solution, compare the opening fish, and protect your holding slots before following the finish.`,
   verified: true,
   verifiedOn: site.videoLibraryChecked,
   source: site.videoChannelName
