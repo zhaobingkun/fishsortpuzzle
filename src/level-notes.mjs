@@ -2,6 +2,638 @@
 // These are early-board checkpoints, not a frame-by-frame transcript or tested tap sequence.
 // Color/shape labels describe the visible artwork; they are not official species names.
 export const levelNotes = {
+
+  "66": {
+    "videoId": "3913y96VZIA",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 66 notes: compare turtle and orange orders, lower turtle positions, the brown striped pair, and the central question mark.",
+    "sections": [
+      [
+        "Three orders use different orange and green designs",
+        "At 0:10, the turtle portrait is at 0/3, the small orange fish with a blue cap is at 2/3, and the larger gold fish is at 0/3. Another jar is clearing. Compare the small orange candidates with the nearly filled order before treating an orange-and-white striped fish as the same design."
+      ],
+      [
+        "Locate the turtles across the lower board",
+        "Turtles remain near the lower center, bottom left, middle right, and bottom right. Their green shells and yellow heads distinguish them from the green round fish higher up. Two brown fish with white stripes share the middle-left group; they are another pair, rather than a substitute for any of the displayed portraits."
+      ],
+      [
+        "The lower question mark is still unidentified",
+        "A rainbow question mark sits in the lower central group alongside orange artwork. Its hidden identity cannot be read at this checkpoint. Also separate the blue round fish from the darker blue silhouette elsewhere, and the purple orange-finned fish from the small orange target. Wait for the clearing jar's next portrait before committing to one of these unrelated groups."
+      ]
+    ]
+  },
+  "67": {
+    "videoId": "DE7mz92uGzs",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 67 guide: distinguish dark and yellow-finned blue targets, inspect the bottom pairs, and locate the lower-right frosted group.",
+    "sections": [
+      [
+        "Compare the two blue targets before selecting",
+        "The early frame shows dark blue at 0/3 and blue-and-white with a yellow top fin at 0/3. The dark blue pair near the bottom center is a useful reference for the first portrait. Smooth bright-blue fish also appear on the board, but their lighter faces and rounder artwork differ from that dark target."
+      ],
+      [
+        "The bottom-right pair matches the second portrait",
+        "Two blue-and-white, yellow-finned fish sit together at the bottom right. Another such fish is higher near the center. Compare access to those visible pieces before mixing in the green striped fish or black-and-white round fish beside them. The bottom-right pair should be counted as two candidates, rather than a completed three-piece order."
+      ],
+      [
+        "Check the frosted group on the lower right",
+        "A frosted group marked 3 lies above the bottom-right pair and includes blue-and-white artwork. Orange starfish occupy several groups around the upper center and upper right, creating conspicuous clusters unrelated to either blue portrait. Keep the exposed blue references separate from the frosted candidates, and follow the video to see how that marked group's state changes."
+      ]
+    ]
+  },
+  "68": {
+    "videoId": "fu1oo7TlA4g",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 68 notes: compare the starfish order, bottom-right pair, two frosted groups, lower-left orb, and striped yellow fish cluster.",
+    "sections": [
+      [
+        "A filling purple-yellow jar is beside the star order",
+        "At the checkpoint, the purple-and-yellow jar is filling while the starfish portrait is at 0/3. Two orange starfish sit together at the bottom right, and another is lower on the left. Use their five-point silhouettes to compare candidates; the orange striped fish near the right-hand pair is a different design."
+      ],
+      [
+        "Two frosted groups contain different blue artwork",
+        "A central frosted group marked 3 contains blue-and-white fish with yellow top fins. A second group marked 3 near the bottom center includes other blue and striped artwork. These are separate positions to track. The bright smooth-blue fish exposed elsewhere should not be grouped with every blue piece visible through a frosted outline."
+      ],
+      [
+        "Inspect the lower-left orb and central striped trio",
+        "A glowing orb marked 1 covers the bottom-left group. Near the middle, three yellow fish with purple stripes share a cluster with orange striped fish. Those striped yellow pieces differ from the purple-yellow filling target. Do not infer the orb's contents from its glow; compare the next jar portrait after the current filling animation ends."
+      ]
+    ]
+  },
+  "69": {
+    "videoId": "EBL01dmFBm8",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 69 guide: check partly filled pink and blue orders, striped yellow candidates, the bottom chain, key, and occupied holding slot.",
+    "sections": [
+      [
+        "Two jars are already close to completion",
+        "The 0:10 frame shows the pink order at 2/3, yellow with purple stripes at 0/3, and smooth blue at 2/3. A black-and-white piece occupies the holding bar. Three pink fish share a group with two dark blue fish on the lower right; the dark pair does not match the smooth-blue portrait."
+      ],
+      [
+        "The striped yellow candidates span exposed and chained groups",
+        "An exposed yellow-and-purple striped fish is near the upper center, with another lower on the left. More of that artwork appears inside the bottom-center chain marked 1 and beside the key at the bottom right. Compare the free candidates first, rather than assuming everything visible behind the chain is selectable."
+      ],
+      [
+        "Use the bottom-right key as a checkpoint landmark",
+        "The gold key sits in a mixed group with purple-yellow, striped-yellow, and blue artwork. Follow its interaction in the recording before assuming the bottom-center chain has opened. Also distinguish the blue-and-white yellow-finned design from the smooth-blue order. The occupied black-and-white holding slot is another state to compare if your board diverges from the video."
+      ]
+    ]
+  },
+  "70": {
+    "videoId": "mYvCDzXddNE",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 70 notes: compare blue, hermit and pink orders, locate the bottom hermit pair, and distinguish round from white-faced pink fish.",
+    "sections": [
+      [
+        "Three portraits remain while another jar clears",
+        "The early frame shows blue-and-white with a yellow fin, shell-bearing hermit crab, and round pink, each at 0/3. Another jar is clearing. Several blue-and-white candidates remain around the middle and left, but the plain light-blue fish near the center has a different face and outline from that first target."
+      ],
+      [
+        "The bottom-center pair is shell-bearing crab artwork",
+        "Two hermit-crab pieces share the bottom-center group with a blue-and-white fish. Further hermit candidates appear on the left and upper right. Identify their curved shells and red bodies before confusing them with the red spotted octopus design seen in other levels. This pair is a visible reference, not a verified sequence of taps."
+      ],
+      [
+        "Round pink differs from the angular white-faced pair",
+        "Two round pink fish sit on the right around mid-height, whereas two slender, white-faced pink fish occupy the bottom-right group. Only the round design matches the displayed pink portrait. A rainbow question mark is near the upper center. Its identity remains hidden, so wait for the clearing jar's replacement instead of counting that mark toward a proposed match."
+      ]
+    ]
+  },
+  "71": {
+    "videoId": "NvXB1hKet5Q",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 71 guide: locate purple pairs, the bottom-left chain and center key, while separating four blue designs from the active order.",
+    "sections": [
+      [
+        "The purple order needs two more matching candidates",
+        "At 0:10, the plain purple order is at 1/3 and the other jar is clearing. Purple pairs are visible near the center and lower right, with another purple piece on the left. Compare their cream faces and plain bodies with the portrait. The darker blue pair on the middle left is a separate design."
+      ],
+      [
+        "The bottom-center key is beside a light-blue pair",
+        "A key lies near two plain light-blue fish at the bottom center. The chain marked 1 is at the bottom left and contains green, pink-shell, and other artwork. Track the key interaction in the video before treating the chained group as free. Its location differs from the purple pairs you can inspect directly."
+      ],
+      [
+        "There are several distinct blue designs on this board",
+        "The plain light-blue pair by the key differs from the blue fish with white stripes higher on the left, the smooth round-blue pieces on the right, and the blue fish with yellow cheeks. Orange starfish dominate an upper central group. Check the next portrait after the jar clears before opening that group or collecting one of the unrelated blue designs."
+      ]
+    ]
+  },
+  "72": {
+    "videoId": "pIGuLkwQ8O0",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 72 notes: compare the pink conch order, right-hand starfish cluster, lower blue pair, purple-yellow fish, and bottom-left orb.",
+    "sections": [
+      [
+        "A pink shell is the active order",
+        "The pink conch-shaped portrait is at 1/3 while the other jar clears. An exposed conch is at the bottom right, and another is visible on the left during the animation. Match the spiral shell and large round opening. The ordinary round pink fish nearby has fins and a face, rather than the same shell artwork."
+      ],
+      [
+        "The starfish group mixes two unrelated shapes",
+        "Three orange starfish share the middle-right group with two red spotted octopus-like pieces. Their five-point shapes and spotted heads make the designs easy to separate. Neither matches the pink shell portrait. Two smooth-blue fish sit together lower near the center, providing another pair to hold off on until a corresponding order appears."
+      ],
+      [
+        "Do not confuse purple-yellow fish with plain purple",
+        "Two purple-and-yellow fish appear together at the bottom right, while plain purple pieces are distributed higher on the board. Count those as separate designs when comparing the next order. A glowing orb is at the bottom left; its contents are not established by this frame, so use the recording rather than inferring a match from the effect."
+      ]
+    ]
+  },
+  "73": {
+    "videoId": "S2LG52UPkjI",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 73 guide: locate exposed pink conches, two lower question marks, the glowing group, and green designs during order completion.",
+    "sections": [
+      [
+        "The shell order remains while green completes",
+        "The early checkpoint shows pink conch at 0/3 while the lime-green order is completing. Exposed conches appear below the center, on the right at mid-height, and at the bottom right. Compare those spiral-shell positions with your board. Do not assume the green portrait will remain active after its completion animation finishes."
+      ],
+      [
+        "Two question marks share the bottom-left group",
+        "Two rainbow question marks sit beside round pink artwork at the bottom left. Their hidden designs cannot be identified here. A glowing group marked 3 is lower near the center and shows pink-shell artwork through the effect. Keep those obscured candidates separate from the exposed conches until the video shows a clearer state."
+      ],
+      [
+        "Lime-green and teal spotted fish are different",
+        "The completing lime-green target differs from the teal, spotted green fish visible near the center and on the right. A plain purple pair sits together on the middle left, and plain light-blue pieces form another pair on the right. Check the replacement portrait before turning any of those groups into a plan for the next order."
+      ]
+    ]
+  },
+  "74": {
+    "videoId": "VBmWXcb1X5w",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 74 notes: separate two blue orders, inspect the upper-right conch pair, and locate the upper chain and bottom-right frost.",
+    "sections": [
+      [
+        "Two blue portraits have different progress",
+        "At 0:10, the plain light-blue order shows 3/3, smooth round blue shows 2/3, and pink conch shows 0/3. The first two portraits look similar in color but differ in face and body shape. Compare an exposed smooth-blue candidate on the right or near the center with the second portrait before filling another blue design."
+      ],
+      [
+        "The upper-right conch pair is a separate order",
+        "Two pink conches sit together in the upper-right group beside blue artwork. They match the spiral-shell portrait rather than the ordinary pink fish near the middle. Count the shells separately from the blue pieces sharing their group. A third shell is needed for that order, but this checkpoint alone does not establish a complete tap sequence."
+      ],
+      [
+        "Track the upper chain and bottom-right frost separately",
+        "A chain marked 1 covers the upper-left group; a frosted group marked 4 sits at the bottom right with dark blue, purple, orange, and starfish artwork. These are distinct obstacles and locations. No key is clearly identified in this frame. Follow the recording before treating the chain as open or assigning the frosted group's pieces to an active order."
+      ]
+    ]
+  },
+  "75": {
+    "videoId": "p-UW3RyMY70",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 75 guide: compare whale candidates and the central yellow-cheeked blue pair, occupied striped slot, and bottom-left glowing group.",
+    "sections": [
+      [
+        "The whale jar is partly filled",
+        "The blue fish with yellow cheeks is at 0/3, while the dark whale-shaped order is at 1/3. Exposed whale candidates appear near the upper center, middle right, and center-left. Identify their long dark bodies and pale bellies; the round black-and-white fish lower on the board has a different silhouette from the whale target."
+      ],
+      [
+        "The central blue pair matches the yellow-cheeked portrait",
+        "Two blue-and-yellow cheeked fish sit around the center beside an orange starfish. The blue fish with white stripes on the left differs from that portrait, and one striped piece already occupies the holding bar. Compare both the target face and the occupied slot before following the recording's next selection."
+      ],
+      [
+        "The bottom-left glowing group contains mixed artwork",
+        "A glowing, frosted outline marked 1 surrounds the bottom-left group, with blue, starfish, and spotted octopus artwork visible inside. Keep those pieces separate from the exposed target candidates. The orange spotted octopus pairs toward the upper right also differ from plain red fish. Use the video to inspect the marked group's change rather than assuming its release rule."
+      ]
+    ]
+  },
+  "76": {
+    "videoId": "Qgs3ZZAD1rg",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 76 notes: find the red-blue-white pair, distinguish red puffer and spotted octopus artwork, and compare the left teal fish pair.",
+    "sections": [
+      [
+        "The red puffer is completing beside a new target",
+        "At the early checkpoint, the red puffer-like order shows 3/3 and the round red-blue-white portrait is at 0/3. A matching red-blue-white pair sits at the bottom right, with another candidate at the bottom left. Compare their white faces and broad red fins before confusing them with the red spotted octopus artwork elsewhere."
+      ],
+      [
+        "Other red pieces belong to separate designs",
+        "Red puffer candidates remain on the left, center, and lower board even though that portrait is completing. Two spotted octopus-like pieces share the lower-center group. Their dotted heads and hanging arms differ from both displayed fish portraits. Wait for the completing order to change before assuming more red pieces should go to the same jar."
+      ],
+      [
+        "The left teal pair helps identify your layout",
+        "Two teal, spotted round fish sit together on the middle left. Striped light-blue fish remain in groups on both sides and near the bottom center, while dark whale-shaped and round black-and-white artwork share right-hand groups. Use these neighboring designs to match your checkpoint accurately; the teal pair does not match the shown red-blue-white target."
+      ]
+    ]
+  },
+  "77": {
+    "videoId": "yVpHnAy65cY",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 77 guide: inspect the striped-gold trio, lower-left frosted group, whale candidates, and the blue striped pair at the bottom.",
+    "sections": [
+      [
+        "The striped gold order is still partly filled",
+        "The dark whale jar is filling, and the gold fish with red vertical stripes is at 1/3. Three striped-gold pieces share the middle-right group with two blue fish with yellow cheeks. Compare their stripe pattern with the second portrait. They differ from the small smooth-yellow fish visible elsewhere in the recording."
+      ],
+      [
+        "The frosted lower-left group has black-and-white pieces",
+        "A frosted group marked 4 below the middle on the left contains two round black-and-white fish, a pink shell, and red puffer artwork. These are separate from the whale order's long dark silhouette. Exposed whale candidates remain near the upper center and bottom right, so check those positions before relying on anything inside the frosted group."
+      ],
+      [
+        "A striped blue pair sits at the bottom center",
+        "Two light-blue fish with white stripes share the bottom-center group with starfish and red puffer artwork. The blue-and-yellow cheeked pair beside the striped-gold trio has a different face. Keep those blue designs distinct, and wait for the whale jar's filling animation to settle before comparing the next order with either prominent pair."
+      ]
+    ]
+  },
+  "79": {
+    "videoId": "YIhpSj6tQ_4",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 79 notes: locate the pale pink puffer, separate red angler artwork, and compare whale pairs as the striped-blue order completes.",
+    "sections": [
+      [
+        "Striped blue completes while the puffer order starts",
+        "The light-blue, white-striped order is completing, while the pink-and-white puffer portrait shows 0/3. An exposed matching puffer sits at the bottom left. Its round pale belly and pink upper body differ from the red angler-like pair lower on the right. Do not count those red pieces toward the pale puffer portrait merely because both look round."
+      ],
+      [
+        "Two whale pairs are useful layout landmarks",
+        "Dark whale-shaped pairs occupy the upper-left and lower-center groups. Their long bodies and pale bellies distinguish them from the dark round-blue designs in nearby videos. A blue-and-yellow cheeked pair sits at the bottom right. None of these pairs matches the currently displayed puffer, so check the replacement order after the striped-blue completion."
+      ],
+      [
+        "The upper frosted outline is only partly visible",
+        "A frosted outline appears near the upper center under the holding bar, but its full contents and marking are not clear at this checkpoint. Exposed lime-green pieces also form pairs through the upper and lower left. Use the visible bottom-left puffer and neighboring designs to align your board before attempting to interpret the partly clipped frosted group."
+      ]
+    ]
+  },
+  "80": {
+    "videoId": "KpgVjKk8-ic",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 80 guide: compare a partly filled whale order, yellow-faced blue candidates, exposed puffer pairs, and the bottom-left glowing group.",
+    "sections": [
+      [
+        "The whale order is one match short",
+        "At 0:10, dark whale shows 2/3 and blue with a yellow face and pale fins shows 0/3. Exposed whales remain on the middle left, lower right, and bottom center. Check their pale bellies against the second portrait. The purple fish with a white band and orange patch is a different design, despite its similarly dark body."
+      ],
+      [
+        "The yellow-faced blue target appears at the bottom right",
+        "A blue-and-yellow faced fish with pale fins sits at the bottom right alongside striped blue and spotted octopus artwork. Another candidate is partly clipped near the upper right. Its prominent yellow face differs from the blue fish with small yellow cheek spots seen in earlier levels. Compare the entire portrait, including the pale fin edges."
+      ],
+      [
+        "Keep the bottom-left orb separate from exposed pairs",
+        "A glowing group marked 1 sits at the bottom left. Two pink-and-white puffers share the upper-left group, while two spotted octopus-like pieces sit lower near the center. These pairs belong to other designs. Follow the video for the orb's clearer state, and do not infer its contents or a whale match from the bright effect."
+      ]
+    ]
+  },
+  "81": {
+    "videoId": "R_56W-VqyW8",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 81 notes: locate red angler candidates, distinguish two striped-blue designs, and check the upper and lower question marks.",
+    "sections": [
+      [
+        "The red angler order has exposed candidates",
+        "The light-blue, white-striped order shows 3/3 and the red angler-like portrait is at 0/3. Two matching red pieces sit in the upper-right group, with another near the upper center. Their small yellow antenna-like lights distinguish them from the round pink-and-white puffer on the left. Compare these exposed candidates with the fresh red portrait."
+      ],
+      [
+        "There are two separate striped-blue designs",
+        "Light blue with white stripes matches the completing portrait. The darker cyan-and-black striped fish on the middle left and right has a different pattern and outline. A remaining light-striped piece sits below the center. Count the two striped designs separately when the order changes; a general blue label is not enough to identify a match here."
+      ],
+      [
+        "The two question marks occupy different groups",
+        "A rainbow question mark sits near the upper center, and another is in the bottom-left group. Neither identity is visible at this moment. A lime-green pair on the lower left provides a clearer layout reference. Compare that pair and the red angler candidates first, then use the recording to track what replaces the completed striped-blue order."
+      ]
+    ]
+  },
+  "82": {
+    "videoId": "TK9W52fYcds",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 82 guide: inspect exposed and chained pale-striped blue fish, the lower-right key, and differences between yellow silhouettes.",
+    "sections": [
+      [
+        "The striped blue order needs one more piece",
+        "The small plain-yellow order shows 3/3, while light blue with white stripes is at 2/3. An exposed light-striped candidate lies below mid-height on the left beside two darker cyan-and-black striped fish. Their stripe colors differ. Compare the exposed light-blue piece with the second portrait instead of treating all three blue-striped pieces as one matching set."
+      ],
+      [
+        "Two target-blue pieces are inside the bottom chain",
+        "A chain marked 1 covers the bottom-center group, including two light-blue, white-striped fish and other artwork. The gold key is on the lower right beside a darker cyan-striped fish and a larger flat gold fish. Follow the key interaction before assuming the chained blue pair is available for the nearly completed order."
+      ],
+      [
+        "A question mark is above the chained group",
+        "A rainbow question mark appears on the right around mid-height beside pink-shell artwork. Its identity remains hidden. The larger flat gold fish nearby also differs from the small plain-yellow portrait that has reached 3/3. Check the replacement order after that completion, keeping the unknown mark and the two yellow silhouettes separate from your blue target count."
+      ]
+    ]
+  },
+  "83": {
+    "videoId": "cQa-OUvWChQ",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 83 notes: compare whale and striped-blue orders, the center frost, exposed bottom candidates, and two unrelated right-hand pairs.",
+    "sections": [
+      [
+        "Two orders have different remaining requirements",
+        "The early frame shows light blue with white stripes at 1/3 and dark whale at 2/3. An exposed striped-blue piece and whale share the bottom-center group with small blue-and-cream artwork. These are useful candidates to compare directly. The small cream-faced fish does not match either portrait, despite sitting next to both targets."
+      ],
+      [
+        "A central frosted group includes a whale",
+        "A frosted group marked 4 near the center contains whale, shell-bearing hermit, and darker cyan-striped artwork. The dark cyan stripes differ from the first order's pale stripes. Keep those protected pieces separate from the exposed whale and light-striped candidate below. This frame identifies their location but does not establish the frosted group's unlocking mechanism."
+      ],
+      [
+        "The right-hand pairs are different from both targets",
+        "Two purple fish with a white band and orange patch sit around the middle right. Two small blue-and-cream fish appear together at the bottom right. Those pairs are separate designs from the long whale and pale-striped blue portraits. A colored shape higher on the right is less clear; do not assign it a hidden identity from this frame."
+      ]
+    ]
+  },
+  "84": {
+    "videoId": "jX-rdMzpAYk",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 84 guide: distinguish cyan and pale-blue stripes, locate red-blue-white candidates, and check the obscured bottom-center orb.",
+    "sections": [
+      [
+        "The target is the darker cyan-striped design",
+        "At 0:10, cyan with dark stripes shows 2/3 and the round red-blue-white portrait shows 1/3. A matching cyan-striped pair sits in the middle-right group beside hermit and pink puffer artwork. On the middle left, two lighter blue fish with white stripes form a different pair. Inspect the dark stripe pattern before adding a blue candidate."
+      ],
+      [
+        "Red-blue-white candidates are distributed on the right",
+        "Matching red-blue-white pieces remain near the upper center, upper right, and bottom right. Their round white faces and red outer fins distinguish them from the pink puffer nearby. A pair of blue-and-yellow faced, pale-finned fish also occupies the bottom-right group. Count that blue pair separately from the red target sharing its space."
+      ],
+      [
+        "The bottom-center orb is too bright to identify fully",
+        "A glowing group marked 1 sits at the bottom center, with a strong effect obscuring its contents. Use the recording for a clearer view rather than treating the glow as proof of a particular fish. The exposed cyan pair and red-blue-white positions are firmer checkpoints for comparing your board with the video at this moment."
+      ]
+    ]
+  },
+  "85": {
+    "videoId": "DfAbBee7vGA",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 85 notes: find pale-striped blue candidates, locate the left chain and right key, and compare the lower green-and-cream pair.",
+    "sections": [
+      [
+        "The pale-striped blue order has free candidates",
+        "The light-blue, white-striped portrait is at 0/3, and the small plain-yellow order shows 3/3. Matching pale-striped blue fish are exposed below the middle on the left and at the bottom left. Darker cyan-striped pieces occupy other groups. Compare stripe color and face shape before counting those darker pieces toward the first order."
+      ],
+      [
+        "The middle-left chain is separate from the key",
+        "A chain marked 1 surrounds two yellow pieces and two purple, white-banded fish on the middle left. The key sits at mid-height on the right beside green-and-cream and small blue-and-cream artwork. Follow the interaction before assuming the chained group is open. It contains different designs from the exposed striped-blue candidates."
+      ],
+      [
+        "The bottom green pair is another order reference",
+        "Two green fish with cream bellies sit together near the bottom center, alongside red-blue-white and cyan-striped artwork. Colored fan-shaped shells also appear higher on the board and at the bottom right. Those shells are separate from both striped-blue designs. Check the replacement portrait after the small-yellow completion before opening the prominent green pair or collecting a colored shell."
+      ]
+    ]
+  },
+  "86": {
+    "videoId": "jsVBfm3rRMA",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 86 guide: separate shell and question-mark artwork, compare pale blue with the held cyan fish, and inspect the lower-left orb.",
+    "sections": [
+      [
+        "A colored shell completes beside a pale-blue order",
+        "The colored fan-shaped shell order shows 3/3, while light blue with white stripes is at 1/3. Matching pale-striped candidates appear near the center, middle right, and lower right. A darker cyan-striped fish already occupies the holding bar. That held piece has a different pattern from the active light-blue portrait; compare both states before continuing."
+      ],
+      [
+        "The upper question mark is not a colored shell",
+        "A rainbow question mark sits near the upper center beside a colored shell and pale-striped fish. The question mark's design is hidden, whereas the fan-shaped shell is visible artwork also shown in the completing portrait. Keep them separate when comparing candidates. More colored shells remain exposed on the left and right, but their order is already completing."
+      ],
+      [
+        "The lower-left orb contains several different designs",
+        "A glowing, frosted group marked 2 sits at the bottom left and shows mixed blue and red-blue-white artwork through the effect. Do not rely on that blurred group for an exact identity. Two angular, white-faced pink fish sit at the bottom right, providing a clearer reference that differs from the round pink design and both striped-blue types."
+      ]
+    ]
+  },
+  "87": {
+    "videoId": "DaogL2hqZFc",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 87 notes: compare white-banded purple targets, exposed and chained pink puffers, striped-purple pairs, and the key above the chain.",
+    "sections": [
+      [
+        "The purple target has a white band and orange patch",
+        "At 0:10, the pink-and-white puffer order is at 0/3 and purple with a white band and orange patch is at 2/3. Exposed purple candidates remain near the center and bottom center. Purple fish with gold stripes form a pair left of center, but those stripes differ from the white-banded target. Compare the full body pattern before selecting."
+      ],
+      [
+        "Two pink puffers sit behind the bottom-left chain",
+        "A chain marked 1 encloses two pink-and-white puffers and green artwork at the bottom left. Exposed puffer candidates also remain lower on the right and at the bottom right. Inspect those free pieces separately from the chained pair. Their pale bellies distinguish them from the spotted red octopus-like pair closer to the center."
+      ],
+      [
+        "The key is directly above the chained group",
+        "A gold key sits just above the bottom-left chain near colored fan-shell artwork. Follow the key interaction rather than assuming proximity means the lock is already open. Several blue stripe patterns appear elsewhere, including yellow-striped blue and cyan with dark stripes. Neither should be substituted for the nearly filled purple-and-white order or the pale pink puffer."
+      ]
+    ]
+  },
+  "88": {
+    "videoId": "nTOnftd8U-0",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 88 guide: inspect exposed hermits and the chained candidate, locate the bottom-right key, and compare the green-and-cream order.",
+    "sections": [
+      [
+        "The hermit order has exposed shell-bearing candidates",
+        "The early frame shows green with a cream belly at 0/3 and shell-bearing hermit at 2/3. Free hermit candidates sit on the middle left and farther down the left side. Their tan curved shells and red bodies match the second portrait. The small blue-and-cream fish next to one hermit has a different face and outline."
+      ],
+      [
+        "A hermit also appears inside the bottom-center chain",
+        "The bottom-center chain marked 1 encloses hermit, blue, and seahorse artwork. The key is at the bottom right beside green-and-cream and other fish. Compare the exposed left-hand hermits before relying on the chained candidate. Follow the key interaction in the video to establish the chain's state rather than assuming that visible artwork is selectable."
+      ],
+      [
+        "The large central gold trio belongs to another design",
+        "Three flat gold fish share the central group with two tall pink fish. A purple-and-gold striped pair sits at the bottom left, while a dark round-blue pair occupies the right-hand group. These are distinct from the two displayed targets. An exposed green-and-cream candidate lower on the right is a more direct reference for the fresh green portrait."
+      ]
+    ]
+  },
+  "89": {
+    "videoId": "u5jtAicgiHY",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 89 notes: locate the seahorse trio, upper key and chain, bottom frost, and octopus pair while the green order completes.",
+    "sections": [
+      [
+        "The seahorse order is partly filled",
+        "At the checkpoint, green-and-cream is completing and the blue seahorse order shows 1/3. Three blue seahorses share the upper-right group with two flat gold fish. Their upright bodies, curled tails, and yellow bellies match the second portrait. Other seahorse candidates remain near the center, so compare accessibility rather than assuming that one cluster dictates the entire solution."
+      ],
+      [
+        "The upper chain still covers green artwork",
+        "A chain marked 1 sits at the upper left and contains green-and-cream pieces. The key is nearer the upper center beside seahorse and puffer artwork. The green order is completing at this moment, so wait for its replacement before collecting additional green pieces. Follow the video to determine what happens when the key is used."
+      ],
+      [
+        "The bottom-center frost and octopus pair are separate",
+        "A frosted group marked 2 at the bottom center contains hermit, dark blue, spotted octopus, and purple artwork. Two exposed spotted octopus-like pieces sit at the bottom right. Those red designs differ from the seahorse target. Treat the exposed trio higher on the right as a comparison point while using the recording to track changes in the marked group."
+      ]
+    ]
+  },
+  "90": {
+    "videoId": "lRWxex32PKw",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 90 guide: distinguish white-banded and striped purple fish, find a flat-gold candidate, and check pairs after octopus completion.",
+    "sections": [
+      [
+        "The octopus is complete while two other portraits remain",
+        "The spotted octopus-like order has a completion tick, purple with a white band and orange patch is at 1/3, and flat gold is at 0/3. Three matching purple candidates occupy the upper central group. Purple fish with gold stripes lower near the center are different. Match the white band and orange patch rather than the body color alone."
+      ],
+      [
+        "A purple pair remains at the bottom left",
+        "Two white-banded purple fish sit in the bottom-left group beside hermit artwork. More of that design appears on the right. Those positions are useful if your upper group no longer matches the checkpoint. A flat gold candidate is visible at the bottom right beside blue-striped and seahorse artwork, providing a reference for the second active portrait."
+      ],
+      [
+        "Colored shells and striped purple form other pairs",
+        "Two colored fan-shaped shells share the left-hand group around mid-height, and two gold-striped purple fish appear closer to the center. Neither pair matches the white-banded purple target. The blue-and-yellow faced fish on the lower right is separate from the plain flat-gold portrait as well. Check the replacement after the octopus completion before treating one of these pairs as an order."
+      ]
+    ]
+  },
+  "91": {
+    "videoId": "Da239-1GWKA",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 91 notes: compare green candidates, two distinct blue pairs, the marked bottom-left group, and the completing colored-shell order.",
+    "sections": [
+      [
+        "The green order needs one more matching piece",
+        "The colored fan-shell order shows 3/3 and green with a cream belly shows 2/3. Exposed green candidates remain on the middle left, lower left, middle right, and bottom right. Compare the cream belly and yellow fin edges with the nearly filled portrait. These candidates are more directly readable than the mixed artwork inside the lower-left glowing group."
+      ],
+      [
+        "Two blue designs form different pairs",
+        "Spiky, spotted blue pairs appear near the upper center and lower center, while smooth blue with a pale face forms a pair in the upper-right group. Their surface texture and face shapes differ. Neither matches the displayed green order. Count them separately if a blue portrait replaces the completed shell, rather than treating every round blue piece as interchangeable."
+      ],
+      [
+        "The bottom-left group is marked 1",
+        "A glowing, frosted outline marked 1 surrounds the bottom-left group, which includes purple-striped, colored-shell, seahorse, and pink artwork. Other colored shells form visible pairs on the left and bottom right. The shell portrait is already at 3/3, so wait for its replacement. This frame records the marked group's appearance, not a verified rule for releasing its contents."
+      ]
+    ]
+  },
+  "93": {
+    "videoId": "aCO76kiY7m8",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 93 guide: check the purple-striped order, lower-left frost, pink and orange-blue pairs, and tan and yellow-black landmarks.",
+    "sections": [
+      [
+        "The purple striped order is nearly complete",
+        "The gold-striped purple portrait shows 2/3 while the other jar is clearing. Compare the purple body and vertical gold lines with your remaining candidates. Tall pink fish form a pair near the upper center, and orange-faced fish with blue fins form another pair lower on the right. Neither pair matches the purple-striped target."
+      ],
+      [
+        "The lower-left frost contains different silhouettes",
+        "A frosted group marked 2 sits at the bottom left with colored-shell, seahorse, and smooth-blue artwork. The blue seahorse's long upright silhouette differs from the round smooth-blue fish beneath it. Keep those designs separate when a replacement portrait appears. Do not infer the contents or release rule beyond what is visible through the frosted outline."
+      ],
+      [
+        "The tan pair and yellow-black fish are useful landmarks",
+        "Two tan fish with red bands share the lower-left group above the frost. Yellow fish with a bold black marking appear at mid-height on the right, below the center, and at the bottom right. These positions help align your board with the recording. The tall plain-pink design also differs from the slender white-faced pink fish used in other levels."
+      ]
+    ]
+  },
+  "94": {
+    "videoId": "xaZnveuWqoI",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Fish Sort Puzzle Level 94 notes: locate striped-purple candidates, the bottom-left frost marked 5, central hermits, and distinct dark and spotted blue fish.",
+    "sections": [
+      [
+        "The purple-striped order remains at zero",
+        "At 0:10, gold-striped purple is at 0/3 and dark round blue shows 3/3. Matching purple-striped pieces appear toward the upper left, upper right, lower center, and bottom center. Their gold lines distinguish them from the plain dark-blue pair on the middle right. Compare these exposed locations with the fresh purple portrait before following the completion animation."
+      ],
+      [
+        "The bottom-left group is marked 5",
+        "A frosted group marked 5 surrounds the bottom-left cluster, with hermit, green-and-cream, white-faced pink, and spiky-blue artwork visible inside. Those are different designs from the active striped-purple target. The number describes the marked state seen here; it does not establish how the group unlocks or imply that five specific moves will release it."
+      ],
+      [
+        "The central pairs help separate similar colors",
+        "Two shell-bearing hermits share the middle group, while two green-and-cream fish sit farther down near the center. Smooth pale-faced blue fish and spiky spotted-blue fish also remain on the board. Both differ from the dark round-blue portrait reaching 3/3. Wait for its replacement before collecting one of these similar-colored but differently shaped pairs."
+      ]
+    ]
+  },
+  "95": {
+    "videoId": "7VKGLHjqAj4",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Fish Sort Puzzle Level 95 guide: compare tall pink pairs, the bottom-right key and left chain, plus octopus, seahorse, and yellow-black landmarks.",
+    "sections": [
+      [
+        "The tall pink order has two exposed pairs",
+        "The second portrait shows tall pink at 0/3 while the first jar is clearing. Two matching pink fish are lower on the left, and another pair occupies the bottom-right group. Their broad pink faces and tall fins differ from the slender, white-faced pink design seen in other levels. Compare both pairs before assigning any angular pink piece to this order."
+      ],
+      [
+        "The key is beside the bottom-right pink pair",
+        "The gold key sits next to the bottom-right pink fish, while a chain marked 1 covers the bottom-left group. That chained group includes smooth-blue, crab, and tan artwork. Follow the key interaction to determine the chain's state. The exposed pink pair can be compared directly without assuming any of the chained designs match the current target."
+      ],
+      [
+        "Octopus and seahorse clusters belong to other designs",
+        "Spotted octopus-like pairs occupy groups on the middle left and middle right, and two seahorses sit near the center. A yellow-and-black pair is lower on the right. These are useful landmarks, but none matches the tall pink portrait. An upper frosted outline is partly clipped by the bar; use the recording for a clearer view of that group."
+      ]
+    ]
+  },
+  "96": {
+    "videoId": "_piOE4MKJVo",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 96 notes: locate purple-striped and seahorse targets, distinguish blue designs, and inspect the obscured orb and lower flat fish pair.",
+    "sections": [
+      [
+        "Two fresh orders sit beside a completed shell",
+        "Gold-striped purple and blue seahorse both show 0/3, while the colored fan-shell order shows 3/3. Purple-striped candidates remain on the middle left, middle right, and bottom center. Seahorses are visible near the upper center, upper right, and bottom center. Compare those separate shapes with the two active portraits rather than following the shell completion toward another colored piece."
+      ],
+      [
+        "The lower-center white-and-black pair is another design",
+        "Two flat white-and-black fish share the lower-center group. A spotted octopus-like pair sits at the bottom left, while smooth blue and spiky spotted-blue pieces occur in other groups. These provide useful landmarks for matching the checkpoint, but none substitutes for purple stripes or an upright seahorse. Blue color alone does not identify a seahorse match."
+      ],
+      [
+        "The upper-left orb is strongly obscured",
+        "A large glowing outline under the bar on the upper left obscures much of its contents. Do not assign a hidden identity from that effect. Green spotted, whisker-like fish elsewhere differ from green-and-cream fish in earlier levels. Wait for the shell's replacement portrait and use the exposed purple and seahorse candidates to compare your board while the effect clears."
+      ]
+    ]
+  },
+  "97": {
+    "videoId": "r6e9F-uIKV4",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Fish Sort Puzzle Level 97 guide: compare orange-blue candidates, the chain and key, submarine and crab pairs, and the question mark on the left.",
+    "sections": [
+      [
+        "The orange-and-blue fin order remains at zero",
+        "At the early checkpoint, orange-faced fish with blue fins shows 0/3 and the tan, red-banded order shows 3/3. Orange-and-blue candidates appear toward the upper left, upper center, middle right, and lower left. Their fish faces and tall blue fins differ from the yellow submarine-shaped pair across the center, which has windows and a top structure."
+      ],
+      [
+        "The bottom-left chain contains target artwork",
+        "A chain marked 1 covers the bottom-left group, including orange-and-blue fin and tan artwork. The key is at the bottom center beside pink and striped-blue pieces. Compare exposed orange candidates before relying on the chained one, and follow the key interaction in the recording. The completing tan portrait should be checked again after its animation settles."
+      ],
+      [
+        "The question mark and lower pairs are separate checks",
+        "A rainbow question mark sits on the middle left beside smooth-blue and striped artwork. Its identity is not visible. Two crabs share the lower-left group, while two blue fish with yellow stripes sit lower near the center. Their claws and stripe patterns differ from the orange-and-blue target. Use these landmarks to match the checkpoint without counting the unknown mark as a fish."
+      ]
+    ]
+  }
+,
   "98": {
     "videoId": "kOs5ZiY1PtU",
     "checkedOn": "2026-10-02",
