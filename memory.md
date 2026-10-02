@@ -10,7 +10,7 @@
 - 10 个页面使用新正文替代原两段通用攻略，保留准确版本、来源和相邻关卡链接；独有 meta/首屏摘要同步进入首页及 Levels 卡片。sitemap 只更新首页、Levels hub 与有新笔记的关卡日期。
 - 构建会拒绝笔记与关卡视频 ID 不一致。工作规则已写入 agents.md：今后新增可索引关卡必须有经核对的关卡独有文字，现有其余 137 关待分批补充。
 - 验证：`npm run build`、`npm run check` 通过，173 个 HTML / 147 个唯一映射；10 页生成后检查有独有正文和正确时间链接；meta description 为 146–157 字符。浏览器核对 390px / 1440px：首页说明在游戏前且手机首屏可见，无横向溢出；170 关手机正文和时间链接显示正常。
-- 发布沿用现有 GitHub main → Vercel 自动部署，生产域名 `https://fishsortpuzzle.app/`。
+- 发布沿用现有 GitHub main → Vercel 自动部署，生产域名 `https://fishsortpuzzle.app/`。内容提交 `7493197` 已推送；正式首页、Levels hub、161–170 十个关卡与 sitemap 共 13 个 URL 均返回 HTTP 200，原始响应与本地构建逐字一致。浏览器再次确认线上版本提示与 170 关新正文，截图保存在 `screenshots/version-note-live.jpg`。
 
 ## 2026-10-02 — 用户提供 SEO 诊断报告复核
 
