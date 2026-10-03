@@ -1,7 +1,639 @@
-// Visually reviewed in the public Daisy Gaming videos on 2026-10-02.
+// Visually reviewed in the public Daisy Gaming videos on 2026-10-02 and 2026-10-03.
 // These are early-board checkpoints, not a frame-by-frame transcript or tested tap sequence.
 // Color/shape labels describe the visible artwork; they are not official species names.
 export const levelNotes = {
+
+  "34": {
+    "videoId": "hxgWD3MNdDU",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 126,
+    "description": "Compare Level 34's gold-striped target, completed brown order, holding-bar fish, and exposed pairs with reviewed notes from the 0:10 walkthrough frame.",
+    "sections": [
+      [
+        "Which striped fish is still needed?",
+        "At 0:10, the brown fish with white stripes has a completed order, while the small gold fish with orange-and-cream horizontal bands shows 2/3. The distinction matters here: yellow coloring alone is not enough to identify the remaining target. Compare the horizontal bands with the order portrait before choosing a candidate."
+      ],
+      [
+        "Where are the exposed gold candidates?",
+        "Gold candidates are visible around the upper right, the central green-fish group, and the lower center. Look across those separate groups rather than assuming the nearest yellow piece belongs to the active order. The lower-center brown-striped pair belongs to the design whose order has already completed at this checkpoint."
+      ],
+      [
+        "What is already in the holding bar?",
+        "A dark blue fish with white stripes occupies the holding bar. Matching striped blue pieces are visible on the right, while spotted blue puffers form a separate pair toward the lower left. The angular pink-and-white pair at the lower right is another distinct design; mixing these appearances would make the next comparison harder."
+      ]
+    ]
+  },
+  "35": {
+    "videoId": "KgvEbBDxDT8",
+    "checkedOn": "2026-10-02",
+    "seconds": 10,
+    "counterGoal": 144,
+    "description": "Check Level 35's pink puffer candidates, completed octopus order, bottom-center chain, and bottom-right key against the reviewed ten-second video frame.",
+    "sections": [
+      [
+        "Which pink target remains unfinished?",
+        "The round pink-and-cream puffer order shows 1/3 at the ten-second checkpoint. The red spotted octopus order is already marked complete. Pink candidates appear near the upper left, upper center, and middle of the board, so compare the round body and pale underside rather than grouping every pink creature together."
+      ],
+      [
+        "How are the lock and key positioned?",
+        "A chained group marked 1 sits at the bottom center. Its visible contents include a black-and-white fish, a blue fish with a yellow cheek, and a spotted blue puffer. The key appears in the bottom-right group beside other exposed pieces. This layout identifies where to inspect; it does not establish the unlocking rule."
+      ],
+      [
+        "Which pairs can be confused?",
+        "The upper-right octopus pair is different from the active pink puffer target. There is also a brown-and-white striped pair at the bottom left. Among the blue pieces, the yellow-cheek fish has a different silhouette from the spotted puffer inside the chained group. Keep those designs separate when comparing a possible set."
+      ]
+    ]
+  },
+  "36": {
+    "videoId": "Z7WBd7_Alyc",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Find Level 36's green yellow-faced candidates and distinguish its three blue designs using reviewed target and board notes from the ten-second checkpoint.",
+    "sections": [
+      [
+        "What do the three order portraits show?",
+        "At 0:10, the green fish with a yellow face shows 0/3, the yellow spotted puffer order is completing, and the pink-and-cream puffer shows 0/3. Use all three portraits to orient yourself. The green target has a pale fin outline and yellow face, rather than the round blue-green puffer appearance elsewhere on the board."
+      ],
+      [
+        "Where can the green target be compared?",
+        "Two green yellow-faced candidates share the middle-right group, with another exposed near the lower left. These are useful reference locations for checking a possible matching set. The lower-left group also contains other colors, so inspect the target's face and fins before treating an adjacent piece as part of the same design."
+      ],
+      [
+        "How do the blue groups differ?",
+        "A smooth pale-blue pair is visible around the center. Spotted blue puffers appear in the left-middle and lower-center areas, while a blue-green puffer pair sits near the bottom center. These are separate visual designs. The black-and-white round pair on the lower left provides another clear landmark when matching your screen to the video."
+      ]
+    ]
+  },
+  "37": {
+    "videoId": "MxICyONa2eE",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Read Level 37's red-blue-white target, brown order, chain marked 2, overlapping key, and striped blue pairs at the reviewed 0:10 video checkpoint.",
+    "sections": [
+      [
+        "Which orders are active at ten seconds?",
+        "The red, blue, and white fish order shows 1/3, while the brown-and-white striped order displays 3/3. Red-blue-white candidates are scattered through the left middle and several right-side groups. Compare their red fins and white face with the portrait; the red fish with pale vertical stripes is a different design."
+      ],
+      [
+        "What is visible in the chained group?",
+        "The bottom-left group carries a chain marked 2, and a key graphic overlaps the lock area in this frame. Orange-and-cream fish, a light-blue dolphin-shaped piece, and a spotted blue puffer are visible inside. The overlapping key is an observed animation state, not proof that the group is already open or needs two moves."
+      ],
+      [
+        "Which exposed pairs help orient the board?",
+        "Dark blue fish with white stripes form pairs in the middle-right and lower-right areas. A spotted blue puffer pair appears nearer the center, and green spotted fish with pale bellies sit to the left of it. Brown-striped pieces remain visible in the left-middle group even though their displayed order has reached 3/3."
+      ]
+    ]
+  },
+  "38": {
+    "videoId": "O-tM5k38keE",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Locate Level 38's purple-yellow candidates and distinguish pink and blue designs with reviewed notes on the filled puffer order and ten-second board.",
+    "sections": [
+      [
+        "Which order has just filled?",
+        "The pink-and-cream puffer order shows 3/3 at this checkpoint, while the purple-and-yellow round fish shows 0/3. The purple target has a broad yellow rear half. Do not substitute the smaller pink fish with a cream belly visible near the bottom: its body and coloring differ from both of these order portraits."
+      ],
+      [
+        "Where are the purple-and-yellow pieces?",
+        "Exposed purple-and-yellow candidates appear in the lower-center and bottom-center groups. Those two locations are separate, so check the surrounding pieces before planning a matching set. This checkpoint does not establish a complete accessible triple; use the video to follow what becomes available after the currently filled puffer order clears."
+      ],
+      [
+        "Which groups are useful landmarks?",
+        "The upper-center-right group contains a pair of white fish with dark vertical stripes. Spotted blue puffers are distributed through the left middle, lower center, bottom left, and bottom right. Distinguish these spotted round fish from smoother pale-blue pieces, and use the striped pair as a landmark when your board looks crowded."
+      ]
+    ]
+  },
+  "39": {
+    "videoId": "iya9SmnHKGY",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Compare Level 39's blue target, bottom-center chain, bottom-right key, and hidden question marker with reviewed notes from the 0:10 walkthrough frame.",
+    "sections": [
+      [
+        "Which blue fish does the order require?",
+        "The blue fish with a pale belly and curved stripes shows 1/3 at ten seconds. A black-and-white order is in its completion animation. One matching blue candidate is visible near the upper left and another in the bottom-right key group. The spotted blue puffers elsewhere are not the same design as this target."
+      ],
+      [
+        "Where are the chain and key?",
+        "A chain marked 1 crosses the bottom-center group, while the key is at the bottom right. Red vertically striped and black-and-white pieces are visible within the chained group. Treat these as separate availability checks from the exposed blue target beside the key; the lock number alone does not tell you the required action."
+      ],
+      [
+        "What does the question marker leave uncertain?",
+        "A rainbow question marker occupies the lower-center group beside a red-blue-white fish and a purple-and-yellow candidate. Other purple-and-yellow pieces appear toward the center, upper right, and bottom left. Do not assign an identity to the question marker when counting a possible match: the checkpoint only confirms its position."
+      ]
+    ]
+  },
+  "40": {
+    "videoId": "m0BGTcxkuHE",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Distinguish Level 40's three yellow orders, exposed pairs, and frosty group marked 0 using reviewed observations from the ten-second walkthrough frame.",
+    "sections": [
+      [
+        "How do the yellow orders differ?",
+        "The small plain yellow fish shows 0/3, the larger yellow-and-cream fish with a red fin shows 3/3, and the yellow fish with purple stripes shows 2/3. All three share yellow coloring but have different bodies. Check size, belly shape, and stripes before choosing the piece that completes an unfinished order."
+      ],
+      [
+        "Where are exposed pairs on this board?",
+        "Two small plain yellow fish share the lower-right group, with another near the bottom right. A brown-and-white striped pair is visible around the center. Blue fish with white stripes occupy central and lower groups, whereas the white fish with dark vertical stripes appear farther up; those striped designs should not be combined."
+      ],
+      [
+        "What can be read from the frosty group?",
+        "The frosty bottom-left group displays 0 at this checkpoint. Its surface and surrounding effects make it a separate landmark from the exposed yellow candidates. Record the visible number when comparing your screen, but do not read it as a verified move count or assume a particular unlocking rule from this single frame."
+      ]
+    ]
+  },
+  "41": {
+    "videoId": "by8vQP5wo8k",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Separate Level 41's blue silhouettes and compare exposed pairs with the frosty group marked 1 using reviewed notes from the ten-second video checkpoint.",
+    "sections": [
+      [
+        "Why do the blue silhouettes matter?",
+        "A spotted blue puffer order is partially filled while the green-and-cream puffer order is completing at ten seconds. The board also contains pale-bellied striped blue fish, dolphin-shaped pieces, and dark blue fish with white bands. These appearances differ, so identify the round spotted target before counting any of the other blue pieces."
+      ],
+      [
+        "Which blue pairs are exposed?",
+        "A pale-bellied blue pair appears in the upper-left area, with another pair near the lower center. Dolphin-shaped pieces form a pair around the middle right. The dark blue and white-striped pair is lower on the right. These locations help compare the video's board without assuming that every blue pair can fill the same order."
+      ],
+      [
+        "What is inside the numbered frosty area?",
+        "The bottom-left frosty group shows 1 and contains a black-and-white pair alongside a dark striped blue fish. A red-blue-white pair is exposed near the lower center, and a green-and-cream puffer sits at the bottom right. Keep the covered group separate from exposed pieces when assessing what is available at this checkpoint."
+      ]
+    ]
+  },
+  "42": {
+    "videoId": "L43JeCzmkP0",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Check Level 42's striped orange, green, and gold targets, candidate locations, and exposed pairs with reviewed notes from the 0:10 walkthrough frame.",
+    "sections": [
+      [
+        "What is filling in the order row?",
+        "The orange fish with purple stripes is filling its order, while the green yellow-faced fish shows 1/3 and the small gold orange-and-cream fish shows 2/3. The active portraits provide a better reference than color alone. Dark blue fish with white stripes have a similar banded pattern but a different body and background color."
+      ],
+      [
+        "Where do the green and gold targets appear?",
+        "Green yellow-faced candidates are exposed around the center, middle right, lower center, and bottom-left group. A gold candidate is also visible at the bottom left. Compare those two portraits carefully in the shared lower group; nearby pale fish with vertical gold bands are a separate design from the small horizontal orange-and-cream target."
+      ],
+      [
+        "Which pairs provide useful landmarks?",
+        "A pink-and-cream pair appears around the middle right, and an orange-purple striped pair sits near the bottom center. Spotted blue puffers occupy the central group and lower-right areas. Use these exposed pairs to orient the board, then recheck the current order row before planning around a pair whose portrait is no longer active."
+      ]
+    ]
+  },
+  "43": {
+    "videoId": "Andns07aFP0",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Find Level 43's gold, blue puffer, and red-striped candidates and locate its hidden marker with reviewed notes from the ten-second walkthrough frame.",
+    "sections": [
+      [
+        "What are the three current targets?",
+        "The small gold orange-and-cream order is filling at 1/3, the spotted blue puffer shows 1/3, and the red fish with pale vertical stripes shows 0/3. A group of three gold candidates is visible on the middle right. Their horizontal coloring differs from the nearby yellow fish with purple vertical bands."
+      ],
+      [
+        "Where are the blue and red candidates?",
+        "A spotted blue puffer pair shares the lower-right group. Red vertically striped fish appear near the center-left, lower-left, and bottom-left areas. Compare those separate locations before selecting a red target, especially where pale gold-banded fish sit beside it. This frame identifies candidate positions rather than a tested sequence of taps."
+      ],
+      [
+        "What remains hidden near the upper left?",
+        "A rainbow question marker is visible in the upper-left group beside orange-purple striped pieces. Another orange-purple pair sits near the bottom center, while yellow-purple striped pieces occupy the middle right. Keep the hidden marker uncounted and distinguish the orange and yellow bodies when following which striped design the walkthrough selects."
+      ]
+    ]
+  },
+  "44": {
+    "videoId": "U4smrS-85EU",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Compare Level 44's puffer and striped targets, completed orange order, lower numbered group, and question marker at the reviewed ten-second checkpoint.",
+    "sections": [
+      [
+        "Which orange fish has already completed?",
+        "The orange fish with a blue fin has a completed order. The yellow spotted puffer shows 1/3, and the orange-purple striped fish shows 0/3. Larger yellow-and-cream fish with red fins are scattered through the center and right; despite similar coloring, they differ from the rounded yellow spotted target shown in the first portrait."
+      ],
+      [
+        "Where are the striped pairs?",
+        "An orange-purple striped pair is exposed in the lower-right group, and two brown-and-white striped fish share the bottom-right group. These are different sets, with another brown-striped candidate nearer the middle left. Compare the orange pair with the active third portrait before getting distracted by the more prominent brown pair below it."
+      ],
+      [
+        "What should be checked in the lower groups?",
+        "The lower-center circular group displays 0, with yellow red-fin fish and a spotted blue puffer visible around it. A rainbow question marker occupies the bottom-left group beside yellow spotted and striped pieces. The marker's contents remain unknown; neither the 0 nor the question symbol establishes a verified removal or unlocking step."
+      ]
+    ]
+  },
+  "46": {
+    "videoId": "N66SdOvFIEU",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Locate Level 46's red-striped target and distinguish turtles and rounded pairs with reviewed board notes, including the obscured order at ten seconds.",
+    "sections": [
+      [
+        "Which visible red target is still needed?",
+        "At 0:10, the red fish with pale vertical stripes shows 0/3. The second order is finishing beneath bright effects, so its portrait cannot be read reliably in this frame. A red-striped candidate is exposed in the bottom-right group beside yellow-purple striped and brown-and-white striped pieces, making that group a useful comparison point."
+      ],
+      [
+        "How are the turtle groups arranged?",
+        "Turtle-shaped pieces are spread densely through the central and right-hand areas, including paired pieces in lower groups. Their shells and legs distinguish them from the green round fish nearby. Use the turtle groups as board landmarks, but check the actual order row before treating their abundance as a reason to select them."
+      ],
+      [
+        "Which rounded pairs are separate designs?",
+        "Pink-and-cream fish form pairs toward the upper right and bottom left. Spotted blue puffers form a pair near the upper left, and blue-green puffers pair around the middle right. The bottom-right yellow-purple pair is another design altogether. These exposed pairs help orient the board without assuming that all round fish fill the same portrait."
+      ]
+    ]
+  },
+  "47": {
+    "videoId": "gzz4ZppIwCQ",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 144,
+    "description": "Check Level 47's two puffer targets, exposed seahorse and octopus groups, and distinct blue designs against the reviewed ten-second walkthrough frame.",
+    "sections": [
+      [
+        "Which puffer orders are partly filled?",
+        "The red-and-cream puffer shows 2/3, and the green-blue puffer with a pale underside shows 1/3. Red puffers are visible as a pair near the upper left and as singles in central and bottom-right groups. A green-blue candidate appears in the upper-left area; it differs from the green yellow-faced fish beside other pieces."
+      ],
+      [
+        "What pairs are visible lower down?",
+        "A pair of seahorse-shaped pieces shares the lower-right group, and yellow spotted puffers pair around the center left. Red spotted octopuses appear in an upper-central group and another on the lower left. The bottom-left bubble is empty at this checkpoint, providing a clear landmark for comparing the video's layout with your screen."
+      ],
+      [
+        "How do the two blue bodies differ?",
+        "The upper-central spotted blue puffer has a round body and spotted back. Blue fish with yellow cheeks and darker fins appear in lower groups, including beside the seahorse pair. They are not interchangeable visual designs. Match the green-blue puffer portrait separately from both blue types when checking what can finish the partially filled orders."
+      ]
+    ]
+  },
+  "48": {
+    "videoId": "qxFMvHHkTlI",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Locate Level 48's striped targets, bottom-left chain, bottom-right key, and unknown marker with reviewed board notes from the ten-second checkpoint.",
+    "sections": [
+      [
+        "What do the order portraits show?",
+        "The green yellow-faced fish and dark blue fish with white stripes both show 0/3. The white fish with dark vertical stripes shows 3/3. Dark striped blue candidates remain exposed in upper groups and as a pair at the bottom right. Their dark blue background makes them distinct from the completed white-and-black striped design."
+      ],
+      [
+        "Where are the chain and its key?",
+        "A chain marked 1 covers the bottom-left group, with a starfish, spotted blue puffer, red-striped fish, and white-and-black striped fish visible inside. The key appears in the bottom-right group beside the dark blue striped pair and a green candidate. Inspect these two groups separately rather than counting chained contents as immediately available."
+      ],
+      [
+        "Which other pairs and unknowns are visible?",
+        "Spotted blue puffers pair on the middle left, orange rounded fish pair in the upper-center group, and starfish pair farther down on the right. A rainbow question marker sits in the lower-left exposed group beside a red-blue-white fish. Its identity cannot be used to complete a set until the video reveals more."
+      ]
+    ]
+  },
+  "49": {
+    "videoId": "yTLeP22hv28",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Compare Level 49's yellow and striped candidates and locate two obscuring crystals using reviewed observations from the 0:10 walkthrough checkpoint.",
+    "sections": [
+      [
+        "Which yellow designs must be separated?",
+        "The pointed yellow fish shows 0/3, the yellow-purple striped fish is filling at 1/3, and the white-and-black vertically striped fish shows 0/3. Two pointed yellow candidates share the upper-center group. A yellow-purple pair is exposed on the middle left; these striped fish differ from the gold orange-and-cream pieces clustered on the right."
+      ],
+      [
+        "What can be compared around the lower right?",
+        "Three orange-purple striped fish share a lower-right group, while white-and-black striped candidates appear below and near the bottom center. Purple fish with orange fins also appear on the right, but their darker round bodies differ from the purple-and-yellow fish at the lower left. Match the whole design, not just the purple coloring."
+      ],
+      [
+        "What do the two crystals conceal?",
+        "Large crystalline shapes cover an upper-left group and a lower-central group. Their contents are obscured at the ten-second checkpoint, so this guide does not count hidden pieces toward an exposed triple. Use the crystals as layout landmarks and continue the walkthrough to see what becomes visible, rather than assuming a fish identity behind them."
+      ]
+    ]
+  },
+  "50": {
+    "videoId": "LRr8G2u2zng",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Find Level 50's pointed yellow and green targets, exposed pairs, and two hidden question markers with reviewed notes from the ten-second video frame.",
+    "sections": [
+      [
+        "Which three portraits orient this checkpoint?",
+        "The pointed yellow fish shows 0/3, the red-blue-white fish shows 3/3, and the green yellow-faced fish shows 1/3. Green candidates are exposed near the upper left, upper right, bottom center, and bottom right. Compare their rounded green bodies and yellow faces with the portrait before choosing among the neighboring yellow pieces."
+      ],
+      [
+        "Where are the yellow candidates and pairs?",
+        "Pointed yellow pieces appear around the center, lower right, and bottom center. A purple-and-yellow pair occupies the upper-right group, and small gold orange-and-cream fish pair at the bottom left. None of those pairs substitutes for the pointed yellow target. Their positions help distinguish a useful candidate from a similarly colored neighboring piece."
+      ],
+      [
+        "What do the two question markers hide?",
+        "Rainbow question markers appear in the upper-left group and the lower-right group beside purple coral-shaped pieces. Their identities are unconfirmed in this frame. Also distinguish the dark blue white-striped fish from the spotted blue puffers spread through the lower groups; a hidden marker cannot be assumed to supply a missing matching blue piece."
+      ]
+    ]
+  },
+  "51": {
+    "videoId": "zYGGLlkSm8Q",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Check Level 51's unfinished red-blue-white order, green holding-bar piece, lower pairs, and frosty group using reviewed notes from the 0:10 checkpoint.",
+    "sections": [
+      [
+        "What is complete, and what remains unfinished?",
+        "The purple coral-shaped order is marked complete, while the red-blue-white fish shows 2/3. A green-and-cream round fish already occupies the holding bar. Red-blue-white candidates remain exposed in upper, central-left, and lower-left groups. Compare their white faces and red fins with the portrait rather than adding another unrelated green piece to the bar."
+      ],
+      [
+        "Which lower pairs are easy to recognize?",
+        "A smooth blue pair with pale bellies sits on the lower left, while black-and-white round fish pair on the lower right. Two crabs occupy the bottom-right group. These pairs have clearly different silhouettes, and the green-and-cream fish near them matches the holding-bar appearance rather than the currently unfinished red-blue-white order."
+      ],
+      [
+        "What is covered at the bottom center?",
+        "The frosty bottom-center group shows 2, with purple coral, a brown-striped fish, and a crab visible inside. Purple coral also remains exposed in several other groups despite its completed order. Keep the frosty contents separate when assessing availability; this checkpoint does not verify how the displayed 2 changes or which action releases the group."
+      ]
+    ]
+  },
+  "52": {
+    "videoId": "7Q3C4cWvGkk",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Locate Level 52's green puffer cluster, crab and striped pairs, and two frosty groups marked 2 at the reviewed ten-second walkthrough checkpoint.",
+    "sections": [
+      [
+        "Which puffer order is being filled?",
+        "The red-and-cream puffer shows 3/3 during its filling animation, while the green-and-cream puffer shows 0/3. Green candidates appear around the center and lower left, with three clustered in the lower-right group. Their smooth green backs and pale bellies distinguish them from the purple-and-yellow round fish seen nearer the center and right."
+      ],
+      [
+        "Which exposed pairs help locate the groups?",
+        "Two crabs share the upper-right group, and a pair of pale fish with vertical gold bands appears at the upper left. Black-and-white round fish pair in the lower-right cluster beside the green candidates. These are useful landmarks, especially while completion effects cross the center of the frame and partly obscure nearby pieces."
+      ],
+      [
+        "How should the two frosty groups be read?",
+        "Two small frosty groups at the bottom each show 2. Red-striped and red-puffer shapes are visible through their surfaces, but the frame does not establish a removal sequence. Purple coral-shaped pieces appear in the lower center and must be distinguished from the purple-and-yellow fish before counting any potential matching set."
+      ]
+    ]
+  },
+  "53": {
+    "videoId": "008wHO7k8Nk",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Compare Level 53's red-striped target, crab candidates, held fish, frost, chain, and key with reviewed board notes from the ten-second video frame.",
+    "sections": [
+      [
+        "Which target is closest to filling?",
+        "The red fish with pale vertical stripes shows 2/3, and the crab shows 1/3. An orange-purple striped fish occupies the holding bar. A red-striped pair is exposed in the center, while crab candidates appear in upper-left, upper-right, middle-right, and lower-left groups. Check the target portraits before confusing the held striped orange fish with the red target."
+      ],
+      [
+        "Where is the key relative to the chain?",
+        "The bottom-center group has a chain marked 1 and contains red-striped, white-and-black striped, green-and-cream, and orange-striped pieces. The key sits in the bottom-right group beside a crab, green-and-cream fish, and smooth blue fish. These locations help follow the walkthrough, without assuming that selecting any nearby crab automatically opens the chain."
+      ],
+      [
+        "What else is covered or already paired?",
+        "The bottom-left frosty group shows 2 and includes red-striped pieces under its surface. A smooth blue pair is exposed in the upper-right area, and a black-and-white round pair sits toward the upper left. Compare exposed and covered candidates separately, particularly if you are looking for the third red-striped fish to fill the 2/3 order."
+      ]
+    ]
+  },
+  "55": {
+    "videoId": "68-Vrzng7m8",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Find Level 55's green puffer pairs and distinguish orange designs, striped pairs, and the hidden lower marker at the reviewed ten-second checkpoint.",
+    "sections": [
+      [
+        "Where are the green-and-cream targets?",
+        "The green-and-cream order shows 1/3 at ten seconds, while the other order is finishing beneath bright effects. Green-and-cream pairs are exposed around the lower center and bottom right. Use the smooth green back and pale belly to identify them; the brighter green fish with orange fins in upper groups has a different appearance."
+      ],
+      [
+        "Which orange and striped pairs differ?",
+        "Brown-and-white striped fish pair on the middle left. Orange-and-cream fish with prominent red fins pair in central and lower-left groups. Smaller orange fish with pale bands appear farther up and should not be combined with those larger red-fin pieces. A red-blue-white pair on the middle right is another distinct landmark."
+      ],
+      [
+        "What is uncertain on the lower right?",
+        "A rainbow question marker appears in the lower-right group beside a blue striped fish. Its contents are not visible, so it is not counted as another green target. Purple coral-shaped pieces occupy upper and central groups, and a black-and-white pair sits at the bottom left; use those features to check the board's orientation."
+      ]
+    ]
+  },
+  "56": {
+    "videoId": "bHxwriwC2co",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Distinguish Level 56's two purple targets and locate the chain, key, and frosty group marked 4 using reviewed notes from the ten-second video frame.",
+    "sections": [
+      [
+        "Which two purple appearances are active?",
+        "The purple coral-shaped order shows 1/3, while the rounded purple fish with a scaled body and pink fins shows 2/3. A coral pair is exposed on the middle right. Scaled purple candidates appear in the upper-left, central, and middle-right areas. Their fins and individual fish shape distinguish them from the clustered coral design."
+      ],
+      [
+        "Where do the chain and frost appear?",
+        "A chain marked 1 covers the bottom-left group, with a scaled purple candidate visible inside. The lower-center-right frosty group displays 4 and contains white-and-black striped fish, a green-and-cream fish, and a purple-and-yellow piece. Treat the two covered groups separately; neither number is a verified instruction for a specific number of taps."
+      ],
+      [
+        "What is beside the key?",
+        "The key sits in the bottom-right group with black-and-white round, white-and-black striped, and blue-striped pieces. A green-and-cream triple is visible near the upper center. When looking for a purple match, avoid merging the black-and-white round fish with the vertically striped design: both are near the key but have different silhouettes."
+      ]
+    ]
+  },
+  "57": {
+    "videoId": "wHzSlUsSdpc",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Locate Level 57's broad blue-yellow target, covered candidate, and lower groups using reviewed notes on the completed order and ten-second checkpoint.",
+    "sections": [
+      [
+        "Which blue-and-yellow fish is required?",
+        "A black-and-white round order is marked complete, while the blue fish with broad yellow bands shows 1/3. Matching blue-and-yellow pieces appear on the middle left, upper center, lower center, and bottom right during an animation. Their tall bodies and broad yellow bands distinguish them from smaller blue fish with narrow pale stripes."
+      ],
+      [
+        "What is inside the frosty bottom-left group?",
+        "The bottom-left frosty group shows 2 and includes a blue-and-yellow candidate, a scaled purple fish, and an orange-and-cream piece. Keep that covered blue target separate from exposed candidates elsewhere. A pair of black-and-white round fish is visible at the bottom right, but its matching order has already completed at this checkpoint."
+      ],
+      [
+        "Which lower groups are useful landmarks?",
+        "Three pointed yellow fish share the bottom-center group alongside an orange pair. Green-and-cream fish pair near the upper left. Purple-and-yellow round fish and scaled purple fish with pink fins occur in separate groups, so compare their body texture and fins rather than treating purple coloring as a single matching design."
+      ]
+    ]
+  },
+  "58": {
+    "videoId": "KYeKmG-Jbv0",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Separate Level 58's two blue targets and locate brown-striped candidates, the chain, key, and hidden marker at the reviewed ten-second checkpoint.",
+    "sections": [
+      [
+        "Why are the two blue portraits different?",
+        "The brown-and-white striped order shows 0/3, the smooth blue fish with a cream belly shows 0/3, and the smiling blue fish with vertical bands shows 2/3. Smooth blue candidates are spread through upper and bottom groups. Identify the broad smile and bands before choosing a fish for the nearly filled third order."
+      ],
+      [
+        "Where are the brown target and key?",
+        "Brown-striped candidates appear at the upper right, center, lower right, and bottom left. Another brown-striped piece shares the lower-center group with the key. The chain marked 1 is farther left, crossing a group containing a crab and orange pieces. This arrangement identifies the relevant locations without establishing which piece must be selected first."
+      ],
+      [
+        "Which unknown and green pair are visible?",
+        "A rainbow question marker occupies the bottom-left group beside a smooth blue and brown-striped fish. Its identity remains hidden. A bright green round pair is exposed at the upper right, distinct from the turtle-shaped piece nearer the center. Keep these visual designs separate when comparing the two blue targets with the crowded lower board."
+      ]
+    ]
+  },
+  "59": {
+    "videoId": "UxzQV_Dx_uk",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Compare Level 59's round blue and dolphin targets, holding-bar fish, frosty group, and hidden marker with reviewed notes from the 0:10 video frame.",
+    "sections": [
+      [
+        "Which blue fish does each order show?",
+        "The round blue fish with a pale dorsal fin shows 0/3, while the dolphin-shaped blue piece shows 1/3. An orange-and-cream fish with a red fin occupies the holding bar. Rounded blue pairs appear in the upper-left and middle-right groups; their compact bodies differ from the dolphins' noses, fins, and curved silhouettes."
+      ],
+      [
+        "Where are the exposed dolphins?",
+        "Dolphin-shaped pieces are visible near the upper left, upper center, middle, right side, and bottom right. A blue-and-yellow broad-striped pair occupies the lower-left area, providing a useful landmark but not a substitute for either blue order. Brown-and-white pairs appear in lower-center and bottom-right groups, separate from the current targets."
+      ],
+      [
+        "What changes the lower-board comparison?",
+        "A frosty group marked 1 sits on the lower right and contains a dolphin, a brown-striped pair, and an orange-red fish. A rainbow question marker appears at the bottom left beside a round blue candidate. Do not count covered or unknown contents as exposed matches; use the visible dorsal fin to identify the blue target outside them."
+      ]
+    ]
+  },
+  "60": {
+    "videoId": "dkCH7fXnghg",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Locate Level 60's teal, yellow-striped, and navy targets and distinguish blue and purple designs with reviewed notes from the ten-second video frame.",
+    "sections": [
+      [
+        "Which three designs are currently requested?",
+        "The teal fish with dark spots and a green belly shows 0/3, the yellow-purple striped fish shows 1/3, and the plain dark navy fish shows 0/3. A teal pair is exposed in the lower-center-right group, with another teal candidate at the bottom left. These spotted greenish fish differ from the brighter green round pieces elsewhere."
+      ],
+      [
+        "Where are the navy and yellow candidates?",
+        "Dark navy fish appear near the upper right, center, lower right, bottom left, and bottom right. A yellow-purple striped pair sits on the middle left. When checking the navy portrait, separate its nearly uniform dark body from the rounded blue fish with pale fins and the narrower blue fish with bright vertical bands."
+      ],
+      [
+        "Which purple and orange shapes differ?",
+        "Three scaled purple fish with pink fins share an upper-central group, while an orange-red pair occupies the upper right. Dark purple fish with orange fins and lighter purple-and-yellow round fish appear in central groups. Compare the fins, texture, and rear-body color before adding a purple piece to any matching set."
+      ]
+    ]
+  },
+  "61": {
+    "videoId": "jWCPR6RC5tE",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Check Level 61's filled purple-yellow order, darker held fish, frosty group marked 4, and hidden marker at the reviewed ten-second walkthrough frame.",
+    "sections": [
+      [
+        "Which purple fish is filling the order?",
+        "The purple-and-yellow round fish shows 3/3 during its filling animation; the other completed order is obscured by effects. A darker purple fish with orange fins occupies the holding bar and matches a pair near the upper left. Those darker candidates are a different design from the lighter purple-and-yellow pair on the upper right."
+      ],
+      [
+        "What is covered in the lower-left area?",
+        "A frosty group near the lower left shows 4. Pointed yellow fish, a blue-and-yellow broad-striped fish, and a rounded blue fish with a pale fin are visible through it. These covered shapes should be tracked separately from exposed pieces. The number is a checkpoint observation, not a tested rule for how to release them."
+      ],
+      [
+        "Where are the question marker and blue pair?",
+        "A rainbow question marker sits around the middle right beside a narrow blue-striped fish. Two more narrow blue-striped pieces share the bottom-right group. Teal spotted fish are exposed in central and lower groups. Compare the blue pair with the holding-bar portrait before acting; the purple piece already in the bar has a different matching design."
+      ]
+    ]
+  },
+  "62": {
+    "videoId": "s4H4azO0B5w",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Distinguish Level 62's orange designs and striped landmarks and inspect the frosty group marked 2 with reviewed notes from the ten-second checkpoint.",
+    "sections": [
+      [
+        "Which orange fish is filling the order?",
+        "At ten seconds, a blue-and-yellow broad-striped order is in its completion animation, and the orange fish with a blue fin shows 3/3 while filling. Smaller orange fish with pale bands form a pair at the upper right. Their narrow banded bodies differ from the rounder blue-fin orange portrait, even though both designs are orange."
+      ],
+      [
+        "Which striped landmarks are exposed?",
+        "A narrow blue-striped pair appears on the lower left, while brown-and-white striped fish are visible toward the upper left and middle right. Blue-and-yellow broad-striped pieces remain near the upper center and bottom center. Use band width and body shape to separate these designs rather than grouping all striped fish together."
+      ],
+      [
+        "What is beneath the frosty surface?",
+        "The bottom-left frosty group shows 2 and contains a scaled purple pair, a blue-and-yellow fish, and a dark purple fish with orange fins. The completion beam crosses the center of this frame, so details behind it are not reliable. Compare the exposed lower groups first and continue playback to inspect what the effects conceal."
+      ]
+    ]
+  },
+  "63": {
+    "videoId": "AIMtQa8Dh-c",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Compare Level 63's dolphin target and paired landmarks, and locate its frost, chain, and key using reviewed notes from the ten-second video frame.",
+    "sections": [
+      [
+        "Which blue target is still unfinished?",
+        "The dolphin-shaped order shows 1/3, while a second order is completing beneath bright effects. Several other blue designs crowd this board: narrow striped fish, plain navy fish, and blue fish with orange fins. Identify the dolphin's projecting nose and fins before treating a nearby blue candidate as part of its current order."
+      ],
+      [
+        "Where are the frost, chain, and key?",
+        "A frosty group marked 3 sits on the middle left, with red-blue-white pieces visible through its surface and other contents obscured. A chain marked 1 crosses the bottom-left group, including blue orange-fin pieces and a navy fish. The key appears at the bottom center beside another blue orange-fin candidate; no unlocking sequence is inferred here."
+      ],
+      [
+        "Which paired groups help orient the board?",
+        "Green fish with dark vertical stripes pair near the upper right. Pink fish with white bands form pairs along the middle-right and lower-right areas, while navy fish pair near the lower center. Narrow blue-striped pieces are scattered through upper and central groups. These landmarks help match your screen to the video without confusing different blue silhouettes."
+      ]
+    ]
+  },
+  "64": {
+    "videoId": "1tHp8Bvhg50",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Check Level 64's orange, purple, and navy orders, pink holding-bar piece, and distinct blue pairs with reviewed notes from the ten-second checkpoint.",
+    "sections": [
+      [
+        "What are the order and holding-bar states?",
+        "The orange fish with pale bands shows 2/3, the dark purple fish with orange fins shows 0/3, and the plain navy fish shows 3/3 while filling. A pink fish with white bands occupies the holding bar. Check its pink body carefully: it is separate from both the orange-banded target and the darker purple-orange portrait."
+      ],
+      [
+        "Where are the purple-orange candidates?",
+        "Dark purple fish with orange fins appear in the lower-left, lower-center, lower-right, bottom-left, and bottom-center areas. Those locations provide several comparison points for the empty 0/3 order. The yellow fish with purple bands is a different design, despite sharing purple coloring, and should not be included in the same candidate count."
+      ],
+      [
+        "How do the blue and green pairs differ?",
+        "A narrow blue-striped pair is visible at the upper left, and rounded blue fish with pale dorsal fins pair on the middle right. White-and-black vertically striped pieces form additional landmarks through the middle. Green vertically striped fish near the lower center differ from the teal spotted fish nearby; compare pattern as well as color."
+      ]
+    ]
+  },
+  "65": {
+    "videoId": "UHFs3ITT2I8",
+    "checkedOn": "2026-10-03",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Locate Level 65's round blue and orange targets, chained pieces, key, and unknown marker with reviewed notes from the ten-second walkthrough frame.",
+    "sections": [
+      [
+        "Which three order portraits are visible?",
+        "The round blue fish with a pale dorsal fin shows 0/3, the orange fish with pale bands shows 0/3, and the pink fish with white bands shows 1/3. A rounded blue pair is exposed around the middle right, with more candidates in upper and central groups. Their pale fins distinguish them from plain navy fish."
+      ],
+      [
+        "Where are the chained target and key?",
+        "A chain marked 1 covers the bottom-left group, containing a navy fish, black-and-white fish, pink-striped fish, and orange-banded candidate. The key sits at the bottom right with blue-striped, rounded blue, and teal pieces. Keep the orange target inside the chain separate from exposed orange candidates around the center and lower left."
+      ],
+      [
+        "What complicates the blue comparison?",
+        "A rainbow question marker occupies the lower-center group beside a round blue candidate and a narrow striped blue fish. Blue fish with orange fins are also exposed in upper-left and central groups. The marker's identity is unknown, and these three visible blue appearances plus plain navy fish should remain separate when checking a possible match."
+      ]
+    ]
+  }
+,
 
   "66": {
     "videoId": "3913y96VZIA",

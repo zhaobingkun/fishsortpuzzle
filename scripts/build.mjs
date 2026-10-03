@@ -338,7 +338,7 @@ const urls = [
   ...levels.map((entry) => `/level/${entry.level}/`),
   ...articles.map((article) => `/${article.slug}/`)
 ];
-const modifiedPages = new Map([['/', '2026-10-02'], ['/levels/', '2026-10-02'], ...Object.entries(levelNotes).map(([level, notes]) => [`/level/${level}/`, notes.checkedOn])]);
+const modifiedPages = new Map([['/', '2026-10-02'], ['/levels/', '2026-10-03'], ...Object.entries(levelNotes).map(([level, notes]) => [`/level/${level}/`, notes.checkedOn])]);
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((url) => `  <url><loc>${canonical(url)}</loc><lastmod>${modifiedPages.get(url) ?? '2026-10-01'}</lastmod></url>`).join('\n')}\n</urlset>\n`;
 await writeFile(join(publicRoot, 'sitemap.xml'), sitemap, 'utf8');
 await writeFile(join(publicRoot, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${site.domain}/sitemap.xml\n`, 'utf8');
