@@ -27,7 +27,7 @@ export const levels = levelVideos.map(([level, videoId]) => ({
   title: `Fish Sort Puzzle Level ${level} Walkthrough`,
   summary: levelNotes[level]?.description ?? `Watch the verified Fish Sort Puzzle Level ${level} video solution, compare the opening fish, and protect your holding slots before following the finish.`,
   verified: true,
-  verifiedOn: site.videoLibraryChecked,
+  verifiedOn: [21, 29, 45, 54, 78, 92, 101, 137, 151].includes(level) ? '2026-10-07' : site.videoLibraryChecked,
   source: site.videoChannelName
 }));
 

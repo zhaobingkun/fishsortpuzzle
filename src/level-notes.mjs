@@ -2616,5 +2616,194 @@ export const levelNotes = {
       ['Use the 1:22 frame to check a changed board', 'At 1:22, the displayed counter reads 52/183. The left jar holds two blue-faced purple-finned fish, the right jar holds two orange-striped fish, and another chained group is visible near the upper center. This is a mid-run comparison point, not the starting layout. If your orders or holding bar differ here, replay the preceding clear before copying the next taps.']
     ],
     extraCheckpoints: [{ seconds: 82, label: 'Compare the 1:22 mid-run board' }]
+  },
+  "21": {
+    "videoId": "dZ7pAX02Lno",
+    "checkedOn": "2026-10-07",
+    "seconds": 10,
+    "counterGoal": 159,
+    "description": "Compare Level 21's red-striped target, purple-and-yellow fish, similar blue designs, and lower-left obscured group at the reviewed video checkpoint.",
+    "sections": [
+      [
+        "Which target portraits orient this board?",
+        "The ten-second frame shows a red fish with pale vertical stripes in the first order portrait and a purple fish with a yellow rear section in the second. A collection animation crosses the first portrait. Use the artwork as your reference; this single frame does not reliably establish the final state of that animated order."
+      ],
+      [
+        "How do the purple and blue pieces differ?",
+        "Two rounded purple fish sit near the upper middle, while purple-and-yellow pieces appear toward the middle left and lower right. Those silhouettes are different. Dark blue fish with white bands run through the middle and right side; the smooth light-blue fish clustered lower down belong to another design. Compare both body shape and markings before collecting."
+      ],
+      [
+        "Where should you compare the lower board?",
+        "Pink-and-cream round fish occupy several central bubbles. A cloudy circular effect covers part of the lower-left group, making its contents less reliable to read. Start a board comparison with the clear central pink pieces and the exposed striped blue fish, then resume the recording to see what the obscured area reveals."
+      ]
+    ]
+  },
+  "29": {
+    "videoId": "0qcCtFmu3jU",
+    "checkedOn": "2026-10-07",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Compare Level 29's four order portraits, orange candidates, pink puffers, and striped blue fish with reviewed notes from the ten-second walkthrough frame.",
+    "sections": [
+      [
+        "What makes the four orders different?",
+        "At 0:10, four order portraits span the top of the screen. The second bowl contains orange fish during a collection effect, while the other portraits include a pale blue design, a striped design, and a rounded orange design. Compare the portraits separately instead of assuming that all orange or yellow pieces contribute to the same order."
+      ],
+      [
+        "Where are the pink and orange reference groups?",
+        "A pair of pink-and-cream round fish sits together on the left, with additional examples around the center and right. Orange candidates appear near the upper right and in lower groups. The spotted yellow puffers near the middle have a different texture from the smooth orange pieces, which matters when deciding whether a nearby pair really matches."
+      ],
+      [
+        "Which blue designs need separate matching?",
+        "Dark blue fish with white bands are visible on the right and near the bottom. Smooth pale-blue fish appear on the left and lower center. A black-and-white striped fish occupies the lower-left area alongside other colors. Use these locations to align your board, and preserve holding space while you check a third matching candidate."
+      ]
+    ]
+  },
+  "45": {
+    "videoId": "Zv-n8HUlBg0",
+    "checkedOn": "2026-10-07",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Check Level 45's green yellow-faced target, striped fish groups, and lower-left crystal obstruction against the reviewed ten-second walkthrough frame.",
+    "sections": [
+      [
+        "Which green design is in the target portrait?",
+        "The first order portrait shows a green fish with a yellow face and a visible 3/3 state at the checkpoint. A bright collection effect passes through the upper bowls. The matching exposed green yellow-faced pieces on the right are useful landmarks, but the animation means this frame should not be read as a stable view of every order."
+      ],
+      [
+        "How are the striped fish separated?",
+        "Black-and-white fish appear near the upper center and middle left. Dark blue fish with white bands appear on the left edge, center bottom, and lowest groups. Smaller yellow-and-purple striped fish sit among the right-side pieces. These are three distinct patterns; compare band color and body shape rather than grouping every striped fish together."
+      ],
+      [
+        "What is hidden near the lower left?",
+        "A large multicolored crystal-like object covers the lower-left bubble. Its interior cannot be identified confidently at this checkpoint. The yellow spotted puffers around the center and lower board remain visible reference pieces. Resume the recording before copying any move that relies on the covered group, and compare the changed layout once the obstruction moves or clears."
+      ]
+    ]
+  },
+  "54": {
+    "videoId": "1lYDjT8ai2Q",
+    "checkedOn": "2026-10-07",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Check Level 54's black-and-white striped order, central red crab pair, and distinct blue fish using reviewed notes from the ten-second video checkpoint.",
+    "sections": [
+      [
+        "What can be read during the collection effect?",
+        "At 0:10, a black-and-white striped fish appears in the visible order portrait and in the bowl above it. A collection effect fills the left part of the order area, so not every portrait can be read clearly. Use the unobscured striped artwork to compare the board rather than guessing the identity of the order covered by the effect."
+      ],
+      [
+        "Where are the striped candidates?",
+        "Black-and-white striped fish are exposed in the upper-left and central groups, with another near the lower-left edge. Yellow-and-purple striped pieces occupy the lower middle and right-side bubbles. The colored stripes belong to a separate design. Check the contrasting black body marks before choosing a candidate for the visible black-and-white order."
+      ],
+      [
+        "Which central groups provide good landmarks?",
+        "Two red crab-shaped pieces sit vertically near the lower center. Green round fish and smooth blue pieces occupy nearby bubbles, while a yellow-orange fish sits around the middle. These clear shapes help align your screen with the recording. Treat the crab pair as a comparison landmark; this checkpoint alone does not show a complete matching sequence or guarantee that the next tap is safe."
+      ]
+    ]
+  },
+  "78": {
+    "videoId": "no0B8SP9zQc",
+    "checkedOn": "2026-10-07",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Compare Level 78's green and red-white order portraits, striped orange fish, pink spiral pieces, and occupied holding bar at the reviewed checkpoint.",
+    "sections": [
+      [
+        "Which target designs should you compare first?",
+        "The ten-second checkpoint shows two green-toned order portraits and a red-and-white design on the right. The portraits differ in outline and markings, so a green color match alone is not enough. An orange-red fish already occupies a holding slot beneath the orders; account for that occupied space before following later taps from the recording."
+      ],
+      [
+        "What separates the orange and pink groups?",
+        "Orange fish with pale vertical bands appear on the upper right and through the middle. Red-orange pieces with pale spots occupy central and lower bubbles. Pink spiral-shaped pieces run along the left and center-right areas. These repeated colors hide distinct artwork, so use bands, spots, and the spiral silhouette to keep possible triples separate."
+      ],
+      [
+        "Where are the darker reference pieces?",
+        "Dark navy fish with pale tails appear across the left-middle and upper-middle groups. Blue-green round fish sit beside them, while a red-and-white round piece is visible on the right. Compare the exposed navy silhouettes with the order portraits before committing holding space. If your holding bar or target state differs, return to the opening instead of copying moves onto a changed board."
+      ]
+    ]
+  },
+  "92": {
+    "videoId": "rkcYOpkxCf8",
+    "checkedOn": "2026-10-07",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Locate Level 92's center-left key, bottom-center chained group, colorful bubbles, and different blue designs using the reviewed ten-second video frame.",
+    "sections": [
+      [
+        "Where are the key and chained group?",
+        "At 0:10, a gold key is visible in a center-left bubble. A chained group with a lock sits near the bottom center, surrounded by blue fish and other pieces. The frame identifies their positions but does not establish the unlock requirement. Follow the recording through the interaction before assuming that tapping the nearby key immediately releases every covered piece."
+      ],
+      [
+        "Which blue fish designs differ?",
+        "The board includes dark blue round fish, narrow blue fish with vertical stripes, and pale gray-blue fish with yellow head markings. Several pale examples sit in the right-side bubbles and lower center. Their shared blue coloring does not make them interchangeable. Check the head marking and stripe pattern against the active order portrait before adding one to the holding bar."
+      ],
+      [
+        "What can the colorful effects obscure?",
+        "Bright multicolored bubble shapes appear across the middle, and a large circular collection effect covers part of the center. The yellow-and-black target portrait remains a useful reference at the top. Compare unobscured candidates first, then resume the video to see the center after the effect; do not infer hidden fish identities from the colors of the animation."
+      ]
+    ]
+  },
+  "101": {
+    "videoId": "9MLr4cIxyOM",
+    "checkedOn": "2026-10-07",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Compare Level 101's green and red order portraits, central turtle-shaped pieces, pink seahorses, and blue fish at the reviewed ten-second checkpoint.",
+    "sections": [
+      [
+        "What do the two order portraits show?",
+        "The ten-second frame has a green-toned portrait on the left and a red fish portrait on the right. The first bowl contains pieces during a collection effect. Match the visible outlines with your own screen before reading later progress, because an animation can hide the exact state of the order and does not provide a complete list of remaining targets."
+      ],
+      [
+        "Where are the green and red landmarks?",
+        "Green turtle-shaped pieces appear in the left-middle and central bubbles. Red fish with pale fins sit near the middle and lower right, separate from the pink upright seahorse-shaped pieces running down the right side. Use these silhouettes to compare the recording with your board, rather than treating nearby red or pink artwork as a single matching group."
+      ],
+      [
+        "How are the round and smooth blue fish separated?",
+        "Round deep-blue fish appear toward the upper right and lower left, while smooth pale-blue fish cross the left and central areas. Small purple pieces appear around the lower center and bottom right. Check the round body against the flatter pale-blue silhouette before collecting. The scattered positions make a full-board scan useful when a nearby pair still needs a third matching candidate."
+      ]
+    ]
+  },
+  "137": {
+    "videoId": "3eGuyLvd_L0",
+    "checkedOn": "2026-10-07",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Compare Level 137's three order portraits, upper-left key, central red striped pair, and different blue fish with the reviewed ten-second board notes.",
+    "sections": [
+      [
+        "What is visible in the three order portraits?",
+        "At 0:10, three order portraits are visible beneath the bowls, and a blue collection effect passes through the upper area. The portraits include a blue design and a dark round design. Use the unobscured artwork as a reference; a still frame during the effect cannot establish the final state of every order or prove which target will replace one that finishes."
+      ],
+      [
+        "Where are the key and central pairs?",
+        "A small gold key appears near the upper-left group beside purple pieces. Two red fish with pale horizontal bands sit one above the other around the center and lower center. The key position is an observed landmark, not evidence of a particular unlock rule. Compare the red bands with the portrait before spending holding space on nearby orange pieces."
+      ],
+      [
+        "Which blue and green groups can be confused?",
+        "Large rounded blue fish occupy the upper-middle and right-side bubbles. Smaller dark blue fish with pale yellow tails appear around the middle left and right, while green-and-cream pieces occupy lower groups. The rounded blues differ from the narrow dark-tailed artwork. Check the full silhouette when aligning your screen, then resume the recording to confirm how the lower groups change."
+      ]
+    ]
+  },
+  "151": {
+    "videoId": "B0o3pXWnx14",
+    "checkedOn": "2026-10-07",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Locate Level 151's lower-left chained group and key, compare pale-blue targets, and distinguish round blue fish in the reviewed ten-second walkthrough frame.",
+    "sections": [
+      [
+        "Which pale-blue design appears in the orders?",
+        "The ten-second checkpoint shows pale-blue order artwork beneath the first two bowls, with a collection effect crossing the upper left. Long pale-blue fish remain visible near the upper-middle and lower-right areas. Compare their silhouette with the portraits before collecting; the rounded deep-blue fish on the right are a different design despite sharing a similar color."
+      ],
+      [
+        "How are the chain and key positioned?",
+        "A chained group appears near the lower left, enclosing red-orange and green pieces. A gold key is visible just above and to the left of that group. This records their relative position without assuming the unlock condition. Watch the interaction in the recording before treating either the enclosed pieces or the key as immediately available for the next match."
+      ],
+      [
+        "Which groups help align the middle board?",
+        "Black-and-white fish appear in the upper-middle and right-side groups. Smooth teal fish occupy the left-middle and central bubbles, while purple pieces run down the center-left and lower-right areas. The orange-red pieces near the upper left provide another landmark. Compare these separated designs and your holding bar together, so that a later move is followed only after your board matches the same checkpoint."
+      ]
+    ]
   }
 };

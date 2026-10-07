@@ -1,0 +1,49 @@
+{
+  "checkedOn": "2026-10-07",
+  "source": "https://www.youtube.com/playlist?list=PLJscotaJN_4w",
+  "playlistCount": 155,
+  "maxLevel": 170,
+  "newSincePreviousCheck": 0,
+  "addedMissingLevels": [
+    {
+      "level": 21,
+      "videoId": "dZ7pAX02Lno"
+    },
+    {
+      "level": 29,
+      "videoId": "0qcCtFmu3jU"
+    },
+    {
+      "level": 45,
+      "videoId": "Zv-n8HUlBg0"
+    },
+    {
+      "level": 54,
+      "videoId": "1lYDjT8ai2Q"
+    },
+    {
+      "level": 78,
+      "videoId": "no0B8SP9zQc"
+    },
+    {
+      "level": 92,
+      "videoId": "rkcYOpkxCf8"
+    },
+    {
+      "level": 101,
+      "videoId": "9MLr4cIxyOM"
+    },
+    {
+      "level": 137,
+      "videoId": "3eGuyLvd_L0"
+    },
+    {
+      "level": 151,
+      "videoId": "B0o3pXWnx14"
+    }
+  ],
+  "existingNotInPlaylist": [
+    158
+  ],
+  "review": "All nine titles and actual playback frames at 0:10 checked. No newly uploaded video confirmed since October 3."
+}
