@@ -139,3 +139,6 @@
 - 从全部 156 个公开视频页面核对真实 uploadDate；源文件 src/video-metadata.mjs，证据 docs/video-metadata-evidence-2026-10-08.json。上传日期不能用网页修改日或笔记审核日替代。移除错误 contentUrl，保留 embedUrl；新增构建/检查保护。
 - vercel.json 增加 www 永久跳转和 favicon 跳转；ads.txt 需真实广告账户授权信息，不能凭空制造。
 - build/check 通过：178 可索引 URL、182 HTML、156 映射。诊断与 GSC 证据见 docs/indexing-diagnosis-2026-10-08.md、screenshots/gsc-guide-request-2026-10-08.jpg。
+- 发布后更新：提交 7254216 已推送；156 关 + Hub + sitemap 共 158 个线上地址全部 200且与构建一致。第170关已有真实Googlebot抓取（18:05:46），现为“已抓取 - 尚未编入索引”，不能继续说该页尚未抓取，也不能外推全站。
+- www 的代码条件跳转实际未生效，已用 Vercel 官方项目域名 API 设置308指向主域；维护配置时检查域名设置而非仅看vercel.json。新版178页sitemap重新提交成功，列表上次读取仍旧169，等待下一次处理。
+- 最终复测：www 首页/目录/关卡及参数均308跳主域并保留路径；18:34 GSC第170关实时测试“可编入索引”、视频1项有效，缺日期错误消失。凭据 screenshots/gsc-170-valid-2026-10-08.jpg；抓取队列提交和实际收录须区分。
