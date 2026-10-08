@@ -1,6 +1,8 @@
 import { readdir, readFile, stat } from 'node:fs/promises';
 import { join } from 'node:path';
 import { levels, site } from '../src/data.mjs';
+import { videoMetadata } from '../src/video-metadata.mjs';
+import { levelNotes } from '../src/level-notes.mjs';
 
 const root = new URL('../public/', import.meta.url);
 const rootPath = root.pathname;
@@ -17,6 +19,13 @@ for (const entry of levels) {
   if (!/^[A-Za-z0-9_-]{11}$/.test(entry.videoId)) errors.push(`Level ${entry.level}: invalid YouTube ID ${entry.videoId}`);
   if (levelNumbers.has(entry.level)) errors.push(`duplicate level ${entry.level}`);
   if (videoIds.has(entry.videoId)) errors.push(`duplicate YouTube ID ${entry.videoId}`);
+  const metadata = videoMetadata[entry.level];
+  if (metadata?.videoId !== entry.videoId || !/^\d{4}-\d{2}-\d{2}T.*(?:Z|[+-]\d{2}:\d{2})$/.test(metadata?.uploadDate ?? '') || !Number.isFinite(Date.parse(metadata?.uploadDate))) errors.push(`Level ${entry.level}: missing or invalid verified upload date`);
+  if (levelNotes[entry.level]?.videoId !== entry.videoId || levelNotes[entry.level]?.sections.length < 3) errors.push(`Level ${entry.level}: missing reviewed board notes`);
+  const levelHtml = await readFile(join(rootPath, `level/${entry.level}/index.html`), 'utf8');
+  const schemas = [...levelHtml.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((match) => JSON.parse(match[1]));
+  const videoSchema = schemas.find((schema) => schema['@type'] === 'VideoObject');
+  if (videoSchema?.uploadDate !== metadata?.uploadDate || videoSchema?.embedUrl !== `https://www.youtube.com/embed/${entry.videoId}` || videoSchema?.contentUrl) errors.push(`Level ${entry.level}: invalid generated video schema`);
   levelNumbers.add(entry.level);
   videoIds.add(entry.videoId);
   previousLevel = entry.level;

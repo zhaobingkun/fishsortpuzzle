@@ -1,7 +1,364 @@
-// Visually reviewed in the public Daisy Gaming videos on 2026-10-02 and 2026-10-03.
+// Visually reviewed against public Daisy Gaming videos; see checkedOn for each entry.
 // These are early-board checkpoints, not a frame-by-frame transcript or tested tap sequence.
 // Color/shape labels describe the visible artwork; they are not official species names.
 export const levelNotes = {
+  "15": {
+    "videoId": "werOAjkWhLM",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 144,
+    "description": "Level 15: compare yellow orders and an occupied slot with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "Which yellow design matches the order?",
+        "At 0:10, the smooth yellow round-fish portrait shows 2/3. Yellow spotted puffers also appear across the board, but their markings distinguish them from this target. Compare the smooth body with the portrait before choosing a yellow candidate; the collection animation partly covers the other order."
+      ],
+      [
+        "What is already waiting below?",
+        "A green fish with a yellow face occupies the holding bar. A matching-looking pair sits in the lower-center group. Inspect those pieces alongside your current order before adding a different design. The visible occupied slot is a checkpoint observation, not evidence of a complete safe tap sequence."
+      ],
+      [
+        "Which lower groups are useful landmarks?",
+        "Orange stars appear toward the lower right and bottom left, while brown-and-white striped fish sit near the lower right. Pink-and-cream puffers are visible around the center-left and lower-center areas. These separate shapes make better landmarks than color alone when comparing the recorded board with your own."
+      ]
+    ]
+  },
+  "16": {
+    "videoId": "2U0mWwCMjuo",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Level 16: compare octopus targets, green fish, and a frosted group with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "Which portraits are active at the checkpoint?",
+        "The red spotted octopus and green fish with a yellow face both show 0/3 at 0:10. The holding bar is empty. Red round fish with white spots are also common on this board; use the octopus limbs in the order portrait to distinguish the requested design from those round pieces."
+      ],
+      [
+        "Where can the two target designs be compared?",
+        "Red octopuses are visible around the upper right and center left. Small green-and-yellow-face fish appear on the middle right and near the bottom right. Check the edges of those groups for exposed matches before assuming a similarly colored creature belongs to the same set."
+      ],
+      [
+        "What makes the lower-left group different?",
+        "A frosted circular group marked 3 covers part of the lower-left board. Its marker is visible, but this frame does not establish the unlocking rule. Elsewhere, yellow spotted puffers near the lower right differ from smooth orange-yellow fish near the upper left and center; keep their body markings separate."
+      ]
+    ]
+  },
+  "17": {
+    "videoId": "gslOPz1OYtQ",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Level 17: compare orange-white candidates and striped pairs with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "Which orange pieces should be compared?",
+        "An orange-and-white fish portrait is visible beside a pink or magenta portrait at 0:10. Collection effects cover part of the order area, so this checkpoint does not give a dependable reading of every order count. Orange-and-white candidates appear on the left above center, at the lower middle, and along the right."
+      ],
+      [
+        "How can the striped groups be separated?",
+        "Brown fish with white horizontal stripes form pairs around the upper left, middle left, and bottom left. Dark blue fish with white bands appear around the upper middle and middle right. Compare the background color and band direction, rather than treating all striped artwork as a single fish type."
+      ],
+      [
+        "Which shapes anchor the lower board?",
+        "Green-and-cream round puffers are visible at the left middle and near the bottom center and right. Orange stars sit near the upper right, center, and bottom. The holding bar is empty in this recorded frame, giving a clear reference for comparing the board before introducing an unmatched design."
+      ]
+    ]
+  },
+  "18": {
+    "videoId": "_9TecoV9ywk",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 159,
+    "description": "Level 18: compare a bottom-left chain and bottom-right key with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "Where are the lock and key?",
+        "The bottom-left chained group is marked 1 and includes a pink or dark-colored fish. A gold key sits near the bottom right beside purple-orange and green pieces. These are visible landmarks at 0:10; the recording still needs to be followed to determine how the locked group changes during play."
+      ],
+      [
+        "Which red target is visible?",
+        "A red spotted octopus portrait is visible in the order area, while a collection effect obscures another portrait. Red octopuses recur on the right around the middle and lower board, with others toward the upper left and center. Compare the limbs and spots before grouping them with red round fish."
+      ],
+      [
+        "Which purple designs can be confused?",
+        "Purple-and-white angular fish cluster around the left middle and center. Purple-yellow round fish near the upper sides differ from darker purple-orange round fish toward the lower center and right. A frosted group marked 3 also covers part of the lower-left board; do not assume its hidden contents from nearby pieces."
+      ]
+    ]
+  },
+  "19": {
+    "videoId": "IbD-Rxyn7Ss",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 144,
+    "description": "Level 19: compare a cyan holding-bar fish and striped targets with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "What is the striped target asking for?",
+        "The black-and-white striped portrait shows 2/3 at 0:10, and the red octopus portrait shows 0/3 during a collection glow. Black-and-white candidates include an upper-right pair and pieces near the center left and bottom right. Match the dark background and pale bands instead of selecting a brown-striped lookalike."
+      ],
+      [
+        "What does the occupied slot show?",
+        "One cyan seahorse-shaped fish is in the holding bar. Keep that silhouette in mind when comparing the next visible candidates. The bottom-left chained group is marked 1, and a gold key lies near the lower-right black-and-white fish, octopus, and yellow puffer group. The frame does not prove an unlocking sequence."
+      ],
+      [
+        "Which yellow and blue pieces differ?",
+        "Yellow spotted puffers appear near the top center, center, and bottom right. Smooth yellow fish around the center left and bottom center have a different design. Smooth teal round fish near the middle sides also differ from blue puffers lower down; these distinctions matter more than sharing a broad color family."
+      ]
+    ]
+  },
+  "20": {
+    "videoId": "EKCESTYKb90",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 189,
+    "description": "Level 20: compare a completed yellow order and pink long fins with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "Which order is still open?",
+        "The yellow spotted-puffer order shows 3/3 during a collection effect at 0:10. The pink-and-white long-fin portrait shows 0/3. Pink-and-white candidates can be compared near the upper left, upper right, middle right, and lower left. Use the extended fins to distinguish them from round pink puffers."
+      ],
+      [
+        "How do the striped pieces differ?",
+        "Red fish with vertical white stripes form a pair on the upper-left side, with another visible in the lower middle. Yellow-purple striped fish cluster around the middle right. Neither design should be grouped with the active pink long-fin target simply because its light bands look similar at a glance."
+      ],
+      [
+        "What can be read below the center?",
+        "Large green round fish with yellow faces and blue fins appear around the middle and lower center. Narrow yellow fish sit around the center and lower groups. The holding bar is empty at this checkpoint, but motion effects blur part of the bottom board; pause beyond the effect before inferring those pieces."
+      ]
+    ]
+  },
+  "22": {
+    "videoId": "55yO-ZTN_AA",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Level 22: compare a dolphin order with one fish waiting with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "Which pale-blue silhouette is needed?",
+        "The pale-blue dolphin-shaped portrait shows 2/3 at 0:10. One pale-blue fish occupies the holding bar, while a collection animation covers the other order. Compare the body outline with dolphin-shaped candidates around the center left, center right, and bottom middle before introducing another blue design."
+      ],
+      [
+        "Which purple and multicolored groups stand out?",
+        "Smooth purple round fish appear near the upper left, upper middle, middle right, and lower center. Red-white-blue round fish occupy central groups and left-side pairs. Their color blocks differ from the pale-blue dolphin shape, making them useful landmarks when checking whether your board matches the recording."
+      ],
+      [
+        "Which yellow-orange pieces are separate?",
+        "Smooth yellow fish are visible around the middle right and bottom middle. Orange flat fish form a right-side pair and another lower-right group. Dark blue fish with white stripes appear near the top center-right and bottom center. Compare body shape and markings before turning any of these groups into a prospective triple."
+      ]
+    ]
+  },
+  "23": {
+    "videoId": "1_cfXQJp0Is",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 144,
+    "description": "Level 23: compare an upright yellow target beside a key with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "Which yellow portrait is active?",
+        "The upright yellow-orange fish with a darker cheek or fin shows 1/3 at 0:10. The red octopus portrait shows 0/3. A yellow target is visible near the upper middle, with another toward the lower right beside the key. Compare the upright silhouette rather than selecting any round yellow puffer."
+      ],
+      [
+        "Where does the locked group sit?",
+        "A bottom-left chain marked 1 overlaps small teal or green pieces. The gold key is at the bottom right beside a red octopus, an upright yellow fish, and a brown-striped fish. Red octopus pairs also appear toward the lower left and bottom middle; this checkpoint identifies locations without establishing the lock mechanics."
+      ],
+      [
+        "Which similar patterns should stay separate?",
+        "Brown-and-white striped fish and black-and-white striped fish are both visible across the middle sides. Red-white-blue round fish cluster near the upper left and center. Pink-and-cream puffers differ from smaller magenta fish. Use these artwork distinctions to compare candidates without treating every striped or pink piece as interchangeable."
+      ]
+    ]
+  },
+  "24": {
+    "videoId": "JMFMFCVOGZM",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 144,
+    "description": "Level 24: compare two unfinished orders and several blue shapes with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "What do the active portraits show?",
+        "At 0:10, the upright yellow-orange fish portrait shows 0/3, while the red fish with vertical white stripes shows 2/3. Yellow-orange candidates appear near the upper right, in the middle, and toward the bottom right. Red-striped candidates appear above center and around the middle left and right."
+      ],
+      [
+        "How can the blue silhouettes be compared?",
+        "Blue round fish with yellow cheeks form a center-left pair. Blue seahorse-shaped pieces appear near the upper left and lower center. Green round fish with yellow faces appear in a separate middle-left pair and lower-center group. Match each outline to its portrait instead of using blue or green coloring alone."
+      ],
+      [
+        "Which striped landmarks help locate the board?",
+        "Black-and-white striped fish form an upper-right pair and occur near the middle center and right. Brown-and-white striped fish sit around the lower left and lower right. A partly cropped frosted feature is visible above the upper-right board, but its contents and marker cannot be reliably read at this checkpoint."
+      ]
+    ]
+  },
+  "25": {
+    "videoId": "ePaJua9e3m4",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 183,
+    "description": "Level 25: compare four active orders with distinct stripe patterns with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "What are the four order counts?",
+        "At 0:10, the brown-and-white striped and pink-and-white long-fin portraits each show 1/3. The dark-blue-and-white striped and red-and-white striped portraits each show 2/3. Four collection bowls are visible, and the holding bar is empty. Compare each candidate with the relevant portrait rather than combining similarly banded fish."
+      ],
+      [
+        "Which brown and black stripes differ?",
+        "Brown-striped candidates appear in an upper-center pair, around the left middle and center right, and near the bottom corners. Black-and-white striped pieces occupy the middle left, a central pair, and middle right. Their darker background distinguishes them from the brown portrait despite the shared pale stripes."
+      ],
+      [
+        "Where are the long-fin and blue candidates?",
+        "Pink-and-white long-fin fish appear near the upper right, middle right, lower left, lower center, and bottom right. Dark blue striped fish occupy upper-right, middle-side, and bottom-right groups. Smooth large yellow-orange fish near the upper left and lower middle are another design, without the spots of yellow puffers."
+      ]
+    ]
+  },
+  "26": {
+    "videoId": "dWgWhmaK4FQ",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Level 26: compare two blue silhouettes and a covered lower corner with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "Which blue portraits need closer comparison?",
+        "Two blue order portraits are visible at 0:10: a narrow striped design and a pale-blue dolphin shape. Collection glow covers part of the second bowl. Pale-blue dolphin-shaped pieces appear around the upper left, center, and lower right; smooth teal round pieces around the center and bottom right have a different outline."
+      ],
+      [
+        "Which pink and purple groups are exposed?",
+        "Pink-and-cream round fish form an upper-left pair and appear in the upper-right cluster, center middle, and bottom left. Smooth purple round fish form a middle-right pair alongside multicolored red-white-blue pieces. Use the body shape and pale underside to distinguish round pink candidates from long-fin pink fish."
+      ],
+      [
+        "What is obscured at the lower left?",
+        "A large crystalline feature covers part of the lower-left board, so this frame cannot establish all of its contents. Brown-and-white striped fish form a pair toward the bottom center-left and occur near the upper right. Another frosted feature is partly cropped above the upper right; its marker is not reliably readable here."
+      ]
+    ]
+  },
+  "27": {
+    "videoId": "a90MafC7h8c",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Level 27: compare a purple-orange order above a chained group with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "Which purple fish is still needed?",
+        "The purple-orange round-fish order shows 2/3 at 0:10. A completion effect covers the other order. Purple-orange candidates form an upper-right pair and occur around the lower-left middle. Purple-yellow two-tone fish near the upper left are a different design; compare the colored face and body before selecting a match."
+      ],
+      [
+        "Where are the chain and key?",
+        "A chain marked 1 sits at the bottom center across purple, red-and-white, and striped pieces. The gold key is toward the bottom right beside a yellow-and-white striped fish. These visible positions help compare the board, but the checkpoint does not establish which tap changes the chained group."
+      ],
+      [
+        "Which other exposed designs are distinctive?",
+        "Dark blue fish with white stripes appear near the left middle, upper center-right, middle right, and bottom. Magenta smooth fish form a lower-left pair and occur near the center. Narrow yellow fish sit above the middle. The holding bar is empty, providing a clear reference before a new unmatched design is introduced."
+      ]
+    ]
+  },
+  "28": {
+    "videoId": "70q2htqLMI0",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 144,
+    "description": "Level 28: compare a frosted pair and two lower-corner markers with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "What can be read in the order area?",
+        "The green-and-yellow upright-fish portrait shows 2/3 at 0:10. Animation obscures the other order, and the holding bar is empty. Compare the portrait with the exposed green-yellow designs above and around the middle; do not assume a larger green round fish with blue fins has the same silhouette."
+      ],
+      [
+        "Which board markers are visible?",
+        "A frosted circle marked 2 covers part of the middle left, including visible black-and-white striped artwork. A chain marked 1 sits at the bottom left. The gold key is toward the bottom right beside blue and pink pieces. These markers are observed locations, without an inferred unlock rule."
+      ],
+      [
+        "Which lower designs provide reliable landmarks?",
+        "Smooth teal round fish form a lower-left pair and appear near the center. Red octopuses occur centrally and in right-side or lower-center groups. A cyan seahorse sits around the center right. Black-white stripes above the center differ from brown-white stripes near the bottom left; pink-cream puffers occupy separate upper-side groups."
+      ]
+    ]
+  },
+  "30": {
+    "videoId": "8SO0ptGwXeA",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 162,
+    "description": "Level 30: compare two open orders and hidden bubble identities with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "Which targets are near a triple?",
+        "The green fish with a yellow face and the pink-and-white long-fin fish both show 2/3 at 0:10. Green target candidates appear near the top left, center left, center right, and bottom left. Compare their face and fins with the portrait before choosing a green-colored piece from another design."
+      ],
+      [
+        "What is hidden by question bubbles?",
+        "Bright rainbow question-mark bubbles sit around the center right and lower left. Their fish identities are not visible in this checkpoint. The holding bar is empty, but these concealed pieces should not be counted as verified matches. Follow the video through the reveal before drawing conclusions about the hidden group."
+      ],
+      [
+        "Which striped groups remain distinguishable?",
+        "Pale yellow-white vertically striped fish appear in the upper-left cluster, center right, and lower right. Red vertically striped fish form a middle-left pair and occur near the bottom center. Red-white-blue round fish fill upper and central groups, while black-and-white pieces near the lower corners have a separate design."
+      ]
+    ]
+  },
+  "31": {
+    "videoId": "DE_Pb2Ozflk",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Level 31: compare dolphin candidates around concealed groups with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "Where are the pale-blue candidates?",
+        "The pale-blue dolphin portrait shows 0/3 at 0:10, while animation covers a green or teal round-fish order. Dolphin-shaped pieces form a center-left pair and appear near the upper right and lower center. A round blue fish near the lower right has a different outline from the active dolphin target."
+      ],
+      [
+        "Which pieces cannot yet be identified?",
+        "Question-mark bubbles are visible near the upper left and bottom right. A frosted circular group marked 2 sits at the bottom center. Do not assign identities or an unlocking sequence to those covered pieces from this single frame. The empty holding bar only describes the recorded checkpoint, not the safety of every possible next choice."
+      ],
+      [
+        "Which exposed groups anchor the comparison?",
+        "Red-white-blue round fish occur across both sides. Orange-and-white upright fish appear near the upper left and in a central group of three. Small dark black-and-white fish cluster toward the bottom left, with dark blue striped fish around the middle. These exposed patterns help locate the same board without relying on concealed artwork."
+      ]
+    ]
+  },
+  "32": {
+    "videoId": "Dz74XazoOi4",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 159,
+    "description": "Level 32: compare four portraits and overlapping color families with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "What do the four orders show?",
+        "At 0:10, the upright yellow-orange portrait shows 0/3, the red-white-blue round portrait shows 2/3, the black-white striped portrait shows 1/3, and the purple-yellow round portrait shows 0/3. Collection animation passes through the order area. The holding bar is empty in the reviewed frame."
+      ],
+      [
+        "Where are the yellow and purple candidates?",
+        "Yellow-orange upright fish form a pair above the middle and occur on the left middle, center, and near both bottom sides. Large purple-yellow round fish sit near the upper left, middle right, lower center, and lower right. Their rounded two-tone bodies distinguish them from the smaller upright yellow target."
+      ],
+      [
+        "How should the striped designs be separated?",
+        "Black-and-white striped fish form an upper-right pair and appear around the middle left and lower left. Red fish with vertical white stripes occupy the upper left, a center-right pair, and lower right. A narrow blue striped fish near the middle left also differs from the smooth blue round fish near the center."
+      ]
+    ]
+  },
+  "33": {
+    "videoId": "TQOh97aDr1w",
+    "checkedOn": "2026-10-08",
+    "seconds": 10,
+    "counterGoal": 123,
+    "description": "Level 33: compare three portraits with a brown fish waiting with original checkpoint notes reviewed against the Daisy Gaming video at 0:10.",
+    "sections": [
+      [
+        "Which orders are visible above the board?",
+        "The pale-blue dolphin and green-yellow-face portraits both show 1/3 at 0:10; the red-white-blue round portrait shows 0/3. Dolphin-shaped pieces cluster centrally and near the lower center. Red-white-blue candidates occur near the upper left, center sides, lower middle, and bottom right. Compare their color blocks and outlines with the portraits."
+      ],
+      [
+        "What is already in the holding bar?",
+        "One brown-and-white striped fish is waiting below the board. Similar brown-striped pieces appear near the upper right, middle center, and lower right. This occupied slot matters when comparing a possible next set, but these checkpoint notes do not establish that collecting those candidates is the complete solution."
+      ],
+      [
+        "What does the frosted corner reveal?",
+        "A frosted circle marked 0 covers a lower-left group containing visible yellow spotted-puffer and green-fish artwork. The number alone does not establish its unlocking rule. Magenta round fish form pairs toward the middle and bottom right. Yellow spotted pieces near the lower left differ from the flatter yellow fish around the lower middle."
+      ]
+    ]
+  },
 
   "34": {
     "videoId": "hxgWD3MNdDU",

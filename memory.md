@@ -123,3 +123,19 @@
 - npm run build/check 通过：178 个可索引 URL、182 HTML、156 个唯一视频映射。待线上发布验证。
 - 发布完成：内容提交 0870486 已推送 main 并触发 Vercel。9 个新关卡、Levels hub、sitemap 共 11 个正式地址全部 HTTP 200，响应与本地构建逐字一致。浏览器确认线上目录为 156 页 / 139 条笔记，151 关核对日期和 0:10 链接显示正常，499px 视口 scrollWidth 同为 499，无横向溢出。本轮未操作 GSC。
 - 本地预览端口已被占用且浏览器访问 localhost 被阻止，因此改为发布后核对线上布局。Python HTTPS 因本机证书链报错，改用系统 curl（保留证书验证）完成正式地址核对。
+
+## 2026-10-08 — 已发现尚未索引诊断
+
+- 分析用户提供的三个 GSC CSV：10 月 4 日 168 个受影响 URL（147 关卡 + 21 内容页），所有日期为 1970-01-01，应视为无有效抓取日期的导出值；不能认作真实抓取日期。报告早于 10 月 7 日新增九页，不代表今日全站索引数。
+- 今日逐一线上核对 168 URL：全部 HTTP 200、自指 canonical、无 noindex；robots 允许抓取且声明 sitemap。本地 check 通过。www /levels/ 同样 200，待统一永久跳转，不能认定为本次原因。
+- 判断更符合新站早期等待首次抓取；未读取实时 GSC/Googlebot 日志，不能断言主机对 Googlebot 无问题。内容风险包括剩余 17 关通用正文、已有详情只是早期检查点、鱼种 Wiki 缺少实际目录。
+- 记录 docs/indexing-diagnosis-2026-10-08.md 与全部地址核对 JSON。建议优先实时测试代表 URL、检查抓取统计，补内容并在 10 月 15/22 日复核。本轮未改线上页面或提交索引请求。
+
+## 2026-10-08 — 实时索引核验与最后一批关卡补强
+
+- 用户同意执行实时 GSC 检查、补齐 17 页独有正文、统一 www。三条代表 URL（/levels/、/level/170/、/guides/slot-management/）均通过实时可索引检查且已成功请求索引；170 视频 schema 缺 uploadDate，属增强项问题，不等同索引阻断。
+- GSC 概述 1 已索引 / 174 未索引；抓取统计 102 请求，140ms，两个主机均无问题。404 展示样例只有 ads.txt/favicon.ico。临时“出了点问题”稍后恢复，勿把 GSC 服务异常当网站故障。
+- 补齐 15–20、22–28、30–33 的视频 0:10 观察，现全部 156 页（15–170）有独有正文。保持早期检查点而非完整 tested solution 的界限。
+- 从全部 156 个公开视频页面核对真实 uploadDate；源文件 src/video-metadata.mjs，证据 docs/video-metadata-evidence-2026-10-08.json。上传日期不能用网页修改日或笔记审核日替代。移除错误 contentUrl，保留 embedUrl；新增构建/检查保护。
+- vercel.json 增加 www 永久跳转和 favicon 跳转；ads.txt 需真实广告账户授权信息，不能凭空制造。
+- build/check 通过：178 可索引 URL、182 HTML、156 映射。诊断与 GSC 证据见 docs/indexing-diagnosis-2026-10-08.md、screenshots/gsc-guide-request-2026-10-08.jpg。

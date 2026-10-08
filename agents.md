@@ -17,7 +17,7 @@ The production domain is `fishsortpuzzle.app`; Fish Sort Wiki remains the visibl
 ## Working Rules
 
 - Verify every level-to-video mapping before publishing it.
-- Every newly added indexable level page needs useful, level-specific text checked against its video. Improve the existing library in reviewed batches; 139 pages now have reviewed notes (21, 29, and all levels 34–170); the video library covers every level from 15 through 170.
+- Every newly added indexable level page needs useful, level-specific text checked against its video. Improve the existing library in reviewed batches; all 156 pages now have reviewed notes (levels 15–170); the video library covers every level from 15 through 170.
 - Store board observations in `src/level-notes.mjs`, tied to video ID, review date, and timestamp. Distinguish observed facts from advice; do not label checkpoint notes as a tested full solution.
 - Do not invent fish, boosters, currencies, event rules, or level solutions.
 - Keep core content in static HTML so search engines can crawl it without JavaScript.

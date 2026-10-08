@@ -1,5 +1,23 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "public",
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.fishsortpuzzle.app"
+        }
+      ],
+      "destination": "https://fishsortpuzzle.app/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/assets/images/favicon-64.png",
+      "permanent": true
+    }
+  ]
 }

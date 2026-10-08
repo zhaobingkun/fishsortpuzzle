@@ -3,6 +3,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { site, levels, articles, hubs } from '../src/data.mjs';
 import { levelNotes } from '../src/level-notes.mjs';
+import { videoMetadata } from '../src/video-metadata.mjs';
 
 const projectRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
 const publicRoot = join(projectRoot, 'public');
@@ -261,6 +262,8 @@ function levelPage(entry) {
   const entryIndex = levels.findIndex((item) => item.level === entry.level);
   const previous = levels[entryIndex - 1];
   const next = levels[entryIndex + 1];
+  const metadata = videoMetadata[entry.level];
+  if (!metadata || metadata.videoId !== entry.videoId || !Number.isFinite(Date.parse(metadata.uploadDate))) throw new Error(`Level ${entry.level}: missing or mismatched verified upload date`);
   const videoSchema = {
     '@context': 'https://schema.org',
     '@type': 'VideoObject',
@@ -268,7 +271,7 @@ function levelPage(entry) {
     description: entry.summary,
     thumbnailUrl: `https://img.youtube.com/vi/${entry.videoId}/maxresdefault.jpg`,
     embedUrl: `https://www.youtube.com/embed/${entry.videoId}`,
-    contentUrl: `https://www.youtube.com/watch?v=${entry.videoId}`
+    uploadDate: metadata.uploadDate
   };
   const nearbyLinks = [previous, next].filter(Boolean).map((item) => `<a class="nearby-level" href="/level/${item.level}/"><span>${item.level < entry.level ? 'Previous verified' : 'Next verified'}</span><strong>Level ${item.level}</strong></a>`).join('');
   return `${head({ title: entry.title, description: entry.summary, pathname: path, image: `https://img.youtube.com/vi/${entry.videoId}/maxresdefault.jpg`, schemas: [breadcrumbSchema(crumbs), videoSchema] })}${header('levels')}${breadcrumbs(crumbs)}<main id="content">${pageHero('Verified video walkthrough', entry.title, entry.summary)}<section class="section"><div class="container article-layout"><article class="article-copy"><div class="video-shell" data-video-id="${entry.videoId}" data-video-title="${escapeHtml(entry.title)}"><img src="https://img.youtube.com/vi/${entry.videoId}/hqdefault.jpg" width="480" height="360" alt="${escapeHtml(entry.title)} thumbnail"><button class="video-play" type="button"><span>Play walkthrough</span></button></div>${levelNotes[entry.level] ? reviewedLevelCopy(entry, levelNotes[entry.level]) : `<section class="article-section"><h2>How to use this Level ${entry.level} walkthrough</h2><p>Watch the opening until the first triple clears, then pause and compare the fish in your holding bar. If your board differs, restart from the first unnecessary species instead of copying later taps onto a different state.</p></section><section class="article-section"><h2>Protect the holding slots</h2><p>Count open spaces before revealing a new fish type. A pair is useful only when the third matching fish is visible or will be exposed by the next clear. Keep one recovery slot available whenever possible.</p></section>`}<section class="article-section"><h2>Video source and version check</h2><p>This Level ${entry.level} mapping was verified from the ${site.videoChannelName} Fish Sort Puzzle playlist on ${entry.verifiedOn}. The guide targets the Shycheese game with Android package <code>${site.packageId}</code>. Updates can change a board, so report a mismatch with the app version and opening layout.</p></section><nav class="nearby-levels" aria-label="Nearby verified levels">${nearbyLinks}</nav></article><aside class="article-aside"><h3>Level details</h3><ul><li>Level: ${entry.level}</li><li>Mapping checked: ${entry.verifiedOn}</li>${levelNotes[entry.level] ? `<li>Board notes reviewed: ${levelNotes[entry.level].checkedOn}</li>` : ''}<li><a href="https://www.youtube.com/watch?v=${entry.videoId}" target="_blank" rel="noopener noreferrer">Open on YouTube</a></li><li><a href="${site.videoPlaylistUrl}" target="_blank" rel="noopener noreferrer">Full Daisy Gaming playlist</a></li><li><a href="/guides/slot-management/">Holding-slot strategy</a></li><li><a href="/wiki/boosters/">Booster guide</a></li></ul></aside></div></section></main>${footer()}`;
@@ -338,7 +341,7 @@ const urls = [
   ...levels.map((entry) => `/level/${entry.level}/`),
   ...articles.map((article) => `/${article.slug}/`)
 ];
-const modifiedPages = new Map([['/', '2026-10-02'], ['/levels/', '2026-10-07'], ...Object.entries(levelNotes).map(([level, notes]) => [`/level/${level}/`, notes.checkedOn])]);
+const modifiedPages = new Map([['/', '2026-10-02'], ['/levels/', '2026-10-08'], ...Object.entries(levelNotes).map(([level, notes]) => [`/level/${level}/`, notes.checkedOn]), ...Object.entries(videoMetadata).map(([level, metadata]) => [`/level/${level}/`, metadata.checkedOn])]);
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((url) => `  <url><loc>${canonical(url)}</loc><lastmod>${modifiedPages.get(url) ?? '2026-10-01'}</lastmod></url>`).join('\n')}\n</urlset>\n`;
 await writeFile(join(publicRoot, 'sitemap.xml'), sitemap, 'utf8');
 await writeFile(join(publicRoot, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${site.domain}/sitemap.xml\n`, 'utf8');
