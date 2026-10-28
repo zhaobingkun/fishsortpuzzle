@@ -3364,6 +3364,25 @@ const replacementLevelNotes = {
       ['What should not be carried forward?', 'Fish positions and advice from the removed Daisy recording are not treated as current evidence. These notes belong only to this replacement video.']
     ]
   },
+  23: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 180, counterGoal: 144,
+    extraCheckpoints: [{ seconds: 480, label: 'Confirm the Level 23 victory screen near 8:00' }],
+    description: 'Level 23 replacement notes use the Dũng Trịnh compilation at 3:00, where the 0/144 opening board and a lower chain-key pair are visible.',
+    sections: [
+      ['What confirms the Level 23 opening?', 'At 3:00, the header reads Level 23 and the progress counter reads 0/144. The five holding slots are empty, making this a clean opening-board checkpoint.'],
+      ['Which orders and objects are visible?', 'A turquoise round-fish order and a brown striped-fish order are open. A chained group marked 1 sits on the lower board, with a gold key visible nearby.'],
+      ['How far was the recording checked?', 'Later frames show 6/144, 22/144, and 45/144, followed by the victory state near 8:00. These checkpoints confirm coverage without claiming an independently tested tap sequence.']
+    ]
+  },
+  24: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 530, counterGoal: 144,
+    description: 'Level 24 replacement notes capture the Dũng Trịnh compilation at 8:50 with 7/144, one stored pink fish, and a lower-left marked group.',
+    sections: [
+      ['What is visible at 8:50?', 'The header reads Level 24 and the progress counter reads 7/144. One pink round fish occupies the first holding slot while the remaining four slots are open.'],
+      ['Which order state helps align the board?', 'The red striped-fish portrait shows 1/3, while the seahorse portrait displays a completed check. Compare those portraits before following the next selection.'],
+      ['Which special marker is present?', 'A circular group near the lower left carries a visible 1 marker. The frame records its position and state but does not infer a rule that was not demonstrated in the reviewed checkpoint.']
+    ]
+  },
   25: {
     videoId: 'WOuxE1cqhGA', checkedOn: '2026-10-28', seconds: 17, counterGoal: 183,
     extraCheckpoints: [{ seconds: 614, label: 'Confirm the 183/183 victory screen at 10:14' }],
@@ -3374,6 +3393,34 @@ const replacementLevelNotes = {
       ['What does the victory frame not prove?', 'The review does not claim a no-booster run, an exact app package, or independent reproduction on another device. Follow the video only when your board matches.']
     ]
   },
+  26: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 1245, counterGoal: 123,
+    description: 'Level 26 replacement notes use the 20:45 checkpoint, showing 44/123, an empty holding bar, a chained group, and a large crystal bubble.',
+    sections: [
+      ['How was Level 26 identified?', 'The compilation shows the Level 26 home screen at 20:30. At 20:45, the in-level header remains visible and the progress counter reads 44/123.'],
+      ['What is the visible order state?', 'The orange order shows 2/3 and the turquoise order shows 3/3. All five holding slots are empty in the captured frame.'],
+      ['Which board landmarks remain?', 'A chained group marked 1 appears in the upper-right area, and a large iridescent crystal bubble sits toward the lower right. Their positions help compare versions without asserting an unreviewed unlock route.']
+    ]
+  },
+  27: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 1560, counterGoal: 162,
+    description: 'Level 27 replacement notes record the Dũng Trịnh compilation at 26:00 with 33/162 and visible chain, key, and crystal landmarks.',
+    sections: [
+      ['What does the Level 27 checkpoint show?', 'After the Level 27 screen appears at 25:00, the 26:00 frame shows 33/162. The five holding slots are empty.'],
+      ['Which orders are open?', 'The orange-and-blue striped order shows 2/3, and the light-blue order shows 1/3. Use both color and silhouette when comparing exposed fish.'],
+      ['Where are the special objects?', 'A chained group marked 1 is visible near the upper left, a gold key appears closer to the center, and a crystal bubble sits on the right. These are observed landmarks rather than a tested solution order.']
+    ]
+  },
+  28: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 1800, counterGoal: 144,
+    extraCheckpoints: [{ seconds: 2100, label: 'Confirm the Level 28 victory state near 35:00' }],
+    description: 'Level 28 replacement notes begin at 30:00 with 1/144, an empty holding bar, and three distinct marked-object landmarks.',
+    sections: [
+      ['What is visible at the linked start?', 'At 30:00, the header reads Level 28 and the progress counter reads 1/144. The yellow order shows 0/3, the turquoise order shows 1/3, and the holding bar is empty.'],
+      ['Which marked objects anchor the board?', 'A frozen or crystal group marked 3 appears on the left-middle board, a chained group marked 1 sits lower down, and a gold key is visible toward the lower right.'],
+      ['Was later progress checked?', 'The recording reaches 29/144 at 31:00 and the victory state near 35:00. This confirms the compilation covers Level 28 while the notes remain checkpoint observations.']
+    ]
+  },
   29: {
     videoId: '0AVU4tQCr5I', checkedOn: '2026-10-28', seconds: 24, counterGoal: 183,
     description: 'Level 29 replacement notes show 26/183 with red-and-white and blue orders in the Ashwini.R recording.',
@@ -3381,6 +3428,105 @@ const replacementLevelNotes = {
       ['What is visible at 0:24?', 'The header reads Level 29 and the progress counter reads 26/183. Two order bowls are open while the other two bowls show plus signs.'],
       ['Which orders are active?', 'One portrait is a red-and-white round fish and the other is blue. Compare their silhouettes with exposed candidates instead of reusing the four-order layout from the removed source.'],
       ['What was verified about the recording?', 'The video played successfully and the in-frame level number matched its title. The checkpoint was reviewed, but the full route was not independently recreated.']
+    ]
+  },
+  30: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 2460, counterGoal: 162,
+    description: 'Level 30 replacement notes use the 41:00 checkpoint with 51/162, one occupied holding slot, conveyor lanes, and two question-mark bubbles.',
+    sections: [
+      ['What confirms the Level 30 mapping?', 'The previous level reaches its victory state before 40:50, and the compilation then opens Level 30. At 41:00, the in-level header is visible and the counter reads 51/162.'],
+      ['What is the order and slot state?', 'The red round-fish order and black-and-white striped order each show 0/3, while the red striped-fish order shows 2/3. One pink fish occupies the holding bar.'],
+      ['Which new-looking objects should be compared?', 'Conveyor-style lanes and two rainbow question-mark bubbles are visible on the board. This note records their appearance only and does not invent a rule or optimal move sequence for them.']
+    ]
+  },
+  31: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 2790, counterGoal: 123,
+    description: 'Level 31 replacement notes capture 19/123 with two orders near completion and a full five-slot holding bar.',
+    sections: [
+      ['What is visible at 46:30?', 'The header reads Level 31 and the progress counter reads 19/123. The red round-fish order and yellow-blue order each show 2/3.'],
+      ['What is the holding-bar state?', 'All five holding positions are occupied in the reviewed frame by several distinct silhouettes. Treat this as a high-pressure checkpoint and compare every stored fish before following the next move.'],
+      ['What does this checkpoint establish?', 'It verifies that the compilation reaches Level 31 and shows its active board. It does not establish that the same mid-level slot state will appear in another app build.']
+    ]
+  },
+  32: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 3120, counterGoal: 159,
+    description: 'Level 32 replacement notes use the Dũng Trịnh compilation at 52:00, where the header, 9/159 counter, and two opening order portraits are visible.',
+    sections: [
+      ['How was the start of Level 32 identified?', 'The Level 32 home screen is visible at about 51:40. At 52:00, the active board shows the Level 32 header and 9/159 progress.'],
+      ['Which targets can be compared?', 'Two order portraits are open beneath the upper bowls, with the remaining two bowls shown as plus slots. Compare the full portrait shapes because several similarly colored fish share the board.'],
+      ['What is the scope of the review?', 'The level transition and early board were visually checked in the public compilation. The note does not claim a reproduced full solution or an uploader-supplied package version.']
+    ]
+  },
+  33: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 3430, counterGoal: 123,
+    description: 'Level 33 replacement notes show the 0/123 opening board, two open orders, empty holding slots, and a lower crystal group marked 3.',
+    sections: [
+      ['What confirms the Level 33 opening?', 'At 57:10, the header reads Level 33 and the counter reads 0/123. The five holding slots are empty.'],
+      ['Which orders are shown?', 'A yellow-green portrait and a pale-blue portrait are open beneath the first two bowls, while the other bowls remain plus slots.'],
+      ['Which obstacle is the clearest landmark?', 'A large crystal or frozen group marked 3 sits near the lower-left portion of the board. The marker is recorded as seen without assuming an unverified clearing sequence.']
+    ]
+  },
+  34: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 3740, counterGoal: 162,
+    description: 'Level 34 replacement notes capture 34/162 with two blue order types and three visibly occupied holding slots.',
+    sections: [
+      ['What is visible at 62:20?', 'The Level 34 header and 34/162 progress counter are visible. Two blue-toned order portraits remain open in the first two bowls.'],
+      ['What is stored below the counter?', 'The reviewed frame shows three occupied holding positions, including orange, pink, and brown-striped silhouettes, with two positions still open.'],
+      ['How should similar blue fish be compared?', 'Several smooth, striped, and long-fin blue designs appear together. Match the entire silhouette to the active portrait rather than relying on color alone.']
+    ]
+  },
+  35: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 4020, counterGoal: 144,
+    description: 'Level 35 replacement notes record 49/144 with red orders and two visible key-lock markers among the fish groups.',
+    sections: [
+      ['What does the 67:00 checkpoint show?', 'The header reads Level 35 and the counter reads 49/144. A red striped-fish portrait and a red spotted-octopus portrait are visible in the active bowls.'],
+      ['Which special objects stand out?', 'Two yellow key-shaped lock markers appear around the middle and lower portions of the board. Their positions help align the recording with a player screen.'],
+      ['What should not be inferred?', 'The checkpoint does not by itself prove the order in which those marked groups open. Follow the recording only when the surrounding exposed fish also match.']
+    ]
+  },
+  36: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 4260, counterGoal: 123,
+    description: 'Level 36 replacement notes use the 71:00 frame with 25/123, three open orders, two question-mark bubbles, and a large crystal bubble.',
+    sections: [
+      ['What is visible at 71:00?', 'The header reads Level 36 and progress is 25/123. Three order bowls are open and the fourth remains a plus slot.'],
+      ['Which special objects anchor the board?', 'Two rainbow question-mark bubbles appear in the upper-middle area, and a large iridescent crystal bubble sits below them.'],
+      ['How should the source be used?', 'Compare the order portraits and special-object positions before copying later taps. The recording was reviewed as a matching checkpoint, not independently replayed as a full solution.']
+    ]
+  },
+  37: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 4500, counterGoal: 123,
+    description: 'Level 37 replacement notes capture 16/123 with two open orders and an early board of smooth, striped, and shark-like silhouettes.',
+    sections: [
+      ['What confirms the Level 37 mapping?', 'At 75:00, the header reads Level 37 and the progress counter reads 16/123. The first two order bowls are open and the other two are plus slots.'],
+      ['Which targets are visible?', 'A blue-toned portrait and a red striped-fish portrait appear beneath the bowls. Similar colors occur on multiple body shapes across the board.'],
+      ['What is the useful comparison?', 'Check both active portraits and the holding-bar contents before continuing from this mid-level timestamp. The frame is a version check rather than a promised universal opening layout.']
+    ]
+  },
+  38: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 4740, counterGoal: 162,
+    description: 'Level 38 replacement notes show 9/162 during an ice-breaking animation with a blue striped-fish order still visible.',
+    sections: [
+      ['What is visible at 79:00?', 'The header reads Level 38 and the counter reads 9/162. A blue striped-fish portrait remains visible beneath the first bowl.'],
+      ['What is happening around the bowls?', 'Ice fragments and a Good message are visible during the reviewed frame, indicating an active clearing animation near the order area.'],
+      ['Why use this animated checkpoint?', 'The level number, goal, interface, and board are still readable despite the effect. The note records only what the frame shows and does not infer the hidden fish under the animation.']
+    ]
+  },
+  39: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 5070, counterGoal: 162,
+    description: 'Level 39 replacement notes begin at 0/162 with an empty holding bar, two open orders, a question-mark bubble, and a chain-key pair.',
+    sections: [
+      ['What confirms the Level 39 opening?', 'At 84:30, the header reads Level 39 and progress is 0/162. Both visible order portraits show 0/3, and all five holding slots are empty.'],
+      ['Which special objects are visible?', 'A rainbow question-mark bubble appears on the right side. A chained group marked 1 sits near the lower left, and a gold key is visible near the lower right.'],
+      ['How should the opening be compared?', 'Match the purple-yellow and green-yellow order silhouettes as well as the chain and key positions. A different layout should be treated as a possible version mismatch.']
+    ]
+  },
+  40: {
+    videoId: 'LbVHMyOSAio', checkedOn: '2026-10-28', seconds: 5580, counterGoal: 183,
+    description: 'Level 40 replacement notes use the 93:00 checkpoint with 99/183, a visible 00:55 timer, one stored fish, and a frozen group at the upper right.',
+    sections: [
+      ['What does the Level 40 checkpoint show?', 'At 93:00, the header reads Level 40 and progress is 99/183. Two orange-red order portraits each show 0/3.'],
+      ['What time and slot state are visible?', 'An on-screen timer reads 00:55. One yellow-green fish occupies the first holding position while the other four positions are open.'],
+      ['Which obstacle provides a board landmark?', 'A frosted circular group remains near the upper right of the board. The checkpoint verifies its presence without claiming a tested route for clearing it before the timer expires.']
     ]
   }
 };

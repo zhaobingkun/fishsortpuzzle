@@ -1,0 +1,30 @@
+{
+  "checkedOn": "2026-10-28",
+  "source": {
+    "author": "Dũng Trịnh",
+    "channel": "https://www.youtube.com/@dungtrinh8419",
+    "videoId": "LbVHMyOSAio",
+    "url": "https://www.youtube.com/watch?v=LbVHMyOSAio",
+    "title": "Fish Sort Level 22-40",
+    "uploadDate": "2026-09-16T00:28:23-07:00"
+  },
+  "publishedMappings": [
+    { "level": 23, "startSeconds": 180, "checkpointSeconds": 180, "goal": 144 },
+    { "level": 24, "startSeconds": 530, "checkpointSeconds": 530, "goal": 144 },
+    { "level": 26, "startSeconds": 1230, "checkpointSeconds": 1245, "goal": 123 },
+    { "level": 27, "startSeconds": 1500, "checkpointSeconds": 1560, "goal": 162 },
+    { "level": 28, "startSeconds": 1800, "checkpointSeconds": 1800, "goal": 144 },
+    { "level": 30, "startSeconds": 2450, "checkpointSeconds": 2460, "goal": 162 },
+    { "level": 31, "startSeconds": 2790, "checkpointSeconds": 2790, "goal": 123 },
+    { "level": 32, "startSeconds": 3100, "checkpointSeconds": 3120, "goal": 159 },
+    { "level": 33, "startSeconds": 3430, "checkpointSeconds": 3430, "goal": 123 },
+    { "level": 34, "startSeconds": 3740, "checkpointSeconds": 3740, "goal": 162 },
+    { "level": 35, "startSeconds": 4020, "checkpointSeconds": 4020, "goal": 144 },
+    { "level": 36, "startSeconds": 4260, "checkpointSeconds": 4260, "goal": 123 },
+    { "level": 37, "startSeconds": 4500, "checkpointSeconds": 4500, "goal": 123 },
+    { "level": 38, "startSeconds": 4740, "checkpointSeconds": 4740, "goal": 162 },
+    { "level": 39, "startSeconds": 5070, "checkpointSeconds": 5070, "goal": 162 },
+    { "level": 40, "startSeconds": 5580, "checkpointSeconds": 5580, "goal": 183 }
+  ],
+  "scopeNote": "Each mapping was visually checked at its own timestamp. The uploader did not provide a verifiable Android package ID or exact app build."
+}

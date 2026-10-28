@@ -806,8 +806,24 @@ const replacementVideoMetadata = {
   20: { videoId: 'JmSbDXkf1cs', uploadDate: '2026-10-24T19:00:07-07:00', checkedOn: '2026-10-28' },
   21: { videoId: 'Ljuvb0vcggc', uploadDate: '2026-10-24T20:00:28-07:00', checkedOn: '2026-10-28' },
   22: { videoId: 'IZBXC4sidSc', uploadDate: '2026-10-24T21:00:29-07:00', checkedOn: '2026-10-28' },
+  23: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  24: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
   25: { videoId: 'WOuxE1cqhGA', uploadDate: '2026-09-01T02:38:30-07:00', checkedOn: '2026-10-28' },
-  29: { videoId: '0AVU4tQCr5I', uploadDate: '2026-09-07T04:31:05-07:00', checkedOn: '2026-10-28' }
+  26: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  27: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  28: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  29: { videoId: '0AVU4tQCr5I', uploadDate: '2026-09-07T04:31:05-07:00', checkedOn: '2026-10-28' },
+  30: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  31: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  32: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  33: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  34: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  35: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  36: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  37: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  38: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  39: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  40: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' }
 };
 
 export const videoMetadata = { ...historicalVideoMetadata, ...replacementVideoMetadata };
