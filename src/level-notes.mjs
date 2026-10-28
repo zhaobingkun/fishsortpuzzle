@@ -3528,6 +3528,26 @@ const replacementLevelNotes = {
       ['What time and slot state are visible?', 'An on-screen timer reads 00:55. One yellow-green fish occupies the first holding position while the other four positions are open.'],
       ['Which obstacle provides a board landmark?', 'A frosted circular group remains near the upper right of the board. The checkpoint verifies its presence without claiming a tested route for clearing it before the timer expires.']
     ]
+  },
+  44: {
+    videoId: '8rV7zTXt2fw', checkedOn: '2026-10-28', seconds: 15, counterGoal: 183,
+    extraCheckpoints: [{ seconds: 420, label: 'Confirm the Level 45 home screen after Level 44 is completed' }],
+    description: 'Level 44 replacement notes use a Japanese-language recording showing 41/183, two visible orders, an empty holding bar, and lower question-mark and frozen groups.',
+    sections: [
+      ['What is visible near the start?', 'At about 0:15, the header reads Level 44 and progress is 41/183. The red striped-fish order shows 1/3 and the yellow spotted-fish order shows 3/3.'],
+      ['What is the slot and obstacle state?', 'All five holding positions are empty. A rainbow question-mark bubble sits near the lower middle, and a frozen circular group marked 1 appears near the lower left.'],
+      ['What confirms full level coverage?', 'Near 7:00, the recording has returned to the home screen with Level 45 ready to start. This confirms the video finishes Level 44, while the notes remain checkpoint observations rather than an independently reproduced route.']
+    ]
+  },
+  48: {
+    videoId: '9zvTlCrtLTg', checkedOn: '2026-10-28', seconds: 12, counterGoal: 183,
+    extraCheckpoints: [{ seconds: 420, label: 'Confirm the Level 49 home screen after Level 48 is completed' }],
+    description: 'Level 48 replacement notes capture the 1/183 opening state with an empty holding bar, two question-mark bubbles, and a lower chain-key pair.',
+    sections: [
+      ['What confirms the Level 48 opening?', 'At 0:12, the header reads Level 48 and progress is 1/183. The orange order shows 0/3 and the dark-blue striped order shows 1/3.'],
+      ['Which special objects are visible?', 'Two rainbow question-mark bubbles appear on the right and lower-middle board. A chained group marked 1 sits near the lower left, with a gold key visible on the lower right.'],
+      ['What confirms the recording reaches the end?', 'At about 7:02, the home screen shows Level 49 ready to start. That confirms the recording completes Level 48 without claiming that its exact board is universal across versions.']
+    ]
   }
 };
 

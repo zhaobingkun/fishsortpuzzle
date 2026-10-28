@@ -1,0 +1,38 @@
+{
+  "checkedOn": "2026-10-28",
+  "publishedMappings": [
+    {
+      "level": 44,
+      "author": "あーるのスマホゲーch",
+      "videoId": "8rV7zTXt2fw",
+      "url": "https://www.youtube.com/watch?v=8rV7zTXt2fw",
+      "uploadDate": "2026-09-03T18:31:04-07:00",
+      "checkpointSeconds": 15,
+      "goal": 183,
+      "completionEvidenceSeconds": 420,
+      "completionEvidence": "Level 45 home screen"
+    },
+    {
+      "level": 48,
+      "author": "あーるのスマホゲーch",
+      "videoId": "9zvTlCrtLTg",
+      "url": "https://www.youtube.com/watch?v=9zvTlCrtLTg",
+      "uploadDate": "2026-09-04T20:41:53-07:00",
+      "checkpointSeconds": 12,
+      "goal": 183,
+      "completionEvidenceSeconds": 420,
+      "completionEvidence": "Level 49 home screen"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "claimedLevel": 42,
+      "observedLevel": 41,
+      "author": "Dũng Trịnh",
+      "videoId": "RBbOhcrRZeY",
+      "url": "https://www.youtube.com/watch?v=RBbOhcrRZeY",
+      "uploadDate": "2026-09-16T00:30:04-07:00",
+      "reason": "Title says Level 42, but all reviewed frames show Level 41 and the clip ends at 113/123 without a completion screen."
+    }
+  ]
+}

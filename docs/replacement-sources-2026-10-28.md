@@ -2,7 +2,7 @@
 
 ## 本轮结果
 
-用户要求先寻找其他作者同款手游攻略，逐关核对版本和画面；随后指定 OA GAME（https://www.youtube.com/@oa_game）和 Dũng Trịnh 播放列表。首轮实际打开10个现有库关卡的可播放候选：15–22、25、29；后续又逐关核对 Dũng Trịnh 的22–40合辑，并接入23–24、26–28、30–40。当前1–40连续有可播放来源，其余130关尚无已接入替代，不等于全网不存在。
+用户要求先寻找其他作者同款手游攻略，逐关核对版本和画面；随后指定 OA GAME（https://www.youtube.com/@oa_game）和 Dũng Trịnh 播放列表。首轮实际打开10个现有库关卡的可播放候选：15–22、25、29；后续又逐关核对 Dũng Trịnh 的22–40合辑，并接入23–24、26–28、30–40；继续核对日语作者的44、48关完整录像。当前有42个可播放页：1–40、44、48；其余128关尚无已接入替代，不等于全网不存在。
 
 ## Dũng Trịnh 22–40 合辑
 
@@ -38,6 +38,10 @@
 | 25 | あーるのスマホゲーch — https://www.youtube.com/watch?v=WOuxE1cqhGA | 日语界面，画面Level25，总数183；16秒两个开放订单。10:14出现VICTORY、183/183。标题是限制道具/广告挑战；未逐步复核全程，不声称已验证无道具/无广告。旧四缸笔记不能照搬。 |
 | 29 | Ashwini.R — https://www.youtube.com/watch?v=0AVU4tQCr5I | 24秒Level29、26/183，两个开放订单、两个加号缸；未逐步核实完整通关。旧笔记为四开放订单。 |
 
+后续继续核对あーるのスマホゲーch：44关 `8rV7zTXt2fw` 在约0:15显示Level44、41/183，约7:00回到Level45主界面；48关 `9zvTlCrtLTg` 在0:12显示Level48、1/183，约7:02回到Level49主界面。两条均确认覆盖到关卡完成，并已重写对应检查点说明。
+
+Dũng Trịnh `RBbOhcrRZeY` 是反例：标题写 `Fish Sort Level 42`，但0:11至2:32画面均为Level41，且视频在113/123时结束，未显示通关。不能按标题接到42，也未作为41的完整替代发布。
+
 额外线索：日语作者另有29关（8c498EdKS7k），KHG有11–15合集（uG4Pqkqp6X8）；仅在相关视频/搜索中读到标题，未打开，不纳入已核对10条。
 
 ## 发布前仍需做的事
@@ -48,4 +52,4 @@
 - 不把检查点抽查写成完整通关复现；除25关有明确胜利结果截图，其他视频未统一审核结尾。
 - 当前源码全局写死Daisy Gaming，新来源需要逐条作者/来源配置，不能换ID后仍把作者显示为Daisy Gaming。
 
-首轮OA GAME机器可读快照：`docs/replacement-source-audit-2026-10-28.json`；后续Dũng合辑接入记录：`docs/replacement-source-audit-2026-10-28-v2.json`。截图：`screenshots/replacements-2026-10-28/`。首轮JSON保留当时研究状态，不代表本次发布后的可播放总数。
+首轮OA GAME机器可读快照：`docs/replacement-source-audit-2026-10-28.json`；Dũng合辑接入记录：`docs/replacement-source-audit-2026-10-28-v2.json`；44/48及错误标题样本记录：`docs/replacement-source-audit-2026-10-28-v3.json`。截图：`screenshots/replacements-2026-10-28/`。早期JSON保留当时研究状态，不代表最终可播放总数。

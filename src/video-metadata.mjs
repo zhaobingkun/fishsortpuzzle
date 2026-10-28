@@ -823,7 +823,9 @@ const replacementVideoMetadata = {
   37: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
   38: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
   39: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
-  40: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' }
+  40: { videoId: 'LbVHMyOSAio', uploadDate: '2026-09-16T00:28:23-07:00', checkedOn: '2026-10-28' },
+  44: { videoId: '8rV7zTXt2fw', uploadDate: '2026-09-03T18:31:04-07:00', checkedOn: '2026-10-28' },
+  48: { videoId: '9zvTlCrtLTg', uploadDate: '2026-09-04T20:41:53-07:00', checkedOn: '2026-10-28' }
 };
 
 export const videoMetadata = { ...historicalVideoMetadata, ...replacementVideoMetadata };

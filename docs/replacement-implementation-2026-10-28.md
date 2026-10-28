@@ -7,7 +7,7 @@
 - Dũng Trịnh compilation `zplIroqBoYI`: Levels 11–14 in this release.
 - OA GAME individual videos: Levels 15–22.
 - Dũng Trịnh compilation `LbVHMyOSAio`: Levels 23–24, 26–28, and 30–40 in this release.
-- あーるのスマホゲーch `WOuxE1cqhGA`: Level 25.
+- あーるのスマホゲーch individual videos: Levels 25, 44, and 48.
 - Ashwini.R `0AVU4tQCr5I`: Level 29.
 
 The visible game UI matches the mobile Fish Sort version covered by this guide: level header, order bowls, five holding slots, fish artwork, bubbles, and boosters. None of the replacement uploaders supplied a verifiable Android package ID or exact app build, so pages tell users to compare the opening board before following later moves.
@@ -45,6 +45,8 @@ The visible game UI matches the mobile Fish Sort version covered by this guide: 
 | 38 | `LbVHMyOSAio` | 1:19:00 |
 | 39 | `LbVHMyOSAio` | 1:24:30 |
 | 40 | `LbVHMyOSAio` | 1:33:00 |
+| 44 | `8rV7zTXt2fw` | 0:00 |
+| 48 | `9zvTlCrtLTg` | 0:00 |
 
 These start values point to the level opening or its immediate opening transition. Board-note timestamps may be later when a clearer counter, order portrait, or obstacle state was needed.
 
@@ -52,8 +54,8 @@ These start values point to the level opening or its immediate opening transitio
 
 - Pages render a YouTube player and VideoObject schema only when `entry.available` is true.
 - The original Daisy Gaming mappings remain attached to historical notes for Levels without replacements, but the deleted videos are not embedded or linked as playable sources.
-- Current playable set: Levels 1–40 (40 pages).
-- Historical-note-only set: 130 pages.
+- Current playable set: Levels 1–40, 44, and 48 (42 pages).
+- Historical-note-only set: 128 pages.
 
 ## Verification
 
@@ -63,3 +65,4 @@ These start values point to the level opening or its immediate opening transitio
 - Directly opening an embed URL produced YouTube error 153 because no HTTP Referer was present; the same videos loaded through the actual site page.
 - Level 41 is the first historical-note-only page: it must have no iframe or VideoObject and must show the source-unavailable notice.
 - Production verification after commit `0bd1434`: `/levels/`, Levels 23, 31, 40, 41, and `sitemap.xml` matched the local build byte for byte. Clicking the Level 40 player created the expected privacy-enhanced embed with `start=5580`.
+- Level 44 was followed to the Level 45 home screen and Level 48 to the Level 49 home screen, confirming that both Japanese-language recordings cover their stated levels through completion.
