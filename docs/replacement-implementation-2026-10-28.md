@@ -62,3 +62,4 @@ These start values point to the level opening or its immediate opening transitio
 - Site-page iframe checks passed for Dũng Trịnh, OA GAME, あーるのスマホゲーch, and Ashwini.R using `youtube-nocookie.com` with the local guide page as referrer.
 - Directly opening an embed URL produced YouTube error 153 because no HTTP Referer was present; the same videos loaded through the actual site page.
 - Level 41 is the first historical-note-only page: it must have no iframe or VideoObject and must show the source-unavailable notice.
+- Production verification after commit `0bd1434`: `/levels/`, Levels 23, 31, 40, 41, and `sitemap.xml` matched the local build byte for byte. Clicking the Level 40 player created the expected privacy-enhanced embed with `start=5580`.
