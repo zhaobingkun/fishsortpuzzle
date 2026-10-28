@@ -12,22 +12,30 @@ const titles = new Map();
 if (levels.length < 147) errors.push(`expected at least 147 verified levels, found ${levels.length}`);
 
 const levelNumbers = new Set();
-const videoIds = new Set();
+const videoCheckpoints = new Set();
 let previousLevel = 0;
 for (const entry of levels) {
   if (!Number.isInteger(entry.level) || entry.level <= previousLevel) errors.push(`levels are not strictly ascending at ${entry.level}`);
   if (!/^[A-Za-z0-9_-]{11}$/.test(entry.videoId)) errors.push(`Level ${entry.level}: invalid YouTube ID ${entry.videoId}`);
   if (levelNumbers.has(entry.level)) errors.push(`duplicate level ${entry.level}`);
-  if (videoIds.has(entry.videoId)) errors.push(`duplicate YouTube ID ${entry.videoId}`);
+  if (!Number.isInteger(entry.startSeconds) || entry.startSeconds < 0) errors.push(`Level ${entry.level}: invalid start time ${entry.startSeconds}`);
+  const checkpointKey = `${entry.videoId}:${entry.startSeconds}`;
+  if (videoCheckpoints.has(checkpointKey)) errors.push(`duplicate video checkpoint ${checkpointKey}`);
   const metadata = videoMetadata[entry.level];
   if (metadata?.videoId !== entry.videoId || !/^\d{4}-\d{2}-\d{2}T.*(?:Z|[+-]\d{2}:\d{2})$/.test(metadata?.uploadDate ?? '') || !Number.isFinite(Date.parse(metadata?.uploadDate))) errors.push(`Level ${entry.level}: missing or invalid verified upload date`);
   if (levelNotes[entry.level]?.videoId !== entry.videoId || levelNotes[entry.level]?.sections.length < 3) errors.push(`Level ${entry.level}: missing reviewed board notes`);
   const levelHtml = await readFile(join(rootPath, `level/${entry.level}/index.html`), 'utf8');
   const schemas = [...levelHtml.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((match) => JSON.parse(match[1]));
   const videoSchema = schemas.find((schema) => schema['@type'] === 'VideoObject');
-  if (videoSchema?.uploadDate !== metadata?.uploadDate || videoSchema?.embedUrl !== `https://www.youtube.com/embed/${entry.videoId}` || videoSchema?.contentUrl) errors.push(`Level ${entry.level}: invalid generated video schema`);
+  const expectedEmbed = `https://www.youtube.com/embed/${entry.videoId}${entry.startSeconds ? `?start=${entry.startSeconds}` : ''}`;
+  if (entry.available) {
+    if (videoSchema?.uploadDate !== metadata?.uploadDate || videoSchema?.embedUrl !== expectedEmbed || videoSchema?.contentUrl) errors.push(`Level ${entry.level}: invalid generated video schema`);
+    if (!levelHtml.includes(`data-video-start="${entry.startSeconds}"`)) errors.push(`Level ${entry.level}: missing player start time`);
+  } else if (videoSchema || levelHtml.includes('data-video-id=')) {
+    errors.push(`Level ${entry.level}: unavailable source must not render a player or VideoObject`);
+  }
   levelNumbers.add(entry.level);
-  videoIds.add(entry.videoId);
+  videoCheckpoints.add(checkpointKey);
   previousLevel = entry.level;
 }
 
@@ -93,5 +101,5 @@ if (errors.length) {
   console.error(errors.join('\n'));
   process.exitCode = 1;
 } else {
-  console.log(`Checked ${titles.size} HTML pages and ${levels.length} unique level-video mappings: metadata and internal links are valid.`);
+  console.log(`Checked ${titles.size} HTML pages and ${levels.length} level guides: video checkpoints, metadata, availability, and internal links are valid.`);
 }

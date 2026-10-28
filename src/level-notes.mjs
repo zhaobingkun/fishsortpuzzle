@@ -1,7 +1,7 @@
 // Visually reviewed against public Daisy Gaming videos; see checkedOn for each entry.
 // These are early-board checkpoints, not a frame-by-frame transcript or tested tap sequence.
 // Color/shape labels describe the visible artwork; they are not official species names.
-export const levelNotes = {
+const historicalLevelNotes = {
   "15": {
     "videoId": "werOAjkWhLM",
     "checkedOn": "2026-10-08",
@@ -3164,3 +3164,225 @@ export const levelNotes = {
     ]
   }
 };
+
+const replacementLevelNotes = {
+  1: {
+    videoId: 'ackz7VhWeEM', checkedOn: '2026-10-28', seconds: 12, counterGoal: null,
+    description: 'Level 1 tutorial notes: the recording introduces the three-of-a-kind rule before the first holding-slot lesson.',
+    sections: [
+      ['What does the tutorial ask you to do?', 'At 0:12, the on-screen prompt says to get three matching fish. A dark blue striped fish is already in the first order bowl, and the hand prompt points to the matching group below.'],
+      ['How much of the interface is available?', 'The lower booster buttons are still locked during this opening tutorial. Two extra order bowls show plus signs, so the checkpoint is teaching the core match action rather than a full multi-order board.'],
+      ['How should this checkpoint be used?', 'Follow the highlighted tutorial action, then compare the next prompt with your screen. This note records the visible lesson and does not claim a separate optimized tap sequence.']
+    ]
+  },
+  2: {
+    videoId: 'ackz7VhWeEM', checkedOn: '2026-10-28', seconds: 27, counterGoal: 90,
+    description: 'Level 2 opens at 0/90 with a striped blue order, a red octopus order, and an empty holding bar.',
+    sections: [
+      ['Which orders open Level 2?', 'At 0:27, the striped dark-blue fish and red spotted octopus portraits both show 0/3. The progress counter reads 0/90, and the remaining two bowls are unused plus slots.'],
+      ['What is visible before the first match?', 'The holding bar is empty. A tutorial bubble explains that matching pops the order bubble while a hand points at a visible group, giving a clean reference for the board before any unmatched fish are stored.'],
+      ['Which lookalikes need care?', 'Brown-and-white striped fish and dark blue striped fish both appear on the board. Use the background color and stripe pattern in the active portrait instead of treating every striped design as one match.']
+    ]
+  },
+  3: {
+    videoId: 'ackz7VhWeEM', checkedOn: '2026-10-28', seconds: 183, counterGoal: 99,
+    description: 'Level 3 notes compare the 10/99 opening state, a pink target, a yellow striped target, and an empty holding bar.',
+    sections: [
+      ['What does the early counter show?', 'At 3:03, Level 3 reads 10/99. The pink portrait shows 1/3 and the yellow striped portrait shows 0/3, while the holding bar remains empty in the captured frame.'],
+      ['Which groups anchor the upper board?', 'Pink round fish appear near the left bowl and across the upper half. Yellow striped fish are scattered through the middle and lower groups, providing a second distinct target shape.'],
+      ['What changed from the tutorial levels?', 'The Net booster is now available while later booster slots remain locked. The board is denser than Levels 1 and 2, so compare the target silhouettes before opening an unrelated species.']
+    ]
+  },
+  4: {
+    videoId: 'ackz7VhWeEM', checkedOn: '2026-10-28', seconds: 650, counterGoal: 120,
+    description: 'Level 4 introduces the frozen-fish mechanic and later shows green and yellow-striped orders at 42/120.',
+    sections: [
+      ['Which mechanic is introduced?', 'At 10:50, the recording displays a New Mode Unlocked panel explaining that adjacent fish must be clicked three times to defrost an ice block. Level 4 is visible behind the panel.'],
+      ['What does the later board show?', 'At 12:31, the counter reads 42/120. The green order shows 0/3, the yellow striped order shows 3/3, and an ice bubble marked 2 remains near the upper right.'],
+      ['How should the ice marker be read?', 'The number is an observed on-screen marker. Use the recording to see how it changes after adjacent matches rather than assuming every frozen group follows an unverified shortcut.']
+    ]
+  },
+  5: {
+    videoId: 'ackz7VhWeEM', checkedOn: '2026-10-28', seconds: 952, counterGoal: 120,
+    description: 'Level 5 starts near 3/120 with two open orders, an empty holding bar, and a frozen group marked 1.',
+    sections: [
+      ['What is the opening progress?', 'At 15:52, the counter reads 3/120. Both visible order portraits show 0/3, and the five holding slots are empty at this checkpoint.'],
+      ['Where is the frozen group?', 'A circular frozen group marked 1 sits toward the lower left. Red octopuses, pink round fish, teal fish, and green-yellow fish remain visible outside it.'],
+      ['What is the safest comparison?', 'Match the two active portrait shapes to exposed fish before selecting a third design. The frame documents the layout only; it does not prove that every visible triple is safe.']
+    ]
+  },
+  6: {
+    videoId: 'ackz7VhWeEM', checkedOn: '2026-10-28', seconds: 1231, counterGoal: 123,
+    description: 'Level 6 opens at 0/123 with orange and pink long-fin orders plus two frozen groups marked 3.',
+    sections: [
+      ['Which orders begin Level 6?', 'At 20:31, the orange-white portrait and the pink-white long-fin portrait both show 0/3. The progress counter is 0/123 and the holding bar is empty.'],
+      ['How many frozen groups are visible?', 'Two large ice bubbles marked 3 appear on the board, one around the right-middle area and another near the lower left. Their contents should be confirmed as the ice clears.'],
+      ['Which fish provide landmarks?', 'Orange-white fish appear near the upper left and lower middle, while pink-white long-fin fish appear across the upper and lower right. Black-and-white striped pairs sit near the center.']
+    ]
+  },
+  7: {
+    videoId: 'ackz7VhWeEM', checkedOn: '2026-10-28', seconds: 1501, counterGoal: 180,
+    description: 'Level 7 begins at 0/180 with two blue order types and a chained group paired with a visible key.',
+    sections: [
+      ['What is visible at the start?', 'At 25:01, both blue order portraits show 0/3 and the counter reads 0/180. The holding bar is empty, giving a reliable reference before the first selection.'],
+      ['Where are the chain and key?', 'A chained group marked 1 is visible near the lower left and a gold key appears near the lower right. Their positions are observed landmarks, not a claim about the exact unlock sequence.'],
+      ['How do the blue targets differ?', 'One portrait has a smooth pale-blue body while the other is a narrower blue design. Compare the full silhouette because several blue fish with different fins and stripe patterns share the board.']
+    ]
+  },
+  8: {
+    videoId: 'BmYGeGNdnpA', checkedOn: '2026-10-28', seconds: 12, counterGoal: 123,
+    description: 'Level 8 uses an OA GAME replacement video showing 6/123, an octopus order, a green order, and a frozen group.',
+    sections: [
+      ['What confirms this is Level 8?', 'At 0:12, the header visibly reads Level 8 and the progress counter reads 6/123. This is a separate OA GAME recording because the Dũng Trịnh 1–10 compilation skips directly from Level 7 to Level 9.'],
+      ['Which orders are active?', 'The left portrait is a red spotted octopus. The green fish order beside it is already complete in the captured frame, while the other two bowls remain plus slots.'],
+      ['What special object is visible?', 'A frozen circular group marked 1 sits near the lower board. Several red octopuses and green fish are exposed elsewhere, but the screenshot is only an early checkpoint and not a tested full route.']
+    ]
+  },
+  9: {
+    videoId: 'ackz7VhWeEM', checkedOn: '2026-10-28', seconds: 2003, counterGoal: 159,
+    description: 'Level 9 notes record 26/159, two partially filled orders, one occupied holding slot, and a chain-key pair.',
+    sections: [
+      ['What does the checkpoint counter show?', 'At 33:23, Level 9 reads 26/159. The pale blue order and purple-yellow order each show 1/3.'],
+      ['What is already in the holding bar?', 'One yellow spotted puffer occupies the first holding slot. The remaining slots are open, so compare that stored design before adding another unmatched species.'],
+      ['Where are the lock landmarks?', 'A chained group marked 1 appears near the lower center-left and a gold key appears toward the lower right. Their visible positions help align the recording without asserting the unlock rule.']
+    ]
+  },
+  10: {
+    videoId: 'ackz7VhWeEM', checkedOn: '2026-10-28', seconds: 2352, counterGoal: 159,
+    description: 'Level 10 shows 11/159 with a purple order at 2/3, a red-striped order at 0/3, and a chain-key pair below.',
+    sections: [
+      ['Which order is closest to clearing?', 'At 39:12, the purple portrait shows 2/3 while the red-and-white striped portrait shows 0/3. The overall counter reads 11/159.'],
+      ['What is the holding-bar state?', 'All five holding slots appear open at the checkpoint. Use that empty bar as the comparison point before copying any later move from the recording.'],
+      ['Which lower objects stand out?', 'A chained group marked 1 sits near the lower left and a gold key appears near the lower right. Green, orange, pink-white, and striped fish surround those landmarks.']
+    ]
+  },
+  11: {
+    videoId: 'zplIroqBoYI', checkedOn: '2026-10-28', seconds: 300, counterGoal: 123,
+    description: 'Level 11 notes capture 43/123 with starfish and striped orders, an empty holding bar, and a countdown-marked group.',
+    sections: [
+      ['What does the Level 11 checkpoint show?', 'At 5:00, the counter reads 43/123. The visible orders include an orange starfish and a brown-and-white striped fish.'],
+      ['Is the holding bar under pressure?', 'The five holding slots are empty in this frame. That makes the timestamp useful for comparing the board before another species is introduced.'],
+      ['Which special marker is visible?', 'A circular group carries a countdown-style 7 marker. The marker is recorded as seen; follow the video to verify how it changes rather than treating it as a proven rule.']
+    ]
+  },
+  12: {
+    videoId: 'zplIroqBoYI', checkedOn: '2026-10-28', seconds: 620, counterGoal: 183,
+    description: 'Level 12 is shown at 165/183 with three visible orders, one occupied holding slot, and ice effects near the bowls.',
+    sections: [
+      ['How close is the checkpoint to the goal?', 'At 10:20, Level 12 reads 165/183. The spotted yellow order shows 1/3, the orange order shows 2/3, and the smooth yellow order shows 0/3.'],
+      ['What is stored below?', 'One red spotted octopus occupies the first holding slot while the other four slots are open. Compare that stored piece before adding another unmatched design.'],
+      ['What remains around the orders?', 'Ice fragments and frosted effects are visible near the upper bowls. The skull icon beside the level number is also visible, but this checkpoint does not establish a separate difficulty rule.']
+    ]
+  },
+  13: {
+    videoId: 'zplIroqBoYI', checkedOn: '2026-10-28', seconds: 700, counterGoal: 123,
+    description: 'Level 13 notes show 19/123, a red puffer order at 1/3, an empty holding bar, and a large frozen group.',
+    sections: [
+      ['What is the visible order state?', 'At 11:40, the red-and-cream puffer portrait shows 1/3 and the overall counter reads 19/123. The other completed portrait is no longer an open target.'],
+      ['What is visible in the holding bar?', 'All five holding slots are empty at the checkpoint. This lets players compare the board without having to reconstruct earlier stored fish.'],
+      ['Which obstacle anchors the board?', 'A large iridescent frozen bubble occupies the left side. Orange stars, blue striped fish, yellow fish, and a red octopus provide additional shape landmarks around it.']
+    ]
+  },
+  14: {
+    videoId: 'zplIroqBoYI', checkedOn: '2026-10-28', seconds: 918, counterGoal: 144,
+    description: 'Level 14 begins at 0/144 with two open orders, an empty holding bar, and a lower chain-key pair.',
+    sections: [
+      ['What confirms the Level 14 start?', 'At 15:18, the header reads Level 14 and the counter is 0/144. The red-and-cream puffer and green-yellow fish portraits both show 0/3.'],
+      ['What is the initial slot state?', 'The holding bar is empty. A second checkpoint at 15:31 shows progress at 13/144, confirming that the 15:18 frame is the useful opening reference.'],
+      ['Where are the lock landmarks?', 'A chained group marked 1 sits near the lower middle and a gold key appears to its right. Seahorses, starfish, yellow puffers, and striped fish surround the pair.']
+    ]
+  },
+  15: {
+    videoId: 'OLF9WUkeYVk', checkedOn: '2026-10-28', seconds: 10, counterGoal: 144,
+    description: 'Level 15 replacement video notes show the verified OA GAME board at 10 seconds with green-order and empty-slot landmarks.',
+    sections: [
+      ['What confirms the replacement mapping?', 'The OA GAME recording visibly identifies Level 15 and shows the same order bowls, five-slot holding bar, bubbles, and fish artwork used by this mobile guide.'],
+      ['What should be compared first?', 'At 0:10, compare the green order artwork and the empty holding spaces before copying a move. Similar green and yellow pieces appear across multiple bubbles.'],
+      ['What is the limit of this review?', 'The opening board and level number were checked for this replacement. The notes do not claim a tested tap-by-tap solution or an exact app package version supplied by the uploader.']
+    ]
+  },
+  16: {
+    videoId: 'xR_4loZ3LSA', checkedOn: '2026-10-28', seconds: 10, counterGoal: 183,
+    description: 'Level 16 replacement notes use the OA GAME recording and a fresh early-board checkpoint instead of the removed Daisy video.',
+    sections: [
+      ['How was Level 16 identified?', 'The OA GAME video visibly shows Level 16 in the game header and the same mobile interface used across the replacement set.'],
+      ['What should players compare?', 'Pause at 0:10 and compare the active order portraits, holding-bar occupancy, and exposed top-layer groups before following later taps.'],
+      ['Why are the old notes not reused?', 'The replacement board differs from the removed Daisy checkpoint. These notes are tied to the new video ID and avoid carrying over unverified fish positions.']
+    ]
+  },
+  17: {
+    videoId: '7fslCZUU-6E', checkedOn: '2026-10-28', seconds: 38, counterGoal: 123,
+    description: 'Level 17 replacement notes use the OA GAME frame at 0:38 with the level header and 123-point goal visible.',
+    sections: [
+      ['What is verified in the frame?', 'At 0:38, the header visibly reads Level 17 and the progress goal is 123. The board uses the same order bowls and five holding slots as the surrounding replacement levels.'],
+      ['How should the frame be compared?', 'Match the order portraits and any fish already waiting in the holding bar before copying the next selection. Color alone is not enough when striped and round variants share a palette.'],
+      ['What remains unclaimed?', 'This is a reviewed checkpoint in a public recording, not a full independent play test. The uploader does not provide a package ID or exact app build for the video.']
+    ]
+  },
+  18: {
+    videoId: 'KGkCBe2uyqY', checkedOn: '2026-10-28', seconds: 17, counterGoal: 159,
+    description: 'Level 18 replacement notes record the OA GAME board at 0:17 and the visible 159-point goal.',
+    sections: [
+      ['What confirms Level 18?', 'At 0:17, the recording visibly shows Level 18 and a progress goal of 159. The board and controls match the mobile Fish Sort interface used by this guide.'],
+      ['Which details should be aligned?', 'Compare the order portraits, special markers, and five holding slots with your screen before following the next clear. A different opening state may indicate a changed build.'],
+      ['Was the ending also seen?', 'The recording was observed reaching a cleared end state. That confirms the video covers the level, while these notes remain checkpoint observations rather than a recreated full solution.']
+    ]
+  },
+  19: {
+    videoId: 'Io-T3gaj3Bk', checkedOn: '2026-10-28', seconds: 15, counterGoal: 144,
+    description: 'Level 19 replacement notes use the OA GAME frame at 0:15 with the 144-point goal and early board visible.',
+    sections: [
+      ['What is visible at 0:15?', 'The header reads Level 19 and the progress goal is 144. Active order portraits and the early arrangement are visible before the board becomes heavily reduced.'],
+      ['How should holding slots be checked?', 'Count occupied slots and identify any pair already waiting before adding a new species. The replacement board should not be compared with the removed source notes.'],
+      ['What was verified about the source?', 'The watch page played successfully and the in-frame level number matched the title. The uploader did not expose a package ID or exact app version.']
+    ]
+  },
+  20: {
+    videoId: 'JmSbDXkf1cs', checkedOn: '2026-10-28', seconds: 18, counterGoal: 189,
+    description: 'Level 20 replacement notes capture the OA GAME board at 0:18 with the visible 189-point goal.',
+    sections: [
+      ['What is the verified goal?', 'At 0:18, the Level 20 header and a progress goal of 189 are visible. The recording uses the same fish, order tanks, holding bar, and bubbles as this mobile guide.'],
+      ['What should be checked before tapping?', 'Compare the two open order designs and the holding-bar state with your own screen. Similar colors can belong to different silhouettes, especially among puffers and striped fish.'],
+      ['How far does this review go?', 'The level-to-video mapping and checkpoint were visually checked. It is not described as a no-booster or perfectly reproduced solution.']
+    ]
+  },
+  21: {
+    videoId: 'Ljuvb0vcggc', checkedOn: '2026-10-28', seconds: 19, counterGoal: null,
+    description: 'Level 21 replacement notes use the OA GAME frame at 0:19; the level is verified while the blurred total is left unreported.',
+    sections: [
+      ['What is verified despite the blur?', 'At 0:19, the header visibly identifies Level 21 and the mobile interface matches the surrounding Fish Sort replacement videos.'],
+      ['Why is there no numeric goal here?', 'The progress total was not reliably readable in the reviewed frame. The site leaves it unspecified instead of copying a number from the removed source.'],
+      ['How should the recording be used?', 'Compare the active orders and occupied holding slots at the linked timestamp, then follow later taps only if your exposed groups match.']
+    ]
+  },
+  22: {
+    videoId: 'IZBXC4sidSc', checkedOn: '2026-10-28', seconds: 15, counterGoal: 123,
+    description: 'Level 22 replacement notes capture the OA GAME board at 0:15 with the visible 123-point goal.',
+    sections: [
+      ['What confirms the mapping?', 'At 0:15, the header reads Level 22 and the progress goal is 123. The watch page was playable during the October 28 review.'],
+      ['Which board details matter?', 'Compare the current order portraits, any locked or frozen marker, and the five holding slots before copying the next move from the video.'],
+      ['What should not be carried forward?', 'Fish positions and advice from the removed Daisy recording are not treated as current evidence. These notes belong only to this replacement video.']
+    ]
+  },
+  25: {
+    videoId: 'WOuxE1cqhGA', checkedOn: '2026-10-28', seconds: 17, counterGoal: 183,
+    extraCheckpoints: [{ seconds: 614, label: 'Confirm the 183/183 victory screen at 10:14' }],
+    description: 'Level 25 replacement notes use a Japanese-language recording with the opening board and 183/183 victory screen verified.',
+    sections: [
+      ['What is visible near the start?', 'At 0:17, the header reads Level 25 and the overall goal is 183. Two order bowls are open while the remaining bowls show plus signs.'],
+      ['What confirms the recording reaches the finish?', 'At 10:14, the video visibly shows VICTORY and 183/183. This confirms that the recording covers the end of Level 25.'],
+      ['What does the victory frame not prove?', 'The review does not claim a no-booster run, an exact app package, or independent reproduction on another device. Follow the video only when your board matches.']
+    ]
+  },
+  29: {
+    videoId: '0AVU4tQCr5I', checkedOn: '2026-10-28', seconds: 24, counterGoal: 183,
+    description: 'Level 29 replacement notes show 26/183 with red-and-white and blue orders in the Ashwini.R recording.',
+    sections: [
+      ['What is visible at 0:24?', 'The header reads Level 29 and the progress counter reads 26/183. Two order bowls are open while the other two bowls show plus signs.'],
+      ['Which orders are active?', 'One portrait is a red-and-white round fish and the other is blue. Compare their silhouettes with exposed candidates instead of reusing the four-order layout from the removed source.'],
+      ['What was verified about the recording?', 'The video played successfully and the in-frame level number matched its title. The checkpoint was reviewed, but the full route was not independently recreated.']
+    ]
+  }
+};
+
+export const levelNotes = { ...historicalLevelNotes, ...replacementLevelNotes };

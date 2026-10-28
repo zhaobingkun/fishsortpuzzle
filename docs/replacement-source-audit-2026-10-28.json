@@ -1,0 +1,1332 @@
+{
+  "checkedOn": "2026-10-28",
+  "scope": "寻找替代来源，不修改网站映射或发布",
+  "playlist": {
+    "url": "https://www.youtube.com/playlist?list=PLQIw4li5ViCo",
+    "reportedCount": 23,
+    "visibleCount": 21,
+    "hiddenUnavailableCount": 2,
+    "inventory": [
+      {
+        "videoId": "IZBXC4sidSc",
+        "levels": "22",
+        "url": "https://www.youtube.com/watch?v=IZBXC4sidSc"
+      },
+      {
+        "videoId": "Ljuvb0vcggc",
+        "levels": "21",
+        "url": "https://www.youtube.com/watch?v=Ljuvb0vcggc"
+      },
+      {
+        "videoId": "JmSbDXkf1cs",
+        "levels": "20",
+        "url": "https://www.youtube.com/watch?v=JmSbDXkf1cs"
+      },
+      {
+        "videoId": "Io-T3gaj3Bk",
+        "levels": "19",
+        "url": "https://www.youtube.com/watch?v=Io-T3gaj3Bk"
+      },
+      {
+        "videoId": "KGkCBe2uyqY",
+        "levels": "18",
+        "url": "https://www.youtube.com/watch?v=KGkCBe2uyqY"
+      },
+      {
+        "videoId": "7fslCZUU-6E",
+        "levels": "17",
+        "url": "https://www.youtube.com/watch?v=7fslCZUU-6E"
+      },
+      {
+        "videoId": "xR_4loZ3LSA",
+        "levels": "16",
+        "url": "https://www.youtube.com/watch?v=xR_4loZ3LSA"
+      },
+      {
+        "videoId": "OLF9WUkeYVk",
+        "levels": "15",
+        "url": "https://www.youtube.com/watch?v=OLF9WUkeYVk"
+      },
+      {
+        "videoId": "FZ4JngZv77Q",
+        "levels": "14",
+        "url": "https://www.youtube.com/watch?v=FZ4JngZv77Q"
+      },
+      {
+        "videoId": "qdaRFjuoknk",
+        "levels": "13",
+        "url": "https://www.youtube.com/watch?v=qdaRFjuoknk"
+      },
+      {
+        "videoId": "lfu20_tfalA",
+        "levels": "12",
+        "url": "https://www.youtube.com/watch?v=lfu20_tfalA"
+      },
+      {
+        "videoId": "D0YpuY9lRI4",
+        "levels": "11",
+        "url": "https://www.youtube.com/watch?v=D0YpuY9lRI4"
+      },
+      {
+        "videoId": "pdmfu1xTCYA",
+        "levels": "10",
+        "url": "https://www.youtube.com/watch?v=pdmfu1xTCYA"
+      },
+      {
+        "videoId": "C8ck80oH5Zk",
+        "levels": "9",
+        "url": "https://www.youtube.com/watch?v=C8ck80oH5Zk"
+      },
+      {
+        "videoId": "i4g_A0g5JO0",
+        "levels": "9–11",
+        "url": "https://www.youtube.com/watch?v=i4g_A0g5JO0"
+      },
+      {
+        "videoId": "8sEYhVhzpNY",
+        "levels": "4",
+        "url": "https://www.youtube.com/watch?v=8sEYhVhzpNY"
+      },
+      {
+        "videoId": "DdyU3I3tk4I",
+        "levels": "4–6",
+        "url": "https://www.youtube.com/watch?v=DdyU3I3tk4I"
+      },
+      {
+        "videoId": "aXnTQ4qeHkY",
+        "levels": "5",
+        "url": "https://www.youtube.com/watch?v=aXnTQ4qeHkY"
+      },
+      {
+        "videoId": "KhbXGRck4TI",
+        "levels": "6",
+        "url": "https://www.youtube.com/watch?v=KhbXGRck4TI"
+      },
+      {
+        "videoId": "VK_qj5o3FPE",
+        "levels": "7",
+        "url": "https://www.youtube.com/watch?v=VK_qj5o3FPE"
+      },
+      {
+        "videoId": "BmYGeGNdnpA",
+        "levels": "8",
+        "url": "https://www.youtube.com/watch?v=BmYGeGNdnpA"
+      }
+    ],
+    "highestVisibleLevel": 22,
+    "channelSearchExtra": {
+      "videoId": "PNt2wWGCsCw",
+      "levels": "1–3"
+    },
+    "lowerLevelsPlaybackVerified": false
+  },
+  "candidates": [
+    {
+      "level": 15,
+      "videoId": "OLF9WUkeYVk",
+      "channel": "OA GAME",
+      "channelUrl": "https://www.youtube.com/@oa_game",
+      "url": "https://www.youtube.com/watch?v=OLF9WUkeYVk",
+      "uploadDate": "2026-10-15T06:00:35-07:00",
+      "duration": "PT4M22S",
+      "playbackVerified": true,
+      "inFrameLevelVerified": true,
+      "counterGoal": 144,
+      "oldCounterGoal": 144,
+      "seconds": null,
+      "observations": "十秒画面见绿色订单及空暂存栏；旧笔记为黄色订单2/3且绿色鱼在暂存栏。不能沿用旧时间点说明。",
+      "screenshot": "screenshots/replacements-2026-10-28/oa-15-opening.jpg",
+      "checkedOn": "2026-10-28",
+      "identity": "画面与项目中Shycheese手游的鱼种、订单缸、5格暂存栏、气泡和关卡界面相符；非YIGOT浏览器版",
+      "exactAppVersion": null,
+      "packageIdVerifiedFromSource": false,
+      "embedTested": false,
+      "directReplacementApproved": false,
+      "status": "playable-candidate-requires-new-notes-and-embed-check"
+    },
+    {
+      "level": 16,
+      "videoId": "xR_4loZ3LSA",
+      "channel": "OA GAME",
+      "channelUrl": "https://www.youtube.com/@oa_game",
+      "url": "https://www.youtube.com/watch?v=xR_4loZ3LSA",
+      "uploadDate": "2026-10-16T20:00:25-07:00",
+      "duration": "PT6M28S",
+      "playbackVerified": true,
+      "inFrameLevelVerified": true,
+      "counterGoal": 183,
+      "oldCounterGoal": 183,
+      "seconds": null,
+      "observations": "可见绿色黄脸与黑白条纹订单，暂存栏已占4格；冰冻3组在右上。旧笔记为红章鱼与绿鱼订单、左下冰冻3组。",
+      "screenshot": "screenshots/replacements-2026-10-28/oa-16-checkpoint.jpg",
+      "checkedOn": "2026-10-28",
+      "identity": "画面与项目中Shycheese手游的鱼种、订单缸、5格暂存栏、气泡和关卡界面相符；非YIGOT浏览器版",
+      "exactAppVersion": null,
+      "packageIdVerifiedFromSource": false,
+      "embedTested": false,
+      "directReplacementApproved": false,
+      "status": "playable-candidate-requires-new-notes-and-embed-check"
+    },
+    {
+      "level": 17,
+      "videoId": "7fslCZUU-6E",
+      "channel": "OA GAME",
+      "channelUrl": "https://www.youtube.com/@oa_game",
+      "url": "https://www.youtube.com/watch?v=7fslCZUU-6E",
+      "uploadDate": "2026-10-16T22:00:24-07:00",
+      "duration": "PT3M2S",
+      "playbackVerified": true,
+      "inFrameLevelVerified": true,
+      "counterGoal": 123,
+      "oldCounterGoal": 123,
+      "seconds": 38.4,
+      "observations": "所见为绿黄脸及绿色圆鱼订单，进度16/123；不能将旧0:10的粉鱼/橙白订单说明直接绑定。",
+      "screenshot": "screenshots/replacements-2026-10-28/oa-17-checkpoint.jpg",
+      "checkedOn": "2026-10-28",
+      "identity": "画面与项目中Shycheese手游的鱼种、订单缸、5格暂存栏、气泡和关卡界面相符；非YIGOT浏览器版",
+      "exactAppVersion": null,
+      "packageIdVerifiedFromSource": false,
+      "embedTested": false,
+      "directReplacementApproved": false,
+      "status": "playable-candidate-requires-new-notes-and-embed-check"
+    },
+    {
+      "level": 18,
+      "videoId": "KGkCBe2uyqY",
+      "channel": "OA GAME",
+      "channelUrl": "https://www.youtube.com/@oa_game",
+      "url": "https://www.youtube.com/watch?v=KGkCBe2uyqY",
+      "uploadDate": "2026-10-17T14:00:22-07:00",
+      "duration": "PT4M26S",
+      "playbackVerified": true,
+      "inFrameLevelVerified": true,
+      "counterGoal": 159,
+      "oldCounterGoal": 159,
+      "seconds": 17.2,
+      "observations": "黄色窄鱼与海星订单；暂存栏可见章鱼、黑白鱼、紫黄鱼；所见左下无旧笔记中的锁链。4:23附近可见棋盘清空，未核实完整无剪辑通关过程。",
+      "screenshot": "screenshots/replacements-2026-10-28/oa-18-17s.jpg",
+      "checkedOn": "2026-10-28",
+      "identity": "画面与项目中Shycheese手游的鱼种、订单缸、5格暂存栏、气泡和关卡界面相符；非YIGOT浏览器版",
+      "exactAppVersion": null,
+      "packageIdVerifiedFromSource": false,
+      "embedTested": false,
+      "directReplacementApproved": false,
+      "status": "playable-candidate-requires-new-notes-and-embed-check"
+    },
+    {
+      "level": 19,
+      "videoId": "Io-T3gaj3Bk",
+      "channel": "OA GAME",
+      "channelUrl": "https://www.youtube.com/@oa_game",
+      "url": "https://www.youtube.com/watch?v=Io-T3gaj3Bk",
+      "uploadDate": "2026-10-17T15:00:32-07:00",
+      "duration": "PT4M11S",
+      "playbackVerified": true,
+      "inFrameLevelVerified": true,
+      "counterGoal": 144,
+      "oldCounterGoal": 144,
+      "seconds": 14.66,
+      "observations": "黄色圆鱼与青蓝鱼订单，左上大晶体，暂存绿色鱼。旧0:10是黑白条纹与章鱼订单，原笔记不能直接套用。",
+      "screenshot": "screenshots/replacements-2026-10-28/oa-19-checkpoint.jpg",
+      "checkedOn": "2026-10-28",
+      "identity": "画面与项目中Shycheese手游的鱼种、订单缸、5格暂存栏、气泡和关卡界面相符；非YIGOT浏览器版",
+      "exactAppVersion": null,
+      "packageIdVerifiedFromSource": false,
+      "embedTested": false,
+      "directReplacementApproved": false,
+      "status": "playable-candidate-requires-new-notes-and-embed-check"
+    },
+    {
+      "level": 20,
+      "videoId": "JmSbDXkf1cs",
+      "channel": "OA GAME",
+      "channelUrl": "https://www.youtube.com/@oa_game",
+      "url": "https://www.youtube.com/watch?v=JmSbDXkf1cs",
+      "uploadDate": "2026-10-24T19:00:07-07:00",
+      "duration": "PT5M31S",
+      "playbackVerified": true,
+      "inFrameLevelVerified": true,
+      "counterGoal": 189,
+      "oldCounterGoal": 189,
+      "seconds": 17.78,
+      "observations": "红白圆鱼与橙蓝条纹鱼订单，后者3/3；海星与黑白条纹鱼显眼。旧笔记是黄斑河豚完成、粉白长鳍0/3。",
+      "screenshot": "screenshots/replacements-2026-10-28/oa-20-checkpoint.jpg",
+      "checkedOn": "2026-10-28",
+      "identity": "画面与项目中Shycheese手游的鱼种、订单缸、5格暂存栏、气泡和关卡界面相符；非YIGOT浏览器版",
+      "exactAppVersion": null,
+      "packageIdVerifiedFromSource": false,
+      "embedTested": false,
+      "directReplacementApproved": false,
+      "status": "playable-candidate-requires-new-notes-and-embed-check"
+    },
+    {
+      "level": 21,
+      "videoId": "Ljuvb0vcggc",
+      "channel": "OA GAME",
+      "channelUrl": "https://www.youtube.com/@oa_game",
+      "url": "https://www.youtube.com/watch?v=Ljuvb0vcggc",
+      "uploadDate": "2026-10-24T20:00:28-07:00",
+      "duration": "PT4M30S",
+      "playbackVerified": true,
+      "inFrameLevelVerified": true,
+      "counterGoal": null,
+      "oldCounterGoal": 159,
+      "seconds": 19.28,
+      "observations": "关卡号21清楚；当前红白圆鱼与蓝白条纹订单。原视频清晰度较低，总目标未可靠读取，不用旧159代填。另保存0秒画面。",
+      "screenshot": "screenshots/replacements-2026-10-28/oa-21-checkpoint.jpg",
+      "checkedOn": "2026-10-28",
+      "identity": "画面与项目中Shycheese手游的鱼种、订单缸、5格暂存栏、气泡和关卡界面相符；非YIGOT浏览器版",
+      "exactAppVersion": null,
+      "packageIdVerifiedFromSource": false,
+      "embedTested": false,
+      "directReplacementApproved": false,
+      "status": "playable-candidate-requires-new-notes-and-embed-check"
+    },
+    {
+      "level": 22,
+      "videoId": "IZBXC4sidSc",
+      "channel": "OA GAME",
+      "channelUrl": "https://www.youtube.com/@oa_game",
+      "url": "https://www.youtube.com/watch?v=IZBXC4sidSc",
+      "uploadDate": "2026-10-24T21:00:29-07:00",
+      "duration": "PT3M16S",
+      "playbackVerified": true,
+      "inFrameLevelVerified": true,
+      "counterGoal": 123,
+      "oldCounterGoal": 123,
+      "seconds": 15.05,
+      "observations": "绿色黄脸与青色鱼订单均0/3，进度12/123，暂存栏空；旧笔记是海豚2/3及一条浅蓝暂存鱼。",
+      "screenshot": "screenshots/replacements-2026-10-28/oa-22-checkpoint.jpg",
+      "checkedOn": "2026-10-28",
+      "identity": "画面与项目中Shycheese手游的鱼种、订单缸、5格暂存栏、气泡和关卡界面相符；非YIGOT浏览器版",
+      "exactAppVersion": null,
+      "packageIdVerifiedFromSource": false,
+      "embedTested": false,
+      "directReplacementApproved": false,
+      "status": "playable-candidate-requires-new-notes-and-embed-check"
+    },
+    {
+      "level": 29,
+      "videoId": "0AVU4tQCr5I",
+      "channel": "Ashwini.R",
+      "channelUrl": "https://www.youtube.com/@ashwini.r6452",
+      "url": "https://www.youtube.com/watch?v=0AVU4tQCr5I",
+      "uploadDate": "2026-09-07T04:31:05-07:00",
+      "duration": "PT2M49S",
+      "playbackVerified": true,
+      "inFrameLevelVerified": true,
+      "counterGoal": 183,
+      "oldCounterGoal": 183,
+      "seconds": 24,
+      "observations": "画面内Level29、26/183；两开放订单为红白圆鱼、蓝鱼，另两缸为加号。旧笔记四开放订单不能照搬。已确认同类手游界面，未逐步核实完整通关。",
+      "screenshot": "screenshots/replacements-2026-10-28/ashwini-29-checkpoint.jpg",
+      "checkedOn": "2026-10-28",
+      "identity": "画面与项目中Shycheese手游的鱼种、订单缸、5格暂存栏、气泡和关卡界面相符；非YIGOT浏览器版",
+      "exactAppVersion": null,
+      "packageIdVerifiedFromSource": false,
+      "embedTested": false,
+      "directReplacementApproved": false,
+      "status": "playable-candidate-requires-new-notes-and-embed-check"
+    },
+    {
+      "level": 25,
+      "videoId": "WOuxE1cqhGA",
+      "channel": "あーるのスマホゲーch",
+      "channelUrl": "https://www.youtube.com/@%E3%81%82%E3%83%BC%E3%82%8B%E3%81%AE%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B2%E3%83%BCch",
+      "url": "https://www.youtube.com/watch?v=WOuxE1cqhGA",
+      "uploadDate": "2026-09-01T02:38:30-07:00",
+      "duration": "PT10M27S",
+      "playbackVerified": true,
+      "inFrameLevelVerified": true,
+      "counterGoal": 183,
+      "oldCounterGoal": 183,
+      "seconds": 16.55,
+      "observations": "日语界面，画面内Level25，总目标183；仅两开放订单，旧笔记四订单不能直接套用。10:14画面明确VICTORY及183/183。只核对检查点与结果，不声称全程无道具/无广告或实机复现。",
+      "completionEvidence": {
+        "seconds": 614.03,
+        "text": "VICTORY; 183/183"
+      },
+      "screenshot": "screenshots/replacements-2026-10-28/jp-25-checkpoint.jpg",
+      "completionScreenshot": "screenshots/replacements-2026-10-28/jp-25-victory.jpg",
+      "checkedOn": "2026-10-28",
+      "identity": "画面与项目中Shycheese手游的鱼种、订单缸、5格暂存栏、气泡和关卡界面相符；非YIGOT浏览器版",
+      "exactAppVersion": null,
+      "packageIdVerifiedFromSource": false,
+      "embedTested": false,
+      "directReplacementApproved": false,
+      "status": "playable-candidate-requires-new-notes-and-embed-check"
+    }
+  ],
+  "otherLeads": [
+    {
+      "videoId": "8c498EdKS7k",
+      "level": 29,
+      "channel": "あーるのスマホゲーch",
+      "status": "related-video-title-only-not-opened"
+    },
+    {
+      "videoId": "uG4Pqkqp6X8",
+      "levels": "11–15",
+      "channel": "KHG",
+      "status": "search-title-only-not-opened"
+    }
+  ],
+  "levelCoverage": [
+    {
+      "level": 15,
+      "originalVideoId": "werOAjkWhLM",
+      "candidates": [
+        "OLF9WUkeYVk"
+      ],
+      "status": "candidate-reviewed-not-ready-to-publish"
+    },
+    {
+      "level": 16,
+      "originalVideoId": "2U0mWwCMjuo",
+      "candidates": [
+        "xR_4loZ3LSA"
+      ],
+      "status": "candidate-reviewed-not-ready-to-publish"
+    },
+    {
+      "level": 17,
+      "originalVideoId": "gslOPz1OYtQ",
+      "candidates": [
+        "7fslCZUU-6E"
+      ],
+      "status": "candidate-reviewed-not-ready-to-publish"
+    },
+    {
+      "level": 18,
+      "originalVideoId": "_9TecoV9ywk",
+      "candidates": [
+        "KGkCBe2uyqY"
+      ],
+      "status": "candidate-reviewed-not-ready-to-publish"
+    },
+    {
+      "level": 19,
+      "originalVideoId": "IbD-Rxyn7Ss",
+      "candidates": [
+        "Io-T3gaj3Bk"
+      ],
+      "status": "candidate-reviewed-not-ready-to-publish"
+    },
+    {
+      "level": 20,
+      "originalVideoId": "EKCESTYKb90",
+      "candidates": [
+        "JmSbDXkf1cs"
+      ],
+      "status": "candidate-reviewed-not-ready-to-publish"
+    },
+    {
+      "level": 21,
+      "originalVideoId": "dZ7pAX02Lno",
+      "candidates": [
+        "Ljuvb0vcggc"
+      ],
+      "status": "candidate-reviewed-not-ready-to-publish"
+    },
+    {
+      "level": 22,
+      "originalVideoId": "55yO-ZTN_AA",
+      "candidates": [
+        "IZBXC4sidSc"
+      ],
+      "status": "candidate-reviewed-not-ready-to-publish"
+    },
+    {
+      "level": 23,
+      "originalVideoId": "1_cfXQJp0Is",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 24,
+      "originalVideoId": "JMFMFCVOGZM",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 25,
+      "originalVideoId": "ePaJua9e3m4",
+      "candidates": [
+        "WOuxE1cqhGA"
+      ],
+      "status": "candidate-reviewed-not-ready-to-publish"
+    },
+    {
+      "level": 26,
+      "originalVideoId": "dWgWhmaK4FQ",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 27,
+      "originalVideoId": "a90MafC7h8c",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 28,
+      "originalVideoId": "70q2htqLMI0",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 29,
+      "originalVideoId": "0qcCtFmu3jU",
+      "candidates": [
+        "0AVU4tQCr5I"
+      ],
+      "status": "candidate-reviewed-not-ready-to-publish"
+    },
+    {
+      "level": 30,
+      "originalVideoId": "8SO0ptGwXeA",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 31,
+      "originalVideoId": "DE_Pb2Ozflk",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 32,
+      "originalVideoId": "Dz74XazoOi4",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 33,
+      "originalVideoId": "TQOh97aDr1w",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 34,
+      "originalVideoId": "hxgWD3MNdDU",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 35,
+      "originalVideoId": "KgvEbBDxDT8",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 36,
+      "originalVideoId": "Z7WBd7_Alyc",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 37,
+      "originalVideoId": "MxICyONa2eE",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 38,
+      "originalVideoId": "O-tM5k38keE",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 39,
+      "originalVideoId": "iya9SmnHKGY",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 40,
+      "originalVideoId": "m0BGTcxkuHE",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 41,
+      "originalVideoId": "by8vQP5wo8k",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 42,
+      "originalVideoId": "L43JeCzmkP0",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 43,
+      "originalVideoId": "Andns07aFP0",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 44,
+      "originalVideoId": "U4smrS-85EU",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 45,
+      "originalVideoId": "Zv-n8HUlBg0",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 46,
+      "originalVideoId": "N66SdOvFIEU",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 47,
+      "originalVideoId": "gzz4ZppIwCQ",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 48,
+      "originalVideoId": "qxFMvHHkTlI",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 49,
+      "originalVideoId": "yTLeP22hv28",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 50,
+      "originalVideoId": "LRr8G2u2zng",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 51,
+      "originalVideoId": "zYGGLlkSm8Q",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 52,
+      "originalVideoId": "7Q3C4cWvGkk",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 53,
+      "originalVideoId": "008wHO7k8Nk",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 54,
+      "originalVideoId": "1lYDjT8ai2Q",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 55,
+      "originalVideoId": "68-Vrzng7m8",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 56,
+      "originalVideoId": "bHxwriwC2co",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 57,
+      "originalVideoId": "wHzSlUsSdpc",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 58,
+      "originalVideoId": "KYeKmG-Jbv0",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 59,
+      "originalVideoId": "UxzQV_Dx_uk",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 60,
+      "originalVideoId": "dkCH7fXnghg",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 61,
+      "originalVideoId": "jWCPR6RC5tE",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 62,
+      "originalVideoId": "s4H4azO0B5w",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 63,
+      "originalVideoId": "AIMtQa8Dh-c",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 64,
+      "originalVideoId": "1tHp8Bvhg50",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 65,
+      "originalVideoId": "UHFs3ITT2I8",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 66,
+      "originalVideoId": "3913y96VZIA",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 67,
+      "originalVideoId": "DE7mz92uGzs",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 68,
+      "originalVideoId": "fu1oo7TlA4g",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 69,
+      "originalVideoId": "EBL01dmFBm8",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 70,
+      "originalVideoId": "mYvCDzXddNE",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 71,
+      "originalVideoId": "NvXB1hKet5Q",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 72,
+      "originalVideoId": "pIGuLkwQ8O0",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 73,
+      "originalVideoId": "S2LG52UPkjI",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 74,
+      "originalVideoId": "VBmWXcb1X5w",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 75,
+      "originalVideoId": "p-UW3RyMY70",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 76,
+      "originalVideoId": "Qgs3ZZAD1rg",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 77,
+      "originalVideoId": "yVpHnAy65cY",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 78,
+      "originalVideoId": "no0B8SP9zQc",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 79,
+      "originalVideoId": "YIhpSj6tQ_4",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 80,
+      "originalVideoId": "KpgVjKk8-ic",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 81,
+      "originalVideoId": "R_56W-VqyW8",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 82,
+      "originalVideoId": "TK9W52fYcds",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 83,
+      "originalVideoId": "cQa-OUvWChQ",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 84,
+      "originalVideoId": "jX-rdMzpAYk",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 85,
+      "originalVideoId": "DfAbBee7vGA",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 86,
+      "originalVideoId": "jsVBfm3rRMA",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 87,
+      "originalVideoId": "DaogL2hqZFc",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 88,
+      "originalVideoId": "nTOnftd8U-0",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 89,
+      "originalVideoId": "u5jtAicgiHY",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 90,
+      "originalVideoId": "lRWxex32PKw",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 91,
+      "originalVideoId": "Da239-1GWKA",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 92,
+      "originalVideoId": "rkcYOpkxCf8",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 93,
+      "originalVideoId": "aCO76kiY7m8",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 94,
+      "originalVideoId": "xaZnveuWqoI",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 95,
+      "originalVideoId": "7VKGLHjqAj4",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 96,
+      "originalVideoId": "_piOE4MKJVo",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 97,
+      "originalVideoId": "r6e9F-uIKV4",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 98,
+      "originalVideoId": "kOs5ZiY1PtU",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 99,
+      "originalVideoId": "8jM6Iqh4iqA",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 100,
+      "originalVideoId": "-ok7CdFvZtw",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 101,
+      "originalVideoId": "9MLr4cIxyOM",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 102,
+      "originalVideoId": "bW8sNiDiz3M",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 103,
+      "originalVideoId": "YIRl-E22eAU",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 104,
+      "originalVideoId": "Gqf6RK_R4tc",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 105,
+      "originalVideoId": "9aOiO_puXzc",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 106,
+      "originalVideoId": "gvYaT1HKKAE",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 107,
+      "originalVideoId": "tH3DKGYeNc4",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 108,
+      "originalVideoId": "HNj4Hf4FIEk",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 109,
+      "originalVideoId": "TMaHsDqcuBM",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 110,
+      "originalVideoId": "E0idKnLsEmk",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 111,
+      "originalVideoId": "i-eInw7b9bs",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 112,
+      "originalVideoId": "Z1E94D1AXwg",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 113,
+      "originalVideoId": "WkEiz0wjKRc",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 114,
+      "originalVideoId": "hOkL84A5qJI",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 115,
+      "originalVideoId": "G-ywtnYIh6A",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 116,
+      "originalVideoId": "sQnqozU8WXk",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 117,
+      "originalVideoId": "8kFwivVEJ0o",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 118,
+      "originalVideoId": "qDbtZGaOGtA",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 119,
+      "originalVideoId": "WNvtPZCLSA8",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 120,
+      "originalVideoId": "-lOneKOs7Lo",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 121,
+      "originalVideoId": "LHW6HFwx2qw",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 122,
+      "originalVideoId": "K7_fli-HV60",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 123,
+      "originalVideoId": "Jqvro7q1YCI",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 124,
+      "originalVideoId": "zqKo9Z4CUac",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 125,
+      "originalVideoId": "08RXFCHibug",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 126,
+      "originalVideoId": "XeqP8JHaNSo",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 127,
+      "originalVideoId": "xmOFWlW-Yys",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 128,
+      "originalVideoId": "7CKotyu6ys4",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 129,
+      "originalVideoId": "_JS2XkFp9PQ",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 130,
+      "originalVideoId": "-SiMjwJLUFk",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 131,
+      "originalVideoId": "srFCm851u1k",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 132,
+      "originalVideoId": "G0rpSOw2abI",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 133,
+      "originalVideoId": "wBZOjGggDQQ",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 134,
+      "originalVideoId": "LsjpLT0W2ns",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 135,
+      "originalVideoId": "GbKaBd0sdrA",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 136,
+      "originalVideoId": "pS8_86nFsNI",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 137,
+      "originalVideoId": "3eGuyLvd_L0",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 138,
+      "originalVideoId": "xgDywlZTi_k",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 139,
+      "originalVideoId": "ow_XyHEcPDU",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 140,
+      "originalVideoId": "E_taLuVb3wY",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 141,
+      "originalVideoId": "cmmn4F1xnW4",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 142,
+      "originalVideoId": "ItGmB0FKgHQ",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 143,
+      "originalVideoId": "Sh2rBKPGxOI",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 144,
+      "originalVideoId": "CDehWJa5R1w",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 145,
+      "originalVideoId": "JDylgrB03lc",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 146,
+      "originalVideoId": "b2pMvfhMImw",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 147,
+      "originalVideoId": "cUyxwbnAp-4",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 148,
+      "originalVideoId": "-vmLGSAG9HY",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 149,
+      "originalVideoId": "slr4FV0mYiA",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 150,
+      "originalVideoId": "wTNTM5TwBjY",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 151,
+      "originalVideoId": "B0o3pXWnx14",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 152,
+      "originalVideoId": "d8Moc409Ri0",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 153,
+      "originalVideoId": "Y3zmDVwa0So",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 154,
+      "originalVideoId": "76AcTj7_mvw",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 155,
+      "originalVideoId": "WM9iCEoqnRA",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 156,
+      "originalVideoId": "HIst-xzmB_k",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 157,
+      "originalVideoId": "kouUzk2o2vg",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 158,
+      "originalVideoId": "c_6io9gilS8",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 159,
+      "originalVideoId": "PKaYsCOmTg8",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 160,
+      "originalVideoId": "EbY3Loa17Vs",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 161,
+      "originalVideoId": "PnO9QnEsamE",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 162,
+      "originalVideoId": "9axLktM0EdQ",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 163,
+      "originalVideoId": "SPYfB52tcOI",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 164,
+      "originalVideoId": "ndREZB-LnI4",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 165,
+      "originalVideoId": "Yu8ehORlMqc",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 166,
+      "originalVideoId": "wCTCfVf9980",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 167,
+      "originalVideoId": "79Zyx8CFixg",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 168,
+      "originalVideoId": "R_DlnB2UMHg",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 169,
+      "originalVideoId": "sNHcnlPfBPo",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    },
+    {
+      "level": 170,
+      "originalVideoId": "xej4MJiX3UQ",
+      "candidates": [],
+      "status": "no-reviewed-replacement-yet"
+    }
+  ]
+}

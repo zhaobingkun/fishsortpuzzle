@@ -16,8 +16,11 @@ The production domain is `fishsortpuzzle.app`; Fish Sort Wiki remains the visibl
 
 ## Working Rules
 
+- Source availability: on 2026-10-28, original Daisy Gaming videos were reported unavailable; sampled removals were confirmed. Historical mapping verification does not imply current playback. The site must render a player and VideoObject only for sources marked currently available. Replacement research is recorded in `docs/replacement-sources-2026-10-28.md`.
+
 - Verify every level-to-video mapping before publishing it.
-- Every newly added indexable level page needs useful, level-specific text checked against its video. Improve the existing library in reviewed batches; all 156 pages now have reviewed notes (levels 15–170); the video library covers every level from 15 through 170.
+- Every newly added indexable level page needs useful, level-specific text checked against its video. All 170 pages (levels 1–170) now have reviewed notes; 24 currently have playable replacement videos (1–22, 25, and 29), while 146 retain historical notes with the removed player suppressed.
+- Compilation videos may map multiple levels to one YouTube ID only when each mapping has a distinct verified `startSeconds` value. Do not require globally unique video IDs; require unique video ID plus start-time checkpoints.
 - Store board observations in `src/level-notes.mjs`, tied to video ID, review date, and timestamp. Distinguish observed facts from advice; do not label checkpoint notes as a tested full solution.
 - Do not invent fish, boosters, currencies, event rules, or level solutions.
 - Keep core content in static HTML so search engines can crawl it without JavaScript.

@@ -662,6 +662,9 @@ h3 { font-size: 22px; line-height: 1.2; margin-bottom: 8px; }
 
 .level-grid { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 10px; }
 .level-pill { color: var(--deep); border-color: var(--line); background: var(--white); }
+.level-pill.is-unavailable { color: var(--muted); border-style: dashed; background: #f3fafc; }
+
+.video-unavailable { margin: 0 0 28px; }
 
 .library-latest { margin-top: 54px; }
 

@@ -1,21 +1,69 @@
-// Verified Daisy Gaming mappings; nine gaps added after visual review on 2026-10-07.
-// Keep unverified levels absent instead of generating placeholders.
+// Current replacements are visually reviewed and playable as of 2026-10-28.
+// The legacy Daisy Gaming IDs remain as historical note references, but that source
+// is unavailable. Tuple shape: [level, videoId, startSeconds = 0, sourceKey = 'daisy'].
+export const videoSources = {
+  dung: {
+    name: 'Dũng Trịnh',
+    url: 'https://www.youtube.com/@dungtrinh8419',
+    playlistUrl: 'https://www.youtube.com/playlist?list=PLONMFLY_92YY',
+    available: true
+  },
+  oa: {
+    name: 'OA GAME',
+    url: 'https://www.youtube.com/@oa_game',
+    playlistUrl: 'https://www.youtube.com/playlist?list=PLQIw4li5ViCo',
+    available: true
+  },
+  aruno: {
+    name: 'あーるのスマホゲーch',
+    url: 'https://www.youtube.com/@%E3%81%82%E3%83%BC%E3%82%8B%E3%81%AE%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B2%E3%83%BCch',
+    playlistUrl: null,
+    available: true
+  },
+  ashwini: {
+    name: 'Ashwini.R',
+    url: 'https://www.youtube.com/@ashwini.r6452',
+    playlistUrl: null,
+    available: true
+  },
+  daisy: {
+    name: 'Daisy Gaming',
+    url: 'https://www.youtube.com/@Infinty_craft',
+    playlistUrl: 'https://www.youtube.com/playlist?list=PLJscotaJN_4w',
+    available: false
+  }
+};
+
 export const levelVideos = [
-  [15, 'werOAjkWhLM'],
-  [16, '2U0mWwCMjuo'],
-  [17, 'gslOPz1OYtQ'],
-  [18, '_9TecoV9ywk'],
-  [19, 'IbD-Rxyn7Ss'],
-  [20, 'EKCESTYKb90'],
-  [21, 'dZ7pAX02Lno'],
-  [22, '55yO-ZTN_AA'],
+  [1, 'ackz7VhWeEM', 0, 'dung'],
+  [2, 'ackz7VhWeEM', 25, 'dung'],
+  [3, 'ackz7VhWeEM', 180, 'dung'],
+  [4, 'ackz7VhWeEM', 650, 'dung'],
+  [5, 'ackz7VhWeEM', 950, 'dung'],
+  [6, 'ackz7VhWeEM', 1230, 'dung'],
+  [7, 'ackz7VhWeEM', 1500, 'dung'],
+  [8, 'BmYGeGNdnpA', 0, 'oa'],
+  [9, 'ackz7VhWeEM', 1950, 'dung'],
+  [10, 'ackz7VhWeEM', 2340, 'dung'],
+  [11, 'zplIroqBoYI', 0, 'dung'],
+  [12, 'zplIroqBoYI', 305, 'dung'],
+  [13, 'zplIroqBoYI', 680, 'dung'],
+  [14, 'zplIroqBoYI', 915, 'dung'],
+  [15, 'OLF9WUkeYVk', 0, 'oa'],
+  [16, 'xR_4loZ3LSA', 0, 'oa'],
+  [17, '7fslCZUU-6E', 0, 'oa'],
+  [18, 'KGkCBe2uyqY', 0, 'oa'],
+  [19, 'Io-T3gaj3Bk', 0, 'oa'],
+  [20, 'JmSbDXkf1cs', 0, 'oa'],
+  [21, 'Ljuvb0vcggc', 0, 'oa'],
+  [22, 'IZBXC4sidSc', 0, 'oa'],
   [23, '1_cfXQJp0Is'],
   [24, 'JMFMFCVOGZM'],
-  [25, 'ePaJua9e3m4'],
+  [25, 'WOuxE1cqhGA', 0, 'aruno'],
   [26, 'dWgWhmaK4FQ'],
   [27, 'a90MafC7h8c'],
   [28, '70q2htqLMI0'],
-  [29, '0qcCtFmu3jU'],
+  [29, '0AVU4tQCr5I', 0, 'ashwini'],
   [30, '8SO0ptGwXeA'],
   [31, 'DE_Pb2Ozflk'],
   [32, 'Dz74XazoOi4'],

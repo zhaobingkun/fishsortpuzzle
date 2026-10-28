@@ -1,4 +1,4 @@
-import { levelVideos } from './level-videos.mjs';
+import { levelVideos, videoSources } from './level-videos.mjs';
 import { levelNotes } from './level-notes.mjs';
 
 export const site = {
@@ -10,26 +10,32 @@ export const site = {
   developer: 'Shycheese',
   packageId: 'triple.sorting.bubble.fish.match',
   playStore: 'https://play.google.com/store/apps/details?id=triple.sorting.bubble.fish.match',
-  featuredVideo: 'xej4MJiX3UQ',
-  videoChannelName: 'Daisy Gaming',
-  videoChannelUrl: 'https://www.youtube.com/@Infinty_craft',
-  videoPlaylistUrl: 'https://www.youtube.com/playlist?list=PLJscotaJN_4w',
-  videoLibraryChecked: '2026-09-30',
+  featuredLevel: 15,
+  videoLibraryChecked: '2026-10-28',
   webGameDeveloper: 'YIGOT',
   webGameSourceUrl: 'https://gamemonetize.com/fish-sort-puzzle-game',
   webGameEmbedUrl: 'https://html5.gamemonetize.games/diiob6luzs7e36nbbt1iz74wlvf4vo2d/',
   webGamePublished: '2026-09-30'
 };
 
-export const levels = levelVideos.map(([level, videoId]) => ({
-  level,
-  videoId,
-  title: `Fish Sort Puzzle Level ${level} Walkthrough`,
-  summary: levelNotes[level]?.description ?? `Watch the verified Fish Sort Puzzle Level ${level} video solution, compare the opening fish, and protect your holding slots before following the finish.`,
-  verified: true,
-  verifiedOn: [21, 29, 45, 54, 78, 92, 101, 137, 151].includes(level) ? '2026-10-07' : site.videoLibraryChecked,
-  source: site.videoChannelName
-}));
+export const levels = levelVideos.map(([level, videoId, startSeconds = 0, sourceKey = 'daisy']) => {
+  const source = videoSources[sourceKey];
+  if (!source) throw new Error(`Level ${level}: unknown video source ${sourceKey}`);
+  return {
+    level,
+    videoId,
+    startSeconds,
+    title: source.available ? `Fish Sort Puzzle Level ${level} Walkthrough` : `Fish Sort Puzzle Level ${level} Board Notes`,
+    summary: levelNotes[level]?.description ?? `Reviewed Fish Sort Puzzle Level ${level} board notes for the Shycheese mobile game.`,
+    verified: true,
+    verifiedOn: source.available ? '2026-10-28' : ([21, 29, 45, 54, 78, 92, 101, 137, 151].includes(level) ? '2026-10-07' : '2026-10-08'),
+    sourceKey,
+    sourceName: source.name,
+    sourceUrl: source.url,
+    playlistUrl: source.playlistUrl,
+    available: source.available
+  };
+});
 
 const page = (slug, title, description, eyebrow, intro, sections, faqs = []) => ({
   slug, title, description, eyebrow, intro, sections, faqs

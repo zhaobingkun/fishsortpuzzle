@@ -51,9 +51,11 @@
     if (!button) return;
     button.addEventListener('click', function () {
       const videoId = shell.dataset.videoId;
+      const startSeconds = Number(shell.dataset.videoStart || 0);
       const title = shell.dataset.videoTitle || 'Fish Sort Puzzle walkthrough';
       const iframe = document.createElement('iframe');
-      iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(videoId)}?autoplay=1&rel=0`;
+      const start = Number.isFinite(startSeconds) && startSeconds > 0 ? `&start=${Math.floor(startSeconds)}` : '';
+      iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(videoId)}?autoplay=1&rel=0${start}`;
       iframe.title = title;
       iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
       iframe.referrerPolicy = 'strict-origin-when-cross-origin';

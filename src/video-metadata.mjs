@@ -1,6 +1,6 @@
 // Upload dates read from each public YouTube watch page on 2026-10-08.
 // Keep original timezone; these are video upload dates, not website review dates.
-export const videoMetadata = {
+const historicalVideoMetadata = {
   "15": {
     "videoId": "werOAjkWhLM",
     "uploadDate": "2026-09-11T09:40:28-07:00",
@@ -782,3 +782,32 @@ export const videoMetadata = {
     "checkedOn": "2026-10-08"
   }
 };
+
+const replacementVideoMetadata = {
+  1: { videoId: 'ackz7VhWeEM', uploadDate: '2026-09-13T21:16:27-07:00', checkedOn: '2026-10-28' },
+  2: { videoId: 'ackz7VhWeEM', uploadDate: '2026-09-13T21:16:27-07:00', checkedOn: '2026-10-28' },
+  3: { videoId: 'ackz7VhWeEM', uploadDate: '2026-09-13T21:16:27-07:00', checkedOn: '2026-10-28' },
+  4: { videoId: 'ackz7VhWeEM', uploadDate: '2026-09-13T21:16:27-07:00', checkedOn: '2026-10-28' },
+  5: { videoId: 'ackz7VhWeEM', uploadDate: '2026-09-13T21:16:27-07:00', checkedOn: '2026-10-28' },
+  6: { videoId: 'ackz7VhWeEM', uploadDate: '2026-09-13T21:16:27-07:00', checkedOn: '2026-10-28' },
+  7: { videoId: 'ackz7VhWeEM', uploadDate: '2026-09-13T21:16:27-07:00', checkedOn: '2026-10-28' },
+  8: { videoId: 'BmYGeGNdnpA', uploadDate: '2026-10-11T17:00:31-07:00', checkedOn: '2026-10-28' },
+  9: { videoId: 'ackz7VhWeEM', uploadDate: '2026-09-13T21:16:27-07:00', checkedOn: '2026-10-28' },
+  10: { videoId: 'ackz7VhWeEM', uploadDate: '2026-09-13T21:16:27-07:00', checkedOn: '2026-10-28' },
+  11: { videoId: 'zplIroqBoYI', uploadDate: '2026-09-16T00:28:31-07:00', checkedOn: '2026-10-28' },
+  12: { videoId: 'zplIroqBoYI', uploadDate: '2026-09-16T00:28:31-07:00', checkedOn: '2026-10-28' },
+  13: { videoId: 'zplIroqBoYI', uploadDate: '2026-09-16T00:28:31-07:00', checkedOn: '2026-10-28' },
+  14: { videoId: 'zplIroqBoYI', uploadDate: '2026-09-16T00:28:31-07:00', checkedOn: '2026-10-28' },
+  15: { videoId: 'OLF9WUkeYVk', uploadDate: '2026-10-15T06:00:35-07:00', checkedOn: '2026-10-28' },
+  16: { videoId: 'xR_4loZ3LSA', uploadDate: '2026-10-16T20:00:25-07:00', checkedOn: '2026-10-28' },
+  17: { videoId: '7fslCZUU-6E', uploadDate: '2026-10-16T22:00:24-07:00', checkedOn: '2026-10-28' },
+  18: { videoId: 'KGkCBe2uyqY', uploadDate: '2026-10-17T14:00:22-07:00', checkedOn: '2026-10-28' },
+  19: { videoId: 'Io-T3gaj3Bk', uploadDate: '2026-10-17T15:00:32-07:00', checkedOn: '2026-10-28' },
+  20: { videoId: 'JmSbDXkf1cs', uploadDate: '2026-10-24T19:00:07-07:00', checkedOn: '2026-10-28' },
+  21: { videoId: 'Ljuvb0vcggc', uploadDate: '2026-10-24T20:00:28-07:00', checkedOn: '2026-10-28' },
+  22: { videoId: 'IZBXC4sidSc', uploadDate: '2026-10-24T21:00:29-07:00', checkedOn: '2026-10-28' },
+  25: { videoId: 'WOuxE1cqhGA', uploadDate: '2026-09-01T02:38:30-07:00', checkedOn: '2026-10-28' },
+  29: { videoId: '0AVU4tQCr5I', uploadDate: '2026-09-07T04:31:05-07:00', checkedOn: '2026-10-28' }
+};
+
+export const videoMetadata = { ...historicalVideoMetadata, ...replacementVideoMetadata };
