@@ -66,3 +66,4 @@ These start values point to the level opening or its immediate opening transitio
 - Level 41 is the first historical-note-only page: it must have no iframe or VideoObject and must show the source-unavailable notice.
 - Production verification after commit `0bd1434`: `/levels/`, Levels 23, 31, 40, 41, and `sitemap.xml` matched the local build byte for byte. Clicking the Level 40 player created the expected privacy-enhanced embed with `start=5580`.
 - Level 44 was followed to the Level 45 home screen and Level 48 to the Level 49 home screen, confirming that both Japanese-language recordings cover their stated levels through completion.
+- Production verification after commit `79cc17c`: `/levels/`, Levels 42, 44, 48, and `sitemap.xml` matched the local build byte for byte. Level 48 created the expected privacy-enhanced embed when its player was opened.
